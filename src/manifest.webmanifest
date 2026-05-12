@@ -1,0 +1,25 @@
+{
+  "name": "The Hermetic Path",
+  "short_name": "Hermetic Path",
+  "description": "A private esoteric study companion — Hermetic principles, Kabbalah, Masonic symbolism, and esoteric Scripture interpretation.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0a0a0f",
+  "theme_color": "#0a0a0f",
+  "icons": [
+    {
+      "src": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' fill='%230a0a0f'/><g fill='none' stroke='%23c9a84c' stroke-width='2'><circle cx='96' cy='96' r='80'/><circle cx='96' cy='96' r='60'/><polygon points='96,28 156,128 36,128'/><polygon points='96,164 156,64 36,64'/><circle cx='96' cy='96' r='14' fill='%23c9a84c'/></g></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' fill='%230a0a0f'/><g fill='none' stroke='%23c9a84c' stroke-width='4'><circle cx='256' cy='256' r='220'/><circle cx='256' cy='256' r='160'/><polygon points='256,72 416,344 96,344'/><polygon points='256,440 416,168 96,168'/><circle cx='256' cy='256' r='36' fill='%23c9a84c'/></g></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "hermetic-path",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The Hermetic Path — private AI-powered esoteric study PWA served via Cloudflare Workers.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy:dev": "wrangler deploy --env dev",
+    "deploy:prod": "wrangler deploy --env production"
+  },
+  "devDependencies": {
+    "wrangler": "^3.90.0"
+  }
+}

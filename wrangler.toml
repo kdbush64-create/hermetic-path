@@ -1,0 +1,55 @@
+name = "hermetic-path"
+main = "src/worker.js"
+compatibility_date = "2024-11-01"
+workers_dev = true
+
+# Import .html, .webmanifest, .txt files as text strings inside the worker.
+[[rules]]
+type = "Text"
+globs = ["**/*.html", "**/*.webmanifest", "**/*.txt", "**/*.svg"]
+fallthrough = true
+
+# ---------------------------------------------------------------------------
+# DEV environment — deploys to hermetic-path-dev.<account>.workers.dev
+# Triggered by pushes to the `dev` branch via .github/workflows/deploy.yml
+# ---------------------------------------------------------------------------
+[env.dev]
+name = "hermetic-path-dev"
+workers_dev = true
+
+# Replace the `id` values below with the IDs Cloudflare gives you when you
+# create the KV namespaces (see SETUP.md, step "Create KV namespaces").
+[[env.dev.kv_namespaces]]
+binding = "HERMETIC_USERS"
+id = "REPLACE_WITH_DEV_USERS_KV_ID"
+
+[[env.dev.kv_namespaces]]
+binding = "HERMETIC_INVITES"
+id = "REPLACE_WITH_DEV_INVITES_KV_ID"
+
+[env.dev.vars]
+ENVIRONMENT = "dev"
+# ADMIN_EMAIL and SESSION_SECRET / ANTHROPIC_API_KEY are set via
+# `wrangler secret put` or the Cloudflare dashboard — never committed.
+
+# ---------------------------------------------------------------------------
+# PRODUCTION environment — serves hermeticpath.v64otd.com
+# Triggered by pushes to the `main` branch
+# ---------------------------------------------------------------------------
+[env.production]
+name = "hermetic-path"
+workers_dev = false
+routes = [
+  { pattern = "hermeticpath.v64otd.com/*", zone_name = "v64otd.com" }
+]
+
+[[env.production.kv_namespaces]]
+binding = "HERMETIC_USERS"
+id = "REPLACE_WITH_PROD_USERS_KV_ID"
+
+[[env.production.kv_namespaces]]
+binding = "HERMETIC_INVITES"
+id = "REPLACE_WITH_PROD_INVITES_KV_ID"
+
+[env.production.vars]
+ENVIRONMENT = "production"
