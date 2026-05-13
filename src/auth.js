@@ -348,6 +348,7 @@ export function defaultSettings() {
     notificationStyle: "short",
     notificationKinds: ["mixed"],
     lockScreenSymbolRotation: true,
+    currentDay: 1,                 // position in the 365-day curriculum
   };
 }
 
