@@ -229,10 +229,20 @@
     .center { text-align: center; }
 
     /* ---------- Responsive ---------- */
-    @media (max-width: 480px) {
-      .app-header { flex-direction: column; gap: 8px; padding: 10px 12px; }
-      .app-user { font-size: 0.78rem; }
-      .tab { padding: 8px 10px; font-size: 0.7rem; letter-spacing: 0.1em; }
+    @media (max-width: 600px) {
+      .app-header { flex-direction: column; gap: 6px; padding: 10px 12px; }
+      .app-title { font-size: 0.85rem; letter-spacing: 0.18em; white-space: nowrap; }
+      .app-user { width: 100%; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px; font-size: 0.72rem; }
+      .app-user .email { flex: 1 1 100%; text-align: center; font-size: 0.78rem; letter-spacing: 0.06em; word-break: break-all; color: var(--gold-light); }
+      .app-user .btn { padding: 6px 14px; font-size: 0.68rem; letter-spacing: 0.12em; white-space: nowrap; flex: 1 1 auto; }
+      .tabs { flex-wrap: wrap; gap: 4px; padding: 0 8px; margin-bottom: 16px; }
+      .tab { padding: 7px 9px; font-size: 0.65rem; letter-spacing: 0.08em; flex: 0 1 auto; }
+      .panel { padding: 16px 14px; }
+      h1 { font-size: 1.4rem; }
+      h2 { font-size: 1.15rem; }
+      .row { gap: 8px; }
+      .row > * { flex: 1 1 100%; }
+      .btn-row .btn { flex: 1 1 auto; }
     }
   </style>
 </head>
