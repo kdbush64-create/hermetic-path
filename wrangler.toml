@@ -3,15 +3,20 @@ main = "src/worker.js"
 compatibility_date = "2024-11-01"
 workers_dev = true
 
-# Import .html, .webmanifest, .txt files as text strings inside the worker.
+# Import .html, .webmanifest, .txt, .svg files as text strings inside the worker.
 [[rules]]
 type = "Text"
 globs = ["**/*.html", "**/*.webmanifest", "**/*.txt", "**/*.svg"]
 fallthrough = true
 
+# Import .json files as parsed JS objects.
+[[rules]]
+type = "Data"
+globs = ["**/*.json"]
+fallthrough = true
+
 # ---------------------------------------------------------------------------
 # DEV environment — deploys to hermetic-path-dev.<account>.workers.dev
-# Triggered by pushes to the `dev` branch via .github/workflows/deploy.yml
 # ---------------------------------------------------------------------------
 [env.dev]
 name = "hermetic-path-dev"
@@ -25,12 +30,15 @@ id = "e0272c7f42d44a67a1828571b3233688"
 binding = "HERMETIC_INVITES"
 id = "c2c70e208b1b441a8ded72c270804a0c"
 
+# Cloudflare Workers AI — free tier, runs Llama 3.3 70B inside CF.
+[env.dev.ai]
+binding = "AI"
+
 [env.dev.vars]
 ENVIRONMENT = "dev"
 
 # ---------------------------------------------------------------------------
 # PRODUCTION environment — serves hermeticpath.v64otd.com
-# Triggered by pushes to the `main` branch
 # ---------------------------------------------------------------------------
 [env.production]
 name = "hermetic-path"
@@ -46,6 +54,9 @@ id = "54be65b51d714a4e9b30fae36f549821"
 [[env.production.kv_namespaces]]
 binding = "HERMETIC_INVITES"
 id = "fb7b29a247e74fb6946c3a196aeba879"
+
+[env.production.ai]
+binding = "AI"
 
 [env.production.vars]
 ENVIRONMENT = "production"
