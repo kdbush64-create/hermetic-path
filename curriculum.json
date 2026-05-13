@@ -1,0 +1,4981 @@
+{
+  "version": 1,
+  "generated_at": "2026-05-13T21:36:41.999Z",
+  "total_days": 365,
+  "sections": [
+    {
+      "name": "Foundations",
+      "days": "1–7"
+    },
+    {
+      "name": "The Seven Hermetic Principles",
+      "days": "8–56"
+    },
+    {
+      "name": "Kabbalah & The Sefirot",
+      "days": "57–106"
+    },
+    {
+      "name": "The Twenty-Two Hebrew Letters",
+      "days": "107–128"
+    },
+    {
+      "name": "PaRDeS in Practice",
+      "days": "129–165"
+    },
+    {
+      "name": "Masonic Symbolism",
+      "days": "166–215"
+    },
+    {
+      "name": "Mystical Christianity",
+      "days": "216–260"
+    },
+    {
+      "name": "First-Century Jewish Mysticism",
+      "days": "261–290"
+    },
+    {
+      "name": "Comparative Tradition",
+      "days": "291–320"
+    },
+    {
+      "name": "Sacred Geometry & Alchemy",
+      "days": "321–355"
+    },
+    {
+      "name": "Synthesis",
+      "days": "356–365"
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "section": "Foundations",
+      "weekTopic": "Foundations",
+      "topic": "Why we study — the path is not for ideas",
+      "focus": "Initial framing; what an esoteric study path actually offers and demands.",
+      "prior_refs": [],
+      "seed": "Sit briefly with this question: where in your life right now does \"Why we study — the path is not for ideas\" already appear, even faintly?"
+    },
+    {
+      "day": 2,
+      "section": "Foundations",
+      "weekTopic": "Foundations",
+      "topic": "How to hold this material — humility, patience, embodiment",
+      "focus": "Posture of the initiate; reading slowly; the difference between collecting and digesting.",
+      "prior_refs": [
+        1
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"How to hold this material — humility, patience, embodiment\" already appear, even faintly?"
+    },
+    {
+      "day": 3,
+      "section": "Foundations",
+      "weekTopic": "Foundations",
+      "topic": "The Four Faces of Scripture — PaRDeS as a habit, not a theory",
+      "focus": "First introduction to PaRDeS; promise that we'll practice it for weeks.",
+      "prior_refs": [
+        1,
+        2
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Four Faces of Scripture — PaRDeS as a habit, not a theory\" already appear, even faintly?"
+    },
+    {
+      "day": 4,
+      "section": "Foundations",
+      "weekTopic": "Foundations",
+      "topic": "Hermetic, Kabbalistic, Masonic, Christian, Sufi — the same room with different doors",
+      "focus": "Map of the traditions we'll touch and how they relate.",
+      "prior_refs": [
+        1,
+        2,
+        3
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Hermetic, Kabbalistic, Masonic, Christian, Sufi — the same room with different doors\" already appear, even faintly?"
+    },
+    {
+      "day": 5,
+      "section": "Foundations",
+      "weekTopic": "Foundations",
+      "topic": "The mystery school in Alexandria — the cradle of the synthesis",
+      "focus": "Historical setting; first-century Alexandria as the womb.",
+      "prior_refs": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The mystery school in Alexandria — the cradle of the synthesis\" already appear, even faintly?"
+    },
+    {
+      "day": 6,
+      "section": "Foundations",
+      "weekTopic": "Foundations",
+      "topic": "Two breaths — what 'as above, so below' will mean to you by the end of this year",
+      "focus": "Foreshadowing Correspondence; setting up the principle for week-two work.",
+      "prior_refs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Two breaths — what 'as above, so below' will mean to you by the end of this year\" already appear, even faintly?"
+    },
+    {
+      "day": 7,
+      "section": "Foundations",
+      "weekTopic": "Foundations",
+      "topic": "Setting an intention — a sentence you carry into all that follows",
+      "focus": "Day-7 review and an intentional opening of the path.",
+      "prior_refs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Setting an intention — a sentence you carry into all that follows\" already appear, even faintly?"
+    },
+    {
+      "day": 8,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Mentalism",
+      "principleMotto": "The All is Mind. The Universe is Mental.",
+      "topic": "Mentalism — Day 1",
+      "focus": "Introduction: what 'The All is Mind' actually means; misunderstandings to clear away.",
+      "prior_refs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Mentalism: Introduction: what 'The All is Mind' actually means; misunderstandings to clear away.\" already appear, even faintly?"
+    },
+    {
+      "day": 9,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Mentalism",
+      "principleMotto": "The All is Mind. The Universe is Mental.",
+      "topic": "Mentalism — Day 2",
+      "focus": "Depth: Mind not as 'thought' but as the field within which thought arises.",
+      "prior_refs": [
+        7,
+        8
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Mentalism: Depth: Mind not as 'thought' but as the field within which thought arises.\" already appear, even faintly?"
+    },
+    {
+      "day": 10,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Mentalism",
+      "principleMotto": "The All is Mind. The Universe is Mental.",
+      "topic": "Mentalism — Day 3",
+      "focus": "Cross-tradition: the Logos in John 1, Hokhmah in Kabbalah, Nous in Neoplatonism.",
+      "prior_refs": [
+        7,
+        8,
+        9
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Mentalism: Cross-tradition: the Logos in John 1, Hokhmah in Kabbalah, Nous in Neoplatonism.\" already appear, even faintly?"
+    },
+    {
+      "day": 11,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Mentalism",
+      "principleMotto": "The All is Mind. The Universe is Mental.",
+      "topic": "Mentalism — Day 4",
+      "focus": "Practice: noticing the mental nature of seemingly external events.",
+      "prior_refs": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Mentalism: Practice: noticing the mental nature of seemingly external events.\" already appear, even faintly?"
+    },
+    {
+      "day": 12,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Mentalism",
+      "principleMotto": "The All is Mind. The Universe is Mental.",
+      "topic": "Mentalism — Day 5",
+      "focus": "Gematria & word study: λόγος (Logos), חכמה (Hokhmah, Wisdom), their numerical signatures.",
+      "prior_refs": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Mentalism: Gematria & word study: λόγος (Logos), חכמה (Hokhmah, Wisdom), their numerical signatures.\" already appear, even faintly?"
+    },
+    {
+      "day": 13,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Mentalism",
+      "principleMotto": "The All is Mind. The Universe is Mental.",
+      "topic": "Mentalism — Day 6",
+      "focus": "Integration: how this principle reshapes prayer, intention, and attention.",
+      "prior_refs": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Mentalism: Integration: how this principle reshapes prayer, intention, and attention.\" already appear, even faintly?"
+    },
+    {
+      "day": 14,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Mentalism",
+      "principleMotto": "The All is Mind. The Universe is Mental.",
+      "topic": "Mentalism — Day 7",
+      "focus": "Review: gathering the week's threads; the seed-thought you carry forward.",
+      "prior_refs": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Mentalism: Review: gathering the week's threads; the seed-thought you carry forward.\" already appear, even faintly?"
+    },
+    {
+      "day": 15,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Correspondence",
+      "principleMotto": "As above, so below; as below, so above.",
+      "topic": "Correspondence — Day 1",
+      "focus": "Introduction: the principle of analogy; why patterns repeat across scales.",
+      "prior_refs": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Correspondence: Introduction: the principle of analogy; why patterns repeat across scales.\" already appear, even faintly?"
+    },
+    {
+      "day": 16,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Correspondence",
+      "principleMotto": "As above, so below; as below, so above.",
+      "topic": "Correspondence — Day 2",
+      "focus": "Depth: the Emerald Tablet's central claim and its operational meaning.",
+      "prior_refs": [
+        14,
+        15
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Correspondence: Depth: the Emerald Tablet's central claim and its operational meaning.\" already appear, even faintly?"
+    },
+    {
+      "day": 17,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Correspondence",
+      "principleMotto": "As above, so below; as below, so above.",
+      "topic": "Correspondence — Day 3",
+      "focus": "Cross-tradition: the macrocosm/microcosm in Hermetism, the Tree of Life as a mirror in man.",
+      "prior_refs": [
+        14,
+        15,
+        16
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Correspondence: Cross-tradition: the macrocosm/microcosm in Hermetism, the Tree of Life as a mirror in man.\" already appear, even faintly?"
+    },
+    {
+      "day": 18,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Correspondence",
+      "principleMotto": "As above, so below; as below, so above.",
+      "topic": "Correspondence — Day 4",
+      "focus": "Practice: reading your body, your day, your relationships as scaled-down cosmoi.",
+      "prior_refs": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Correspondence: Practice: reading your body, your day, your relationships as scaled-down cosmoi.\" already appear, even faintly?"
+    },
+    {
+      "day": 19,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Correspondence",
+      "principleMotto": "As above, so below; as below, so above.",
+      "topic": "Correspondence — Day 5",
+      "focus": "First-century context: the Hekhalot mystics' ascent and descent of the same ladder.",
+      "prior_refs": [
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Correspondence: First-century context: the Hekhalot mystics' ascent and descent of the same ladder.\" already appear, even faintly?"
+    },
+    {
+      "day": 20,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Correspondence",
+      "principleMotto": "As above, so below; as below, so above.",
+      "topic": "Correspondence — Day 6",
+      "focus": "Gematria & geometry: the Vesica Piscis as the visual signature of correspondence.",
+      "prior_refs": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Correspondence: Gematria & geometry: the Vesica Piscis as the visual signature of correspondence.\" already appear, even faintly?"
+    },
+    {
+      "day": 21,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Correspondence",
+      "principleMotto": "As above, so below; as below, so above.",
+      "topic": "Correspondence — Day 7",
+      "focus": "Review: where this principle has begun to operate in your perception.",
+      "prior_refs": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Correspondence: Review: where this principle has begun to operate in your perception.\" already appear, even faintly?"
+    },
+    {
+      "day": 22,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Vibration",
+      "principleMotto": "Nothing rests; everything moves; everything vibrates.",
+      "topic": "Vibration — Day 1",
+      "focus": "Introduction: vibration as the substrate beneath form.",
+      "prior_refs": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Vibration: Introduction: vibration as the substrate beneath form.\" already appear, even faintly?"
+    },
+    {
+      "day": 23,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Vibration",
+      "principleMotto": "Nothing rests; everything moves; everything vibrates.",
+      "topic": "Vibration — Day 2",
+      "focus": "Depth: differential vibration as the source of phenomena — sound, light, matter.",
+      "prior_refs": [
+        21,
+        22
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Vibration: Depth: differential vibration as the source of phenomena — sound, light, matter.\" already appear, even faintly?"
+    },
+    {
+      "day": 24,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Vibration",
+      "principleMotto": "Nothing rests; everything moves; everything vibrates.",
+      "topic": "Vibration — Day 3",
+      "focus": "Cross-tradition: Pythagorean music of the spheres; the Sufi sama'; Hebrew letters as frequencies.",
+      "prior_refs": [
+        21,
+        22,
+        23
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Vibration: Cross-tradition: Pythagorean music of the spheres; the Sufi sama'; Hebrew letters as frequencies.\" already appear, even faintly?"
+    },
+    {
+      "day": 25,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Vibration",
+      "principleMotto": "Nothing rests; everything moves; everything vibrates.",
+      "topic": "Vibration — Day 4",
+      "focus": "Practice: working with sound, chant, and the heard universe.",
+      "prior_refs": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Vibration: Practice: working with sound, chant, and the heard universe.\" already appear, even faintly?"
+    },
+    {
+      "day": 26,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Vibration",
+      "principleMotto": "Nothing rests; everything moves; everything vibrates.",
+      "topic": "Vibration — Day 5",
+      "focus": "Aleph as the silent vibration; the breath as the carrier.",
+      "prior_refs": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Vibration: Aleph as the silent vibration; the breath as the carrier.\" already appear, even faintly?"
+    },
+    {
+      "day": 27,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Vibration",
+      "principleMotto": "Nothing rests; everything moves; everything vibrates.",
+      "topic": "Vibration — Day 6",
+      "focus": "Gematria & breath: שם (Shem, Name) and what it means to 'vibrate the Name.'",
+      "prior_refs": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Vibration: Gematria & breath: שם (Shem, Name) and what it means to 'vibrate the Name.'\" already appear, even faintly?"
+    },
+    {
+      "day": 28,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Vibration",
+      "principleMotto": "Nothing rests; everything moves; everything vibrates.",
+      "topic": "Vibration — Day 7",
+      "focus": "Review: how the world looks once you have heard it.",
+      "prior_refs": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Vibration: Review: how the world looks once you have heard it.\" already appear, even faintly?"
+    },
+    {
+      "day": 29,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Polarity",
+      "principleMotto": "Everything is dual; opposites are identical in nature, different in degree.",
+      "topic": "Polarity — Day 1",
+      "focus": "Introduction: polarity is not opposition — it is a single thing seen from two ends.",
+      "prior_refs": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Polarity: Introduction: polarity is not opposition — it is a single thing seen from two ends.\" already appear, even faintly?"
+    },
+    {
+      "day": 30,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Polarity",
+      "principleMotto": "Everything is dual; opposites are identical in nature, different in degree.",
+      "topic": "Polarity — Day 2",
+      "focus": "Depth: the Hot/Cold metaphor; light and shadow as one continuum.",
+      "prior_refs": [
+        28,
+        29
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Polarity: Depth: the Hot/Cold metaphor; light and shadow as one continuum.\" already appear, even faintly?"
+    },
+    {
+      "day": 31,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Polarity",
+      "principleMotto": "Everything is dual; opposites are identical in nature, different in degree.",
+      "topic": "Polarity — Day 3",
+      "focus": "Cross-tradition: Yin/Yang, Jachin and Boaz, the right and left columns of the Tree.",
+      "prior_refs": [
+        28,
+        29,
+        30
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Polarity: Cross-tradition: Yin/Yang, Jachin and Boaz, the right and left columns of the Tree.\" already appear, even faintly?"
+    },
+    {
+      "day": 32,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Polarity",
+      "principleMotto": "Everything is dual; opposites are identical in nature, different in degree.",
+      "topic": "Polarity — Day 4",
+      "focus": "Practice: working with apparently opposite emotions as one underlying current.",
+      "prior_refs": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Polarity: Practice: working with apparently opposite emotions as one underlying current.\" already appear, even faintly?"
+    },
+    {
+      "day": 33,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Polarity",
+      "principleMotto": "Everything is dual; opposites are identical in nature, different in degree.",
+      "topic": "Polarity — Day 5",
+      "focus": "Gevurah and Chesed: the Sefirotic anatomy of polarity.",
+      "prior_refs": [
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Polarity: Gevurah and Chesed: the Sefirotic anatomy of polarity.\" already appear, even faintly?"
+    },
+    {
+      "day": 34,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Polarity",
+      "principleMotto": "Everything is dual; opposites are identical in nature, different in degree.",
+      "topic": "Polarity — Day 6",
+      "focus": "Gematria: ימין and שמאל; right and left as cosmic forces.",
+      "prior_refs": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Polarity: Gematria: ימין and שמאל; right and left as cosmic forces.\" already appear, even faintly?"
+    },
+    {
+      "day": 35,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Polarity",
+      "principleMotto": "Everything is dual; opposites are identical in nature, different in degree.",
+      "topic": "Polarity — Day 7",
+      "focus": "Review: where you have begun to feel the single current beneath the pair.",
+      "prior_refs": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Polarity: Review: where you have begun to feel the single current beneath the pair.\" already appear, even faintly?"
+    },
+    {
+      "day": 36,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Rhythm",
+      "principleMotto": "Everything flows out and in; the pendulum swings.",
+      "topic": "Rhythm — Day 1",
+      "focus": "Introduction: rhythm as the temporal face of polarity.",
+      "prior_refs": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Rhythm: Introduction: rhythm as the temporal face of polarity.\" already appear, even faintly?"
+    },
+    {
+      "day": 37,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Rhythm",
+      "principleMotto": "Everything flows out and in; the pendulum swings.",
+      "topic": "Rhythm — Day 2",
+      "focus": "Depth: the law of compensation; the swing returns equal in the opposite direction.",
+      "prior_refs": [
+        35,
+        36
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Rhythm: Depth: the law of compensation; the swing returns equal in the opposite direction.\" already appear, even faintly?"
+    },
+    {
+      "day": 38,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Rhythm",
+      "principleMotto": "Everything flows out and in; the pendulum swings.",
+      "topic": "Rhythm — Day 3",
+      "focus": "Cross-tradition: Sabbatical and Jubilee cycles; the breath of Brahma; the days of creation.",
+      "prior_refs": [
+        35,
+        36,
+        37
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Rhythm: Cross-tradition: Sabbatical and Jubilee cycles; the breath of Brahma; the days of creation.\" already appear, even faintly?"
+    },
+    {
+      "day": 39,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Rhythm",
+      "principleMotto": "Everything flows out and in; the pendulum swings.",
+      "topic": "Rhythm — Day 4",
+      "focus": "Practice: the art of neutralization; rising above the swing rather than fighting it.",
+      "prior_refs": [
+        35,
+        36,
+        37,
+        38
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Rhythm: Practice: the art of neutralization; rising above the swing rather than fighting it.\" already appear, even faintly?"
+    },
+    {
+      "day": 40,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Rhythm",
+      "principleMotto": "Everything flows out and in; the pendulum swings.",
+      "topic": "Rhythm — Day 5",
+      "focus": "First-century: cosmic cycles in the Dead Sea Scrolls; the 'Ages' of the New Testament.",
+      "prior_refs": [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Rhythm: First-century: cosmic cycles in the Dead Sea Scrolls; the 'Ages' of the New Testament.\" already appear, even faintly?"
+    },
+    {
+      "day": 41,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Rhythm",
+      "principleMotto": "Everything flows out and in; the pendulum swings.",
+      "topic": "Rhythm — Day 6",
+      "focus": "Gematria: שבת (Shabbat) and the structure of holy rest.",
+      "prior_refs": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Rhythm: Gematria: שבת (Shabbat) and the structure of holy rest.\" already appear, even faintly?"
+    },
+    {
+      "day": 42,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Rhythm",
+      "principleMotto": "Everything flows out and in; the pendulum swings.",
+      "topic": "Rhythm — Day 7",
+      "focus": "Review: how your week itself has begun to obey a rhythm.",
+      "prior_refs": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Rhythm: Review: how your week itself has begun to obey a rhythm.\" already appear, even faintly?"
+    },
+    {
+      "day": 43,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Cause and Effect",
+      "principleMotto": "Every cause has its effect; every effect has its cause.",
+      "topic": "Cause and Effect — Day 1",
+      "focus": "Introduction: the law beneath what looks like 'luck' or 'chance.'",
+      "prior_refs": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Cause and Effect: Introduction: the law beneath what looks like 'luck' or 'chance.'\" already appear, even faintly?"
+    },
+    {
+      "day": 44,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Cause and Effect",
+      "principleMotto": "Every cause has its effect; every effect has its cause.",
+      "topic": "Cause and Effect — Day 2",
+      "focus": "Depth: levels of causation; rising from being-an-effect to being-a-cause.",
+      "prior_refs": [
+        42,
+        43
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Cause and Effect: Depth: levels of causation; rising from being-an-effect to being-a-cause.\" already appear, even faintly?"
+    },
+    {
+      "day": 45,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Cause and Effect",
+      "principleMotto": "Every cause has its effect; every effect has its cause.",
+      "topic": "Cause and Effect — Day 3",
+      "focus": "Cross-tradition: karma in Indic thought; the Greek heimarmene; reaping and sowing.",
+      "prior_refs": [
+        42,
+        43,
+        44
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Cause and Effect: Cross-tradition: karma in Indic thought; the Greek heimarmene; reaping and sowing.\" already appear, even faintly?"
+    },
+    {
+      "day": 46,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Cause and Effect",
+      "principleMotto": "Every cause has its effect; every effect has its cause.",
+      "topic": "Cause and Effect — Day 4",
+      "focus": "Practice: tracing a present effect back through visible and hidden causes.",
+      "prior_refs": [
+        42,
+        43,
+        44,
+        45
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Cause and Effect: Practice: tracing a present effect back through visible and hidden causes.\" already appear, even faintly?"
+    },
+    {
+      "day": 47,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Cause and Effect",
+      "principleMotto": "Every cause has its effect; every effect has its cause.",
+      "topic": "Cause and Effect — Day 5",
+      "focus": "First-century: Origen's vision of pre-existence and the long arc of cause.",
+      "prior_refs": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Cause and Effect: First-century: Origen's vision of pre-existence and the long arc of cause.\" already appear, even faintly?"
+    },
+    {
+      "day": 48,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Cause and Effect",
+      "principleMotto": "Every cause has its effect; every effect has its cause.",
+      "topic": "Cause and Effect — Day 6",
+      "focus": "Gematria: דין (Din, Judgment) as the principle of exact return.",
+      "prior_refs": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Cause and Effect: Gematria: דין (Din, Judgment) as the principle of exact return.\" already appear, even faintly?"
+    },
+    {
+      "day": 49,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Cause and Effect",
+      "principleMotto": "Every cause has its effect; every effect has its cause.",
+      "topic": "Cause and Effect — Day 7",
+      "focus": "Review: where you have begun to stand above the chain rather than within it.",
+      "prior_refs": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Cause and Effect: Review: where you have begun to stand above the chain rather than within it.\" already appear, even faintly?"
+    },
+    {
+      "day": 50,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Gender",
+      "principleMotto": "Gender is in everything; everything has its Masculine and Feminine principles.",
+      "topic": "Gender — Day 1",
+      "focus": "Introduction: gender as a cosmic principle, distinct from sex.",
+      "prior_refs": [
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Gender: Introduction: gender as a cosmic principle, distinct from sex.\" already appear, even faintly?"
+    },
+    {
+      "day": 51,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Gender",
+      "principleMotto": "Gender is in everything; everything has its Masculine and Feminine principles.",
+      "topic": "Gender — Day 2",
+      "focus": "Depth: the active/receptive pair as the structure of creation.",
+      "prior_refs": [
+        49,
+        50
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Gender: Depth: the active/receptive pair as the structure of creation.\" already appear, even faintly?"
+    },
+    {
+      "day": 52,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Gender",
+      "principleMotto": "Gender is in everything; everything has its Masculine and Feminine principles.",
+      "topic": "Gender — Day 3",
+      "focus": "Cross-tradition: Chokhmah/Binah, Shiva/Shakti, Nous/Psyche.",
+      "prior_refs": [
+        49,
+        50,
+        51
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Gender: Cross-tradition: Chokhmah/Binah, Shiva/Shakti, Nous/Psyche.\" already appear, even faintly?"
+    },
+    {
+      "day": 53,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Gender",
+      "principleMotto": "Gender is in everything; everything has its Masculine and Feminine principles.",
+      "topic": "Gender — Day 4",
+      "focus": "Practice: recognizing the gender of your own faculties.",
+      "prior_refs": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Gender: Practice: recognizing the gender of your own faculties.\" already appear, even faintly?"
+    },
+    {
+      "day": 54,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Gender",
+      "principleMotto": "Gender is in everything; everything has its Masculine and Feminine principles.",
+      "topic": "Gender — Day 5",
+      "focus": "Sophia and Logos: the divine pair in early Christian and Hermetic thought.",
+      "prior_refs": [
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Gender: Sophia and Logos: the divine pair in early Christian and Hermetic thought.\" already appear, even faintly?"
+    },
+    {
+      "day": 55,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Gender",
+      "principleMotto": "Gender is in everything; everything has its Masculine and Feminine principles.",
+      "topic": "Gender — Day 6",
+      "focus": "Gematria: אב and אם (Av and Em, Father and Mother) and their union.",
+      "prior_refs": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Gender: Gematria: אב and אם (Av and Em, Father and Mother) and their union.\" already appear, even faintly?"
+    },
+    {
+      "day": 56,
+      "section": "The Seven Hermetic Principles",
+      "weekTopic": "Gender",
+      "principleMotto": "Gender is in everything; everything has its Masculine and Feminine principles.",
+      "topic": "Gender — Day 7",
+      "focus": "Review: integration of the seven principles — your first turn of the wheel.",
+      "prior_refs": [
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Gender: Review: integration of the seven principles — your first turn of the wheel.\" already appear, even faintly?"
+    },
+    {
+      "day": 57,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Keter — The Crown",
+      "topic": "Keter — Day 1",
+      "focus": "Introduction to Keter — the apex; the unknowable that gives rise to the knowable.",
+      "prior_refs": [
+        54,
+        55,
+        56
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Keter (The Crown): Introduction to Keter — the apex; the unknowable that gives rise to the knowable.\" already appear, even faintly?"
+    },
+    {
+      "day": 58,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Keter — The Crown",
+      "topic": "Keter — Day 2",
+      "focus": "Keter and the breath above thought; the silent point of 'I Am.'",
+      "prior_refs": [
+        55,
+        56,
+        57
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Keter (The Crown): Keter and the breath above thought; the silent point of 'I Am.'\" already appear, even faintly?"
+    },
+    {
+      "day": 59,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Keter — The Crown",
+      "topic": "Keter — Day 3",
+      "focus": "Keter across traditions: the Nameless Tao; En Sof's first emanation; Brahman beyond attributes.",
+      "prior_refs": [
+        56,
+        57,
+        58
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Keter (The Crown): Keter across traditions: the Nameless Tao; En Sof's first emanation; Brahman beyond attributes.\" already appear, even faintly?"
+    },
+    {
+      "day": 60,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Keter — The Crown",
+      "topic": "Keter — Day 4",
+      "focus": "Practice: sitting beneath thought; the crown as a place to rest.",
+      "prior_refs": [
+        57,
+        58,
+        59
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Keter (The Crown): Practice: sitting beneath thought; the crown as a place to rest.\" already appear, even faintly?"
+    },
+    {
+      "day": 61,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Keter — The Crown",
+      "topic": "Keter — Day 5",
+      "focus": "Integration: how Keter recalibrates everything below it.",
+      "prior_refs": [
+        58,
+        59,
+        60
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Keter (The Crown): Integration: how Keter recalibrates everything below it.\" already appear, even faintly?"
+    },
+    {
+      "day": 62,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Chokhmah — Wisdom",
+      "topic": "Chokhmah — Day 1",
+      "focus": "Introduction to Chokhmah — the first flash; the seed-point of all that will become.",
+      "prior_refs": [
+        59,
+        60,
+        61
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Chokhmah (Wisdom): Introduction to Chokhmah — the first flash; the seed-point of all that will become.\" already appear, even faintly?"
+    },
+    {
+      "day": 63,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Chokhmah — Wisdom",
+      "topic": "Chokhmah — Day 2",
+      "focus": "Chokhmah as the Masculine pillar's apex; the giving forth.",
+      "prior_refs": [
+        60,
+        61,
+        62
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Chokhmah (Wisdom): Chokhmah as the Masculine pillar's apex; the giving forth.\" already appear, even faintly?"
+    },
+    {
+      "day": 64,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Chokhmah — Wisdom",
+      "topic": "Chokhmah — Day 3",
+      "focus": "Cross-tradition: Sophia in Gnostic thought; the Logos as Wisdom's outflow; Pallas Athena.",
+      "prior_refs": [
+        61,
+        62,
+        63
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Chokhmah (Wisdom): Cross-tradition: Sophia in Gnostic thought; the Logos as Wisdom's outflow; Pallas Athena.\" already appear, even faintly?"
+    },
+    {
+      "day": 65,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Chokhmah — Wisdom",
+      "topic": "Chokhmah — Day 4",
+      "focus": "Practice: noticing the moment of insight before it becomes thought.",
+      "prior_refs": [
+        62,
+        63,
+        64
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Chokhmah (Wisdom): Practice: noticing the moment of insight before it becomes thought.\" already appear, even faintly?"
+    },
+    {
+      "day": 66,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Chokhmah — Wisdom",
+      "topic": "Chokhmah — Day 5",
+      "focus": "Integration: Chokhmah's relation to Keter — pure act from pure being.",
+      "prior_refs": [
+        63,
+        64,
+        65
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Chokhmah (Wisdom): Integration: Chokhmah's relation to Keter — pure act from pure being.\" already appear, even faintly?"
+    },
+    {
+      "day": 67,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Binah — Understanding",
+      "topic": "Binah — Day 1",
+      "focus": "Introduction to Binah — the receptive womb that shapes Wisdom into form.",
+      "prior_refs": [
+        64,
+        65,
+        66
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Binah (Understanding): Introduction to Binah — the receptive womb that shapes Wisdom into form.\" already appear, even faintly?"
+    },
+    {
+      "day": 68,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Binah — Understanding",
+      "topic": "Binah — Day 2",
+      "focus": "Binah as the Great Mother; the place of structure, time, and contemplation.",
+      "prior_refs": [
+        65,
+        66,
+        67
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Binah (Understanding): Binah as the Great Mother; the place of structure, time, and contemplation.\" already appear, even faintly?"
+    },
+    {
+      "day": 69,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Binah — Understanding",
+      "topic": "Binah — Day 3",
+      "focus": "Cross-tradition: Shakti as form-giver; Mary as the human-side counterpart; Sophia in her receptive face.",
+      "prior_refs": [
+        66,
+        67,
+        68
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Binah (Understanding): Cross-tradition: Shakti as form-giver; Mary as the human-side counterpart; Sophia in her receptive face.\" already appear, even faintly?"
+    },
+    {
+      "day": 70,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Binah — Understanding",
+      "topic": "Binah — Day 4",
+      "focus": "Practice: discursive contemplation as Binah-work.",
+      "prior_refs": [
+        67,
+        68,
+        69
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Binah (Understanding): Practice: discursive contemplation as Binah-work.\" already appear, even faintly?"
+    },
+    {
+      "day": 71,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Binah — Understanding",
+      "topic": "Binah — Day 5",
+      "focus": "Integration: the supernal triad — Keter, Chokhmah, Binah — as the first sketch of reality.",
+      "prior_refs": [
+        68,
+        69,
+        70
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Binah (Understanding): Integration: the supernal triad — Keter, Chokhmah, Binah — as the first sketch of reality.\" already appear, even faintly?"
+    },
+    {
+      "day": 72,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Chesed — Loving-kindness / Mercy",
+      "topic": "Chesed — Day 1",
+      "focus": "Introduction to Chesed — overflowing benevolence; the right hand of the divine.",
+      "prior_refs": [
+        69,
+        70,
+        71
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Chesed (Loving-kindness / Mercy): Introduction to Chesed — overflowing benevolence; the right hand of the divine.\" already appear, even faintly?"
+    },
+    {
+      "day": 73,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Chesed — Loving-kindness / Mercy",
+      "topic": "Chesed — Day 2",
+      "focus": "Chesed unbounded; why mercy alone cannot sustain a world.",
+      "prior_refs": [
+        70,
+        71,
+        72
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Chesed (Loving-kindness / Mercy): Chesed unbounded; why mercy alone cannot sustain a world.\" already appear, even faintly?"
+    },
+    {
+      "day": 74,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Chesed — Loving-kindness / Mercy",
+      "topic": "Chesed — Day 3",
+      "focus": "Cross-tradition: Christ's open-handedness; the Sufi's rahma; Abrahamic hospitality.",
+      "prior_refs": [
+        71,
+        72,
+        73
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Chesed (Loving-kindness / Mercy): Cross-tradition: Christ's open-handedness; the Sufi's rahma; Abrahamic hospitality.\" already appear, even faintly?"
+    },
+    {
+      "day": 75,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Chesed — Loving-kindness / Mercy",
+      "topic": "Chesed — Day 4",
+      "focus": "Practice: an act of unconditional giving today; what it changes in you.",
+      "prior_refs": [
+        72,
+        73,
+        74
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Chesed (Loving-kindness / Mercy): Practice: an act of unconditional giving today; what it changes in you.\" already appear, even faintly?"
+    },
+    {
+      "day": 76,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Chesed — Loving-kindness / Mercy",
+      "topic": "Chesed — Day 5",
+      "focus": "Integration: Chesed as the first descent into the world of relation.",
+      "prior_refs": [
+        73,
+        74,
+        75
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Chesed (Loving-kindness / Mercy): Integration: Chesed as the first descent into the world of relation.\" already appear, even faintly?"
+    },
+    {
+      "day": 77,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Gevurah — Severity / Strength",
+      "topic": "Gevurah — Day 1",
+      "focus": "Introduction to Gevurah — the left hand; the limit, the cutting away, the holy 'no.'",
+      "prior_refs": [
+        74,
+        75,
+        76
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Gevurah (Severity / Strength): Introduction to Gevurah — the left hand; the limit, the cutting away, the holy 'no.'\" already appear, even faintly?"
+    },
+    {
+      "day": 78,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Gevurah — Severity / Strength",
+      "topic": "Gevurah — Day 2",
+      "focus": "Gevurah as judgment that preserves; Din without which Chesed dissolves.",
+      "prior_refs": [
+        75,
+        76,
+        77
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Gevurah (Severity / Strength): Gevurah as judgment that preserves; Din without which Chesed dissolves.\" already appear, even faintly?"
+    },
+    {
+      "day": 79,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Gevurah — Severity / Strength",
+      "topic": "Gevurah — Day 3",
+      "focus": "Cross-tradition: Krishna's terrible form; the Christ who overturns tables; the Sufi fana through fire.",
+      "prior_refs": [
+        76,
+        77,
+        78
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Gevurah (Severity / Strength): Cross-tradition: Krishna's terrible form; the Christ who overturns tables; the Sufi fana through fire.\" already appear, even faintly?"
+    },
+    {
+      "day": 80,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Gevurah — Severity / Strength",
+      "topic": "Gevurah — Day 4",
+      "focus": "Practice: a discipline of saying 'no' to one thing today.",
+      "prior_refs": [
+        77,
+        78,
+        79
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Gevurah (Severity / Strength): Practice: a discipline of saying 'no' to one thing today.\" already appear, even faintly?"
+    },
+    {
+      "day": 81,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Gevurah — Severity / Strength",
+      "topic": "Gevurah — Day 5",
+      "focus": "Integration: Chesed and Gevurah as the pair that hold the world up.",
+      "prior_refs": [
+        78,
+        79,
+        80
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Gevurah (Severity / Strength): Integration: Chesed and Gevurah as the pair that hold the world up.\" already appear, even faintly?"
+    },
+    {
+      "day": 82,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Tiferet — Beauty / Harmony",
+      "topic": "Tiferet — Day 1",
+      "focus": "Introduction to Tiferet — the heart of the Tree; the place where opposites are reconciled.",
+      "prior_refs": [
+        79,
+        80,
+        81
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Tiferet (Beauty / Harmony): Introduction to Tiferet — the heart of the Tree; the place where opposites are reconciled.\" already appear, even faintly?"
+    },
+    {
+      "day": 83,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Tiferet — Beauty / Harmony",
+      "topic": "Tiferet — Day 2",
+      "focus": "Tiferet as the Sun; as the Son; as the inner Adam.",
+      "prior_refs": [
+        80,
+        81,
+        82
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Tiferet (Beauty / Harmony): Tiferet as the Sun; as the Son; as the inner Adam.\" already appear, even faintly?"
+    },
+    {
+      "day": 84,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Tiferet — Beauty / Harmony",
+      "topic": "Tiferet — Day 3",
+      "focus": "Cross-tradition: the Christ-center; the Buddha's middle way; the king in Sufi imagery.",
+      "prior_refs": [
+        81,
+        82,
+        83
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Tiferet (Beauty / Harmony): Cross-tradition: the Christ-center; the Buddha's middle way; the king in Sufi imagery.\" already appear, even faintly?"
+    },
+    {
+      "day": 85,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Tiferet — Beauty / Harmony",
+      "topic": "Tiferet — Day 4",
+      "focus": "Practice: bringing two opposing forces in your day into balance through attention to the heart.",
+      "prior_refs": [
+        82,
+        83,
+        84
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Tiferet (Beauty / Harmony): Practice: bringing two opposing forces in your day into balance through attention to the heart.\" already appear, even faintly?"
+    },
+    {
+      "day": 86,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Tiferet — Beauty / Harmony",
+      "topic": "Tiferet — Day 5",
+      "focus": "Integration: Tiferet as the axis between the upper and lower triads.",
+      "prior_refs": [
+        83,
+        84,
+        85
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Tiferet (Beauty / Harmony): Integration: Tiferet as the axis between the upper and lower triads.\" already appear, even faintly?"
+    },
+    {
+      "day": 87,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Netzach — Eternity / Victory",
+      "topic": "Netzach — Day 1",
+      "focus": "Introduction to Netzach — endurance, momentum, the artist's flame.",
+      "prior_refs": [
+        84,
+        85,
+        86
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Netzach (Eternity / Victory): Introduction to Netzach — endurance, momentum, the artist's flame.\" already appear, even faintly?"
+    },
+    {
+      "day": 88,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Netzach — Eternity / Victory",
+      "topic": "Netzach — Day 2",
+      "focus": "Netzach as the right-hand foot; the prophetic, the rhythmic, the musical.",
+      "prior_refs": [
+        85,
+        86,
+        87
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Netzach (Eternity / Victory): Netzach as the right-hand foot; the prophetic, the rhythmic, the musical.\" already appear, even faintly?"
+    },
+    {
+      "day": 89,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Netzach — Eternity / Victory",
+      "topic": "Netzach — Day 3",
+      "focus": "Cross-tradition: Aphrodite-Venus; the muses; the Sufi dhikr that never tires.",
+      "prior_refs": [
+        86,
+        87,
+        88
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Netzach (Eternity / Victory): Cross-tradition: Aphrodite-Venus; the muses; the Sufi dhikr that never tires.\" already appear, even faintly?"
+    },
+    {
+      "day": 90,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Netzach — Eternity / Victory",
+      "topic": "Netzach — Day 4",
+      "focus": "Practice: a creative act, no matter how small, sustained today.",
+      "prior_refs": [
+        87,
+        88,
+        89
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Netzach (Eternity / Victory): Practice: a creative act, no matter how small, sustained today.\" already appear, even faintly?"
+    },
+    {
+      "day": 91,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Netzach — Eternity / Victory",
+      "topic": "Netzach — Day 5",
+      "focus": "Integration: how Netzach and Hod (intellect) must work together for any real making.",
+      "prior_refs": [
+        88,
+        89,
+        90
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Netzach (Eternity / Victory): Integration: how Netzach and Hod (intellect) must work together for any real making.\" already appear, even faintly?"
+    },
+    {
+      "day": 92,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Hod — Splendor / Glory",
+      "topic": "Hod — Day 1",
+      "focus": "Introduction to Hod — the precise word, the structure, the architect.",
+      "prior_refs": [
+        89,
+        90,
+        91
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Hod (Splendor / Glory): Introduction to Hod — the precise word, the structure, the architect.\" already appear, even faintly?"
+    },
+    {
+      "day": 93,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Hod — Splendor / Glory",
+      "topic": "Hod — Day 2",
+      "focus": "Hod as the left-hand foot; Mercury, Thoth, Hermes himself.",
+      "prior_refs": [
+        90,
+        91,
+        92
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Hod (Splendor / Glory): Hod as the left-hand foot; Mercury, Thoth, Hermes himself.\" already appear, even faintly?"
+    },
+    {
+      "day": 94,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Hod — Splendor / Glory",
+      "topic": "Hod — Day 3",
+      "focus": "Cross-tradition: Hermes Trismegistus; Apollonian clarity; the Sufi adab of language.",
+      "prior_refs": [
+        91,
+        92,
+        93
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Hod (Splendor / Glory): Cross-tradition: Hermes Trismegistus; Apollonian clarity; the Sufi adab of language.\" already appear, even faintly?"
+    },
+    {
+      "day": 95,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Hod — Splendor / Glory",
+      "topic": "Hod — Day 4",
+      "focus": "Practice: writing, speaking, or naming with precision today.",
+      "prior_refs": [
+        92,
+        93,
+        94
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Hod (Splendor / Glory): Practice: writing, speaking, or naming with precision today.\" already appear, even faintly?"
+    },
+    {
+      "day": 96,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Hod — Splendor / Glory",
+      "topic": "Hod — Day 5",
+      "focus": "Integration: the lower pair Netzach/Hod and how each completes the other.",
+      "prior_refs": [
+        93,
+        94,
+        95
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Hod (Splendor / Glory): Integration: the lower pair Netzach/Hod and how each completes the other.\" already appear, even faintly?"
+    },
+    {
+      "day": 97,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Yesod — Foundation",
+      "topic": "Yesod — Day 1",
+      "focus": "Introduction to Yesod — the storage and channel; everything above gathered before it descends.",
+      "prior_refs": [
+        94,
+        95,
+        96
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Yesod (Foundation): Introduction to Yesod — the storage and channel; everything above gathered before it descends.\" already appear, even faintly?"
+    },
+    {
+      "day": 98,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Yesod — Foundation",
+      "topic": "Yesod — Day 2",
+      "focus": "Yesod as the dream-self; the astral; the moon; the place where the unconscious speaks.",
+      "prior_refs": [
+        95,
+        96,
+        97
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Yesod (Foundation): Yesod as the dream-self; the astral; the moon; the place where the unconscious speaks.\" already appear, even faintly?"
+    },
+    {
+      "day": 99,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Yesod — Foundation",
+      "topic": "Yesod — Day 3",
+      "focus": "Cross-tradition: the dream-traditions of the Talmud; Joseph and his ladder of dreams; the Sufi night-journey.",
+      "prior_refs": [
+        96,
+        97,
+        98
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Yesod (Foundation): Cross-tradition: the dream-traditions of the Talmud; Joseph and his ladder of dreams; the Sufi night-journey.\" already appear, even faintly?"
+    },
+    {
+      "day": 100,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Yesod — Foundation",
+      "topic": "Yesod — Day 4",
+      "focus": "Practice: keeping watch on a dream; recording it before it fades.",
+      "prior_refs": [
+        97,
+        98,
+        99
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Yesod (Foundation): Practice: keeping watch on a dream; recording it before it fades.\" already appear, even faintly?"
+    },
+    {
+      "day": 101,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Yesod — Foundation",
+      "topic": "Yesod — Day 5",
+      "focus": "Integration: Yesod as the last gate before Malkhut.",
+      "prior_refs": [
+        98,
+        99,
+        100
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Yesod (Foundation): Integration: Yesod as the last gate before Malkhut.\" already appear, even faintly?"
+    },
+    {
+      "day": 102,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Malkhut — Kingdom",
+      "topic": "Malkhut — Day 1",
+      "focus": "Introduction to Malkhut — the world, the body, the Shekhinah in exile and in return.",
+      "prior_refs": [
+        99,
+        100,
+        101
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Malkhut (Kingdom): Introduction to Malkhut — the world, the body, the Shekhinah in exile and in return.\" already appear, even faintly?"
+    },
+    {
+      "day": 103,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Malkhut — Kingdom",
+      "topic": "Malkhut — Day 2",
+      "focus": "Malkhut as the daughter who is also the mother; the bride of Tiferet.",
+      "prior_refs": [
+        100,
+        101,
+        102
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Malkhut (Kingdom): Malkhut as the daughter who is also the mother; the bride of Tiferet.\" already appear, even faintly?"
+    },
+    {
+      "day": 104,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Malkhut — Kingdom",
+      "topic": "Malkhut — Day 3",
+      "focus": "Cross-tradition: the Logos becoming flesh; Maya as Lila; the divine in the dust.",
+      "prior_refs": [
+        101,
+        102,
+        103
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Malkhut (Kingdom): Cross-tradition: the Logos becoming flesh; Maya as Lila; the divine in the dust.\" already appear, even faintly?"
+    },
+    {
+      "day": 105,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Malkhut — Kingdom",
+      "topic": "Malkhut — Day 4",
+      "focus": "Practice: blessing the most ordinary thing in your day as the King's footstool.",
+      "prior_refs": [
+        102,
+        103,
+        104
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Malkhut (Kingdom): Practice: blessing the most ordinary thing in your day as the King's footstool.\" already appear, even faintly?"
+    },
+    {
+      "day": 106,
+      "section": "Kabbalah & The Sefirot",
+      "weekTopic": "Malkhut — Kingdom",
+      "topic": "Malkhut — Day 5",
+      "focus": "Integration: closing the circuit of the Tree from Malkhut back to Keter — the work of return.",
+      "prior_refs": [
+        103,
+        104,
+        105
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Malkhut (Kingdom): Integration: closing the circuit of the Tree from Malkhut back to Keter — the work of return.\" already appear, even faintly?"
+    },
+    {
+      "day": 107,
+      "section": "The Twenty-Two Hebrew Letters",
+      "weekTopic": "Aleph (א)",
+      "topic": "Aleph (א) — gematria 1",
+      "focus": "The silent breath; the unity beneath all sound.",
+      "prior_refs": [
+        104,
+        105,
+        106
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Aleph — The silent breath; the unity beneath all sound.\" already appear, even faintly?"
+    },
+    {
+      "day": 108,
+      "section": "The Twenty-Two Hebrew Letters",
+      "weekTopic": "Bet (ב)",
+      "topic": "Bet (ב) — gematria 2",
+      "focus": "The house; the dwelling place; the womb of creation.",
+      "prior_refs": [
+        105,
+        106,
+        107
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Bet — The house; the dwelling place; the womb of creation.\" already appear, even faintly?"
+    },
+    {
+      "day": 109,
+      "section": "The Twenty-Two Hebrew Letters",
+      "weekTopic": "Gimel (ג)",
+      "topic": "Gimel (ג) — gematria 3",
+      "focus": "The camel; the giver who crosses long distances.",
+      "prior_refs": [
+        106,
+        107,
+        108
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Gimel — The camel; the giver who crosses long distances.\" already appear, even faintly?"
+    },
+    {
+      "day": 110,
+      "section": "The Twenty-Two Hebrew Letters",
+      "weekTopic": "Dalet (ד)",
+      "topic": "Dalet (ד) — gematria 4",
+      "focus": "The door; threshold; humility opening to receive.",
+      "prior_refs": [
+        107,
+        108,
+        109
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Dalet — The door; threshold; humility opening to receive.\" already appear, even faintly?"
+    },
+    {
+      "day": 111,
+      "section": "The Twenty-Two Hebrew Letters",
+      "weekTopic": "He (ה)",
+      "topic": "He (ה) — gematria 5",
+      "focus": "The window; revelation; divine breath outward.",
+      "prior_refs": [
+        108,
+        109,
+        110
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"He — The window; revelation; divine breath outward.\" already appear, even faintly?"
+    },
+    {
+      "day": 112,
+      "section": "The Twenty-Two Hebrew Letters",
+      "weekTopic": "Vav (ו)",
+      "topic": "Vav (ו) — gematria 6",
+      "focus": "The hook; connection; the link between heaven and earth.",
+      "prior_refs": [
+        109,
+        110,
+        111
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Vav — The hook; connection; the link between heaven and earth.\" already appear, even faintly?"
+    },
+    {
+      "day": 113,
+      "section": "The Twenty-Two Hebrew Letters",
+      "weekTopic": "Zayin (ז)",
+      "topic": "Zayin (ז) — gematria 7",
+      "focus": "The weapon; discernment that cuts; the seventh-day sword.",
+      "prior_refs": [
+        110,
+        111,
+        112
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Zayin — The weapon; discernment that cuts; the seventh-day sword.\" already appear, even faintly?"
+    },
+    {
+      "day": 114,
+      "section": "The Twenty-Two Hebrew Letters",
+      "weekTopic": "Chet (ח)",
+      "topic": "Chet (ח) — gematria 8",
+      "focus": "The fence; new beginnings beyond nature; the bridal canopy.",
+      "prior_refs": [
+        111,
+        112,
+        113
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Chet — The fence; new beginnings beyond nature; the bridal canopy.\" already appear, even faintly?"
+    },
+    {
+      "day": 115,
+      "section": "The Twenty-Two Hebrew Letters",
+      "weekTopic": "Tet (ט)",
+      "topic": "Tet (ט) — gematria 9",
+      "focus": "The serpent coiled; hidden good; the bridal chamber.",
+      "prior_refs": [
+        112,
+        113,
+        114
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Tet — The serpent coiled; hidden good; the bridal chamber.\" already appear, even faintly?"
+    },
+    {
+      "day": 116,
+      "section": "The Twenty-Two Hebrew Letters",
+      "weekTopic": "Yod (י)",
+      "topic": "Yod (י) — gematria 10",
+      "focus": "The hand; the point; the seed-flame of every other letter.",
+      "prior_refs": [
+        113,
+        114,
+        115
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Yod — The hand; the point; the seed-flame of every other letter.\" already appear, even faintly?"
+    },
+    {
+      "day": 117,
+      "section": "The Twenty-Two Hebrew Letters",
+      "weekTopic": "Kaf (כ)",
+      "topic": "Kaf (כ) — gematria 20",
+      "focus": "The palm; the cupped hand of receiving.",
+      "prior_refs": [
+        114,
+        115,
+        116
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Kaf — The palm; the cupped hand of receiving.\" already appear, even faintly?"
+    },
+    {
+      "day": 118,
+      "section": "The Twenty-Two Hebrew Letters",
+      "weekTopic": "Lamed (ל)",
+      "topic": "Lamed (ל) — gematria 30",
+      "focus": "The ox-goad; teaching; the heart that ascends.",
+      "prior_refs": [
+        115,
+        116,
+        117
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Lamed — The ox-goad; teaching; the heart that ascends.\" already appear, even faintly?"
+    },
+    {
+      "day": 119,
+      "section": "The Twenty-Two Hebrew Letters",
+      "weekTopic": "Mem (מ)",
+      "topic": "Mem (מ) — gematria 40",
+      "focus": "The waters; revealed and hidden wisdom; gestation.",
+      "prior_refs": [
+        116,
+        117,
+        118
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Mem — The waters; revealed and hidden wisdom; gestation.\" already appear, even faintly?"
+    },
+    {
+      "day": 120,
+      "section": "The Twenty-Two Hebrew Letters",
+      "weekTopic": "Nun (נ)",
+      "topic": "Nun (נ) — gematria 50",
+      "focus": "The fish; faithfulness; the heir who continues the work.",
+      "prior_refs": [
+        117,
+        118,
+        119
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Nun — The fish; faithfulness; the heir who continues the work.\" already appear, even faintly?"
+    },
+    {
+      "day": 121,
+      "section": "The Twenty-Two Hebrew Letters",
+      "weekTopic": "Samekh (ס)",
+      "topic": "Samekh (ס) — gematria 60",
+      "focus": "The support; the prop; circle; eternal return.",
+      "prior_refs": [
+        118,
+        119,
+        120
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Samekh — The support; the prop; circle; eternal return.\" already appear, even faintly?"
+    },
+    {
+      "day": 122,
+      "section": "The Twenty-Two Hebrew Letters",
+      "weekTopic": "Ayin (ע)",
+      "topic": "Ayin (ע) — gematria 70",
+      "focus": "The eye; sight inner and outer; the seventy nations.",
+      "prior_refs": [
+        119,
+        120,
+        121
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Ayin — The eye; sight inner and outer; the seventy nations.\" already appear, even faintly?"
+    },
+    {
+      "day": 123,
+      "section": "The Twenty-Two Hebrew Letters",
+      "weekTopic": "Pe (פ)",
+      "topic": "Pe (פ) — gematria 80",
+      "focus": "The mouth; the spoken word; speech as creation.",
+      "prior_refs": [
+        120,
+        121,
+        122
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Pe — The mouth; the spoken word; speech as creation.\" already appear, even faintly?"
+    },
+    {
+      "day": 124,
+      "section": "The Twenty-Two Hebrew Letters",
+      "weekTopic": "Tsadi (צ)",
+      "topic": "Tsadi (צ) — gematria 90",
+      "focus": "The righteous one; the fishhook; the hidden saint.",
+      "prior_refs": [
+        121,
+        122,
+        123
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Tsadi — The righteous one; the fishhook; the hidden saint.\" already appear, even faintly?"
+    },
+    {
+      "day": 125,
+      "section": "The Twenty-Two Hebrew Letters",
+      "weekTopic": "Qof (ק)",
+      "topic": "Qof (ק) — gematria 100",
+      "focus": "The back of the head; what is behind us; holiness from behind.",
+      "prior_refs": [
+        122,
+        123,
+        124
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Qof — The back of the head; what is behind us; holiness from behind.\" already appear, even faintly?"
+    },
+    {
+      "day": 126,
+      "section": "The Twenty-Two Hebrew Letters",
+      "weekTopic": "Resh (ר)",
+      "topic": "Resh (ר) — gematria 200",
+      "focus": "The head; beginning; the poor one who turns to receive.",
+      "prior_refs": [
+        123,
+        124,
+        125
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Resh — The head; beginning; the poor one who turns to receive.\" already appear, even faintly?"
+    },
+    {
+      "day": 127,
+      "section": "The Twenty-Two Hebrew Letters",
+      "weekTopic": "Shin (ש)",
+      "topic": "Shin (ש) — gematria 300",
+      "focus": "The tooth; consuming fire; the three-fold flame.",
+      "prior_refs": [
+        124,
+        125,
+        126
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Shin — The tooth; consuming fire; the three-fold flame.\" already appear, even faintly?"
+    },
+    {
+      "day": 128,
+      "section": "The Twenty-Two Hebrew Letters",
+      "weekTopic": "Tav (ת)",
+      "topic": "Tav (ת) — gematria 400",
+      "focus": "The cross / the mark; the completed signature; the seal.",
+      "prior_refs": [
+        125,
+        126,
+        127
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Tav — The cross / the mark; the completed signature; the seal.\" already appear, even faintly?"
+    },
+    {
+      "day": 129,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Genesis 1:1–3 — In the beginning",
+      "topic": "Genesis 1:1–3 — In the beginning — Peshat focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Peshat.",
+      "prior_refs": [
+        126,
+        127,
+        128
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Genesis 1:1–3 — In the beginning — the peshat focus\" already appear, even faintly?"
+    },
+    {
+      "day": 130,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Genesis 1:26 — Let us make man in our image",
+      "topic": "Genesis 1:26 — Let us make man in our image — Remez focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Remez.",
+      "prior_refs": [
+        127,
+        128,
+        129
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Genesis 1:26 — Let us make man in our image — the remez focus\" already appear, even faintly?"
+    },
+    {
+      "day": 131,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Genesis 28:10–17 — Jacob's ladder",
+      "topic": "Genesis 28:10–17 — Jacob's ladder — Derash focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Derash.",
+      "prior_refs": [
+        128,
+        129,
+        130
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Genesis 28:10–17 — Jacob's ladder — the derash focus\" already appear, even faintly?"
+    },
+    {
+      "day": 132,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Exodus 3:14 — Ehyeh asher ehyeh",
+      "topic": "Exodus 3:14 — Ehyeh asher ehyeh — Sod focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Sod.",
+      "prior_refs": [
+        129,
+        130,
+        131
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Exodus 3:14 — Ehyeh asher ehyeh — the sod focus\" already appear, even faintly?"
+    },
+    {
+      "day": 133,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Exodus 25:8 — Let them make me a sanctuary",
+      "topic": "Exodus 25:8 — Let them make me a sanctuary — Peshat focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Peshat.",
+      "prior_refs": [
+        130,
+        131,
+        132
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Exodus 25:8 — Let them make me a sanctuary — the peshat focus\" already appear, even faintly?"
+    },
+    {
+      "day": 134,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Psalm 23 — The Lord is my shepherd",
+      "topic": "Psalm 23 — The Lord is my shepherd — Remez focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Remez.",
+      "prior_refs": [
+        131,
+        132,
+        133
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Psalm 23 — The Lord is my shepherd — the remez focus\" already appear, even faintly?"
+    },
+    {
+      "day": 135,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Psalm 91 — He that dwells in the secret place",
+      "topic": "Psalm 91 — He that dwells in the secret place — Derash focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Derash.",
+      "prior_refs": [
+        132,
+        133,
+        134
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Psalm 91 — He that dwells in the secret place — the derash focus\" already appear, even faintly?"
+    },
+    {
+      "day": 136,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Proverbs 8:22–31 — Wisdom personified",
+      "topic": "Proverbs 8:22–31 — Wisdom personified — Sod focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Sod.",
+      "prior_refs": [
+        133,
+        134,
+        135
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Proverbs 8:22–31 — Wisdom personified — the sod focus\" already appear, even faintly?"
+    },
+    {
+      "day": 137,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Song of Songs 6:3 — I am my beloved's",
+      "topic": "Song of Songs 6:3 — I am my beloved's — Peshat focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Peshat.",
+      "prior_refs": [
+        134,
+        135,
+        136
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Song of Songs 6:3 — I am my beloved's — the peshat focus\" already appear, even faintly?"
+    },
+    {
+      "day": 138,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Isaiah 6:1–8 — Isaiah's throne vision",
+      "topic": "Isaiah 6:1–8 — Isaiah's throne vision — Remez focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Remez.",
+      "prior_refs": [
+        135,
+        136,
+        137
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Isaiah 6:1–8 — Isaiah's throne vision — the remez focus\" already appear, even faintly?"
+    },
+    {
+      "day": 139,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Ezekiel 1 — The Merkabah vision",
+      "topic": "Ezekiel 1 — The Merkabah vision — Derash focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Derash.",
+      "prior_refs": [
+        136,
+        137,
+        138
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Ezekiel 1 — The Merkabah vision — the derash focus\" already appear, even faintly?"
+    },
+    {
+      "day": 140,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Daniel 7:9–14 — The Ancient of Days",
+      "topic": "Daniel 7:9–14 — The Ancient of Days — Sod focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Sod.",
+      "prior_refs": [
+        137,
+        138,
+        139
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Daniel 7:9–14 — The Ancient of Days — the sod focus\" already appear, even faintly?"
+    },
+    {
+      "day": 141,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Matthew 5:8 — Blessed are the pure in heart",
+      "topic": "Matthew 5:8 — Blessed are the pure in heart — Peshat focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Peshat.",
+      "prior_refs": [
+        138,
+        139,
+        140
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Matthew 5:8 — Blessed are the pure in heart — the peshat focus\" already appear, even faintly?"
+    },
+    {
+      "day": 142,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Matthew 11:13–14 — John as Elijah",
+      "topic": "Matthew 11:13–14 — John as Elijah — Remez focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Remez.",
+      "prior_refs": [
+        139,
+        140,
+        141
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Matthew 11:13–14 — John as Elijah — the remez focus\" already appear, even faintly?"
+    },
+    {
+      "day": 143,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Matthew 17:1–9 — The Transfiguration",
+      "topic": "Matthew 17:1–9 — The Transfiguration — Derash focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Derash.",
+      "prior_refs": [
+        140,
+        141,
+        142
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Matthew 17:1–9 — The Transfiguration — the derash focus\" already appear, even faintly?"
+    },
+    {
+      "day": 144,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "John 1:1–14 — The Word became flesh",
+      "topic": "John 1:1–14 — The Word became flesh — Sod focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Sod.",
+      "prior_refs": [
+        141,
+        142,
+        143
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"John 1:1–14 — The Word became flesh — the sod focus\" already appear, even faintly?"
+    },
+    {
+      "day": 145,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "John 3:1–8 — Nicodemus and rebirth",
+      "topic": "John 3:1–8 — Nicodemus and rebirth — Peshat focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Peshat.",
+      "prior_refs": [
+        142,
+        143,
+        144
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"John 3:1–8 — Nicodemus and rebirth — the peshat focus\" already appear, even faintly?"
+    },
+    {
+      "day": 146,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "John 9:1–3 — The man born blind",
+      "topic": "John 9:1–3 — The man born blind — Remez focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Remez.",
+      "prior_refs": [
+        143,
+        144,
+        145
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"John 9:1–3 — The man born blind — the remez focus\" already appear, even faintly?"
+    },
+    {
+      "day": 147,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "John 10:34 — Ye are gods",
+      "topic": "John 10:34 — Ye are gods — Derash focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Derash.",
+      "prior_refs": [
+        144,
+        145,
+        146
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"John 10:34 — Ye are gods — the derash focus\" already appear, even faintly?"
+    },
+    {
+      "day": 148,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "John 14:6 — The way, the truth, the life",
+      "topic": "John 14:6 — The way, the truth, the life — Sod focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Sod.",
+      "prior_refs": [
+        145,
+        146,
+        147
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"John 14:6 — The way, the truth, the life — the sod focus\" already appear, even faintly?"
+    },
+    {
+      "day": 149,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Romans 8:28–30 — Predestined and conformed",
+      "topic": "Romans 8:28–30 — Predestined and conformed — Peshat focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Peshat.",
+      "prior_refs": [
+        146,
+        147,
+        148
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Romans 8:28–30 — Predestined and conformed — the peshat focus\" already appear, even faintly?"
+    },
+    {
+      "day": 150,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "1 Corinthians 13 — The way of love",
+      "topic": "1 Corinthians 13 — The way of love — Remez focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Remez.",
+      "prior_refs": [
+        147,
+        148,
+        149
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"1 Corinthians 13 — The way of love — the remez focus\" already appear, even faintly?"
+    },
+    {
+      "day": 151,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Hebrews 7 — Melchizedek",
+      "topic": "Hebrews 7 — Melchizedek — Derash focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Derash.",
+      "prior_refs": [
+        148,
+        149,
+        150
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Hebrews 7 — Melchizedek — the derash focus\" already appear, even faintly?"
+    },
+    {
+      "day": 152,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Revelation 1 — The Son of Man among the lampstands",
+      "topic": "Revelation 1 — The Son of Man among the lampstands — Sod focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Sod.",
+      "prior_refs": [
+        149,
+        150,
+        151
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Revelation 1 — The Son of Man among the lampstands — the sod focus\" already appear, even faintly?"
+    },
+    {
+      "day": 153,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Revelation 21:1–4 — A new heaven and earth",
+      "topic": "Revelation 21:1–4 — A new heaven and earth — Peshat focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Peshat.",
+      "prior_refs": [
+        150,
+        151,
+        152
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Revelation 21:1–4 — A new heaven and earth — the peshat focus\" already appear, even faintly?"
+    },
+    {
+      "day": 154,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Surah 35 (Fatir) — Originator",
+      "topic": "Surah 35 (Fatir) — Originator — Remez focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Remez.",
+      "prior_refs": [
+        151,
+        152,
+        153
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Surah 35 (Fatir) — Originator — the remez focus\" already appear, even faintly?"
+    },
+    {
+      "day": 155,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Surah 24:35 — The Light Verse",
+      "topic": "Surah 24:35 — The Light Verse — Derash focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Derash.",
+      "prior_refs": [
+        152,
+        153,
+        154
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Surah 24:35 — The Light Verse — the derash focus\" already appear, even faintly?"
+    },
+    {
+      "day": 156,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Genesis 1:1–3 — In the beginning",
+      "topic": "Genesis 1:1–3 — In the beginning — Sod focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Sod.",
+      "prior_refs": [
+        153,
+        154,
+        155
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Genesis 1:1–3 — In the beginning — the sod focus\" already appear, even faintly?"
+    },
+    {
+      "day": 157,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Genesis 1:26 — Let us make man in our image",
+      "topic": "Genesis 1:26 — Let us make man in our image — Peshat focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Peshat.",
+      "prior_refs": [
+        154,
+        155,
+        156
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Genesis 1:26 — Let us make man in our image — the peshat focus\" already appear, even faintly?"
+    },
+    {
+      "day": 158,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Genesis 28:10–17 — Jacob's ladder",
+      "topic": "Genesis 28:10–17 — Jacob's ladder — Remez focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Remez.",
+      "prior_refs": [
+        155,
+        156,
+        157
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Genesis 28:10–17 — Jacob's ladder — the remez focus\" already appear, even faintly?"
+    },
+    {
+      "day": 159,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Exodus 3:14 — Ehyeh asher ehyeh",
+      "topic": "Exodus 3:14 — Ehyeh asher ehyeh — Derash focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Derash.",
+      "prior_refs": [
+        156,
+        157,
+        158
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Exodus 3:14 — Ehyeh asher ehyeh — the derash focus\" already appear, even faintly?"
+    },
+    {
+      "day": 160,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Exodus 25:8 — Let them make me a sanctuary",
+      "topic": "Exodus 25:8 — Let them make me a sanctuary — Sod focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Sod.",
+      "prior_refs": [
+        157,
+        158,
+        159
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Exodus 25:8 — Let them make me a sanctuary — the sod focus\" already appear, even faintly?"
+    },
+    {
+      "day": 161,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Psalm 23 — The Lord is my shepherd",
+      "topic": "Psalm 23 — The Lord is my shepherd — Peshat focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Peshat.",
+      "prior_refs": [
+        158,
+        159,
+        160
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Psalm 23 — The Lord is my shepherd — the peshat focus\" already appear, even faintly?"
+    },
+    {
+      "day": 162,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Psalm 91 — He that dwells in the secret place",
+      "topic": "Psalm 91 — He that dwells in the secret place — Remez focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Remez.",
+      "prior_refs": [
+        159,
+        160,
+        161
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Psalm 91 — He that dwells in the secret place — the remez focus\" already appear, even faintly?"
+    },
+    {
+      "day": 163,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Proverbs 8:22–31 — Wisdom personified",
+      "topic": "Proverbs 8:22–31 — Wisdom personified — Derash focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Derash.",
+      "prior_refs": [
+        160,
+        161,
+        162
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Proverbs 8:22–31 — Wisdom personified — the derash focus\" already appear, even faintly?"
+    },
+    {
+      "day": 164,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Song of Songs 6:3 — I am my beloved's",
+      "topic": "Song of Songs 6:3 — I am my beloved's — Sod focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Sod.",
+      "prior_refs": [
+        161,
+        162,
+        163
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Song of Songs 6:3 — I am my beloved's — the sod focus\" already appear, even faintly?"
+    },
+    {
+      "day": 165,
+      "section": "PaRDeS in Practice",
+      "weekTopic": "Isaiah 6:1–8 — Isaiah's throne vision",
+      "topic": "Isaiah 6:1–8 — Isaiah's throne vision — Peshat focus",
+      "focus": "Apply the four-layer reading to this passage, with emphasis today on Peshat.",
+      "prior_refs": [
+        162,
+        163,
+        164
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Isaiah 6:1–8 — Isaiah's throne vision — the peshat focus\" already appear, even faintly?"
+    },
+    {
+      "day": 166,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "Why study Masonic symbolism — what survives from the mystery schools",
+      "focus": "Why study Masonic symbolism — what survives from the mystery schools",
+      "prior_refs": [
+        163,
+        164,
+        165
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Why study Masonic symbolism — what survives from the mystery schools\" already appear, even faintly?"
+    },
+    {
+      "day": 167,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The Lodge as a microcosm of the temple",
+      "focus": "The Lodge as a microcosm of the temple",
+      "prior_refs": [
+        164,
+        165,
+        166
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Lodge as a microcosm of the temple\" already appear, even faintly?"
+    },
+    {
+      "day": 168,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The Three Great Lights — Volume of Sacred Law, Square, and Compasses",
+      "focus": "The Three Great Lights — Volume of Sacred Law, Square, and Compasses",
+      "prior_refs": [
+        165,
+        166,
+        167
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Three Great Lights — Volume of Sacred Law, Square, and Compasses\" already appear, even faintly?"
+    },
+    {
+      "day": 169,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The Square — uprightness; meeting the earth as it is",
+      "focus": "The Square — uprightness; meeting the earth as it is",
+      "prior_refs": [
+        166,
+        167,
+        168
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Square — uprightness; meeting the earth as it is\" already appear, even faintly?"
+    },
+    {
+      "day": 170,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The Compasses — the measure; the circle of what one can ethically govern",
+      "focus": "The Compasses — the measure; the circle of what one can ethically govern",
+      "prior_refs": [
+        167,
+        168,
+        169
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Compasses — the measure; the circle of what one can ethically govern\" already appear, even faintly?"
+    },
+    {
+      "day": 171,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The Letter G — Geometry, God, Generation",
+      "focus": "The Letter G — Geometry, God, Generation",
+      "prior_refs": [
+        168,
+        169,
+        170
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Letter G — Geometry, God, Generation\" already appear, even faintly?"
+    },
+    {
+      "day": 172,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The All-Seeing Eye — the witness within",
+      "focus": "The All-Seeing Eye — the witness within",
+      "prior_refs": [
+        169,
+        170,
+        171
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The All-Seeing Eye — the witness within\" already appear, even faintly?"
+    },
+    {
+      "day": 173,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The Apron — the garment of innocence and labor",
+      "focus": "The Apron — the garment of innocence and labor",
+      "prior_refs": [
+        170,
+        171,
+        172
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Apron — the garment of innocence and labor\" already appear, even faintly?"
+    },
+    {
+      "day": 174,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The Trowel — the cement of brotherly love",
+      "focus": "The Trowel — the cement of brotherly love",
+      "prior_refs": [
+        171,
+        172,
+        173
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Trowel — the cement of brotherly love\" already appear, even faintly?"
+    },
+    {
+      "day": 175,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The 24-inch Gauge — the day measured in three parts",
+      "focus": "The 24-inch Gauge — the day measured in three parts",
+      "prior_refs": [
+        172,
+        173,
+        174
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The 24-inch Gauge — the day measured in three parts\" already appear, even faintly?"
+    },
+    {
+      "day": 176,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The Common Gavel — divesting the soul of its excrescences",
+      "focus": "The Common Gavel — divesting the soul of its excrescences",
+      "prior_refs": [
+        173,
+        174,
+        175
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Common Gavel — divesting the soul of its excrescences\" already appear, even faintly?"
+    },
+    {
+      "day": 177,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The Plumb — vertical truth",
+      "focus": "The Plumb — vertical truth",
+      "prior_refs": [
+        174,
+        175,
+        176
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Plumb — vertical truth\" already appear, even faintly?"
+    },
+    {
+      "day": 178,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The Level — the equality of all who stand on the earth",
+      "focus": "The Level — the equality of all who stand on the earth",
+      "prior_refs": [
+        175,
+        176,
+        177
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Level — the equality of all who stand on the earth\" already appear, even faintly?"
+    },
+    {
+      "day": 179,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The Working Tools of the Entered Apprentice",
+      "focus": "The Working Tools of the Entered Apprentice",
+      "prior_refs": [
+        176,
+        177,
+        178
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Working Tools of the Entered Apprentice\" already appear, even faintly?"
+    },
+    {
+      "day": 180,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The Working Tools of the Fellow Craft",
+      "focus": "The Working Tools of the Fellow Craft",
+      "prior_refs": [
+        177,
+        178,
+        179
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Working Tools of the Fellow Craft\" already appear, even faintly?"
+    },
+    {
+      "day": 181,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The Working Tools of the Master Mason",
+      "focus": "The Working Tools of the Master Mason",
+      "prior_refs": [
+        178,
+        179,
+        180
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Working Tools of the Master Mason\" already appear, even faintly?"
+    },
+    {
+      "day": 182,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The 47th Problem of Euclid — Pythagoras' theorem as initiatory geometry",
+      "focus": "The 47th Problem of Euclid — Pythagoras' theorem as initiatory geometry",
+      "prior_refs": [
+        179,
+        180,
+        181
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The 47th Problem of Euclid — Pythagoras' theorem as initiatory geometry\" already appear, even faintly?"
+    },
+    {
+      "day": 183,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The Mosaic Pavement — the chequered floor; light and shadow",
+      "focus": "The Mosaic Pavement — the chequered floor; light and shadow",
+      "prior_refs": [
+        180,
+        181,
+        182
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Mosaic Pavement — the chequered floor; light and shadow\" already appear, even faintly?"
+    },
+    {
+      "day": 184,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The Indented Tessel — the borders of the world",
+      "focus": "The Indented Tessel — the borders of the world",
+      "prior_refs": [
+        181,
+        182,
+        183
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Indented Tessel — the borders of the world\" already appear, even faintly?"
+    },
+    {
+      "day": 185,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The Blazing Star — Tiferet in Masonic dress",
+      "focus": "The Blazing Star — Tiferet in Masonic dress",
+      "prior_refs": [
+        182,
+        183,
+        184
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Blazing Star — Tiferet in Masonic dress\" already appear, even faintly?"
+    },
+    {
+      "day": 186,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "Boaz — strength; the left-hand pillar; Gevurah-coded",
+      "focus": "Boaz — strength; the left-hand pillar; Gevurah-coded",
+      "prior_refs": [
+        183,
+        184,
+        185
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Boaz — strength; the left-hand pillar; Gevurah-coded\" already appear, even faintly?"
+    },
+    {
+      "day": 187,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "Jachin — establishment; the right-hand pillar; Chesed-coded",
+      "focus": "Jachin — establishment; the right-hand pillar; Chesed-coded",
+      "prior_refs": [
+        184,
+        185,
+        186
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Jachin — establishment; the right-hand pillar; Chesed-coded\" already appear, even faintly?"
+    },
+    {
+      "day": 188,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "Between the Pillars — the path the candidate walks",
+      "focus": "Between the Pillars — the path the candidate walks",
+      "prior_refs": [
+        185,
+        186,
+        187
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Between the Pillars — the path the candidate walks\" already appear, even faintly?"
+    },
+    {
+      "day": 189,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The Three Pillars and the Tree of Life — the structural parallel",
+      "focus": "The Three Pillars and the Tree of Life — the structural parallel",
+      "prior_refs": [
+        186,
+        187,
+        188
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Three Pillars and the Tree of Life — the structural parallel\" already appear, even faintly?"
+    },
+    {
+      "day": 190,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The Winding Stairs of the Fellow Craft Degree",
+      "focus": "The Winding Stairs of the Fellow Craft Degree",
+      "prior_refs": [
+        187,
+        188,
+        189
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Winding Stairs of the Fellow Craft Degree\" already appear, even faintly?"
+    },
+    {
+      "day": 191,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The Middle Chamber — Tiferet again, encountered now",
+      "focus": "The Middle Chamber — Tiferet again, encountered now",
+      "prior_refs": [
+        188,
+        189,
+        190
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Middle Chamber — Tiferet again, encountered now\" already appear, even faintly?"
+    },
+    {
+      "day": 192,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "Hiram Abiff — the legend",
+      "focus": "Hiram Abiff — the legend",
+      "prior_refs": [
+        189,
+        190,
+        191
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Hiram Abiff — the legend\" already appear, even faintly?"
+    },
+    {
+      "day": 193,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The Three Ruffians — what kills the master within",
+      "focus": "The Three Ruffians — what kills the master within",
+      "prior_refs": [
+        190,
+        191,
+        192
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Three Ruffians — what kills the master within\" already appear, even faintly?"
+    },
+    {
+      "day": 194,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The Lion's Paw — the lifting up",
+      "focus": "The Lion's Paw — the lifting up",
+      "prior_refs": [
+        191,
+        192,
+        193
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Lion's Paw — the lifting up\" already appear, even faintly?"
+    },
+    {
+      "day": 195,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The Sprig of Acacia — death overcome",
+      "focus": "The Sprig of Acacia — death overcome",
+      "prior_refs": [
+        192,
+        193,
+        194
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Sprig of Acacia — death overcome\" already appear, even faintly?"
+    },
+    {
+      "day": 196,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The Royal Arch — the recovered word",
+      "focus": "The Royal Arch — the recovered word",
+      "prior_refs": [
+        193,
+        194,
+        195
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Royal Arch — the recovered word\" already appear, even faintly?"
+    },
+    {
+      "day": 197,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The Cryptic Degrees — what is hidden beneath the temple",
+      "focus": "The Cryptic Degrees — what is hidden beneath the temple",
+      "prior_refs": [
+        194,
+        195,
+        196
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Cryptic Degrees — what is hidden beneath the temple\" already appear, even faintly?"
+    },
+    {
+      "day": 198,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The Knight Templar tradition and its esoteric currents",
+      "focus": "The Knight Templar tradition and its esoteric currents",
+      "prior_refs": [
+        195,
+        196,
+        197
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Knight Templar tradition and its esoteric currents\" already appear, even faintly?"
+    },
+    {
+      "day": 199,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The Scottish Rite degrees as a study program",
+      "focus": "The Scottish Rite degrees as a study program",
+      "prior_refs": [
+        196,
+        197,
+        198
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Scottish Rite degrees as a study program\" already appear, even faintly?"
+    },
+    {
+      "day": 200,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The York Rite degrees as a study program",
+      "focus": "The York Rite degrees as a study program",
+      "prior_refs": [
+        197,
+        198,
+        199
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The York Rite degrees as a study program\" already appear, even faintly?"
+    },
+    {
+      "day": 201,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "Masonic numerology — 3, 5, 7, 33, 47",
+      "focus": "Masonic numerology — 3, 5, 7, 33, 47",
+      "prior_refs": [
+        198,
+        199,
+        200
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Masonic numerology — 3, 5, 7, 33, 47\" already appear, even faintly?"
+    },
+    {
+      "day": 202,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The Tetragrammaton in Masonic symbol systems",
+      "focus": "The Tetragrammaton in Masonic symbol systems",
+      "prior_refs": [
+        199,
+        200,
+        201
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Tetragrammaton in Masonic symbol systems\" already appear, even faintly?"
+    },
+    {
+      "day": 203,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "Masonic landmarks of meaning",
+      "focus": "Masonic landmarks of meaning",
+      "prior_refs": [
+        200,
+        201,
+        202
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Masonic landmarks of meaning\" already appear, even faintly?"
+    },
+    {
+      "day": 204,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "What Masonry preserves from the medieval guilds",
+      "focus": "What Masonry preserves from the medieval guilds",
+      "prior_refs": [
+        201,
+        202,
+        203
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"What Masonry preserves from the medieval guilds\" already appear, even faintly?"
+    },
+    {
+      "day": 205,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "What Masonry preserves from Hermetic Egypt",
+      "focus": "What Masonry preserves from Hermetic Egypt",
+      "prior_refs": [
+        202,
+        203,
+        204
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"What Masonry preserves from Hermetic Egypt\" already appear, even faintly?"
+    },
+    {
+      "day": 206,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "Anderson's Constitutions and what they encode",
+      "focus": "Anderson's Constitutions and what they encode",
+      "prior_refs": [
+        203,
+        204,
+        205
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Anderson's Constitutions and what they encode\" already appear, even faintly?"
+    },
+    {
+      "day": 207,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The G — geometry as the architect's sacred language",
+      "focus": "The G — geometry as the architect's sacred language",
+      "prior_refs": [
+        204,
+        205,
+        206
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The G — geometry as the architect's sacred language\" already appear, even faintly?"
+    },
+    {
+      "day": 208,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "Speculative versus Operative Masonry",
+      "focus": "Speculative versus Operative Masonry",
+      "prior_refs": [
+        205,
+        206,
+        207
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Speculative versus Operative Masonry\" already appear, even faintly?"
+    },
+    {
+      "day": 209,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "Initiation as ritual death and rebirth",
+      "focus": "Initiation as ritual death and rebirth",
+      "prior_refs": [
+        206,
+        207,
+        208
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Initiation as ritual death and rebirth\" already appear, even faintly?"
+    },
+    {
+      "day": 210,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "Light — the persistent metaphor",
+      "focus": "Light — the persistent metaphor",
+      "prior_refs": [
+        207,
+        208,
+        209
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Light — the persistent metaphor\" already appear, even faintly?"
+    },
+    {
+      "day": 211,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The Cable Tow — bond and freedom",
+      "focus": "The Cable Tow — bond and freedom",
+      "prior_refs": [
+        208,
+        209,
+        210
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Cable Tow — bond and freedom\" already appear, even faintly?"
+    },
+    {
+      "day": 212,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The Hoodwink — voluntary blindness preceding sight",
+      "focus": "The Hoodwink — voluntary blindness preceding sight",
+      "prior_refs": [
+        209,
+        210,
+        211
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Hoodwink — voluntary blindness preceding sight\" already appear, even faintly?"
+    },
+    {
+      "day": 213,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "The Sharp Instrument — the test at the threshold",
+      "focus": "The Sharp Instrument — the test at the threshold",
+      "prior_refs": [
+        210,
+        211,
+        212
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Sharp Instrument — the test at the threshold\" already appear, even faintly?"
+    },
+    {
+      "day": 214,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "Charity as the heart of the Craft",
+      "focus": "Charity as the heart of the Craft",
+      "prior_refs": [
+        211,
+        212,
+        213
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Charity as the heart of the Craft\" already appear, even faintly?"
+    },
+    {
+      "day": 215,
+      "section": "Masonic Symbolism",
+      "weekTopic": "Masonic Symbolism",
+      "topic": "Synthesis: how the Masonic system maps onto everything you have learned so far",
+      "focus": "Synthesis: how the Masonic system maps onto everything you have learned so far",
+      "prior_refs": [
+        212,
+        213,
+        214
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Synthesis: how the Masonic system maps onto everything you have learned so far\" already appear, even faintly?"
+    },
+    {
+      "day": 216,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "Why this section now — what was suppressed and what survived",
+      "focus": "Why this section now — what was suppressed and what survived",
+      "prior_refs": [
+        213,
+        214,
+        215
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Why this section now — what was suppressed and what survived\" already appear, even faintly?"
+    },
+    {
+      "day": 217,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "John 1:1–18 — the Gospel that is also a Hermetic treatise",
+      "focus": "John 1:1–18 — the Gospel that is also a Hermetic treatise",
+      "prior_refs": [
+        214,
+        215,
+        216
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"John 1:1–18 — the Gospel that is also a Hermetic treatise\" already appear, even faintly?"
+    },
+    {
+      "day": 218,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "John 3 — Nicodemus and the second birth",
+      "focus": "John 3 — Nicodemus and the second birth",
+      "prior_refs": [
+        215,
+        216,
+        217
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"John 3 — Nicodemus and the second birth\" already appear, even faintly?"
+    },
+    {
+      "day": 219,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "John 6 — the bread of life as inner nourishment",
+      "focus": "John 6 — the bread of life as inner nourishment",
+      "prior_refs": [
+        216,
+        217,
+        218
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"John 6 — the bread of life as inner nourishment\" already appear, even faintly?"
+    },
+    {
+      "day": 220,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "John 10:34 — 'Ye are gods'",
+      "focus": "John 10:34 — 'Ye are gods'",
+      "prior_refs": [
+        217,
+        218,
+        219
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"John 10:34 — 'Ye are gods'\" already appear, even faintly?"
+    },
+    {
+      "day": 221,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "John 14:20 — 'I in you, and you in me'",
+      "focus": "John 14:20 — 'I in you, and you in me'",
+      "prior_refs": [
+        218,
+        219,
+        220
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"John 14:20 — 'I in you, and you in me'\" already appear, even faintly?"
+    },
+    {
+      "day": 222,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "John 17 — the high priestly prayer",
+      "focus": "John 17 — the high priestly prayer",
+      "prior_refs": [
+        219,
+        220,
+        221
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"John 17 — the high priestly prayer\" already appear, even faintly?"
+    },
+    {
+      "day": 223,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "Paul's vocabulary — Pneuma, Sophia, Pleroma, Mysterion",
+      "focus": "Paul's vocabulary — Pneuma, Sophia, Pleroma, Mysterion",
+      "prior_refs": [
+        220,
+        221,
+        222
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Paul's vocabulary — Pneuma, Sophia, Pleroma, Mysterion\" already appear, even faintly?"
+    },
+    {
+      "day": 224,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "1 Corinthians 2 — the wisdom spoken among the mature",
+      "focus": "1 Corinthians 2 — the wisdom spoken among the mature",
+      "prior_refs": [
+        221,
+        222,
+        223
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"1 Corinthians 2 — the wisdom spoken among the mature\" already appear, even faintly?"
+    },
+    {
+      "day": 225,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "1 Corinthians 13 — agape as the highest law",
+      "focus": "1 Corinthians 13 — agape as the highest law",
+      "prior_refs": [
+        222,
+        223,
+        224
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"1 Corinthians 13 — agape as the highest law\" already appear, even faintly?"
+    },
+    {
+      "day": 226,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "1 Corinthians 15:35–58 — the body that is sown and raised",
+      "focus": "1 Corinthians 15:35–58 — the body that is sown and raised",
+      "prior_refs": [
+        223,
+        224,
+        225
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"1 Corinthians 15:35–58 — the body that is sown and raised\" already appear, even faintly?"
+    },
+    {
+      "day": 227,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "Galatians 3:28 — beyond every division",
+      "focus": "Galatians 3:28 — beyond every division",
+      "prior_refs": [
+        224,
+        225,
+        226
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Galatians 3:28 — beyond every division\" already appear, even faintly?"
+    },
+    {
+      "day": 228,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "Ephesians 1:9–10 — the recapitulation of all things in Christ",
+      "focus": "Ephesians 1:9–10 — the recapitulation of all things in Christ",
+      "prior_refs": [
+        225,
+        226,
+        227
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Ephesians 1:9–10 — the recapitulation of all things in Christ\" already appear, even faintly?"
+    },
+    {
+      "day": 229,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "Colossians 1:15–20 — the cosmic Christ",
+      "focus": "Colossians 1:15–20 — the cosmic Christ",
+      "prior_refs": [
+        226,
+        227,
+        228
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Colossians 1:15–20 — the cosmic Christ\" already appear, even faintly?"
+    },
+    {
+      "day": 230,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "Hebrews 1 — the brightness of the Father's glory",
+      "focus": "Hebrews 1 — the brightness of the Father's glory",
+      "prior_refs": [
+        227,
+        228,
+        229
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Hebrews 1 — the brightness of the Father's glory\" already appear, even faintly?"
+    },
+    {
+      "day": 231,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "Hebrews 7 — the priesthood after the order of Melchizedek",
+      "focus": "Hebrews 7 — the priesthood after the order of Melchizedek",
+      "prior_refs": [
+        228,
+        229,
+        230
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Hebrews 7 — the priesthood after the order of Melchizedek\" already appear, even faintly?"
+    },
+    {
+      "day": 232,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "Hebrews 11 — faith as the substance",
+      "focus": "Hebrews 11 — faith as the substance",
+      "prior_refs": [
+        229,
+        230,
+        231
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Hebrews 11 — faith as the substance\" already appear, even faintly?"
+    },
+    {
+      "day": 233,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "1 John 4:8 — God is love and its esoteric weight",
+      "focus": "1 John 4:8 — God is love and its esoteric weight",
+      "prior_refs": [
+        230,
+        231,
+        232
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"1 John 4:8 — God is love and its esoteric weight\" already appear, even faintly?"
+    },
+    {
+      "day": 234,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "Revelation as initiatory journey, not chronological prophecy",
+      "focus": "Revelation as initiatory journey, not chronological prophecy",
+      "prior_refs": [
+        231,
+        232,
+        233
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Revelation as initiatory journey, not chronological prophecy\" already appear, even faintly?"
+    },
+    {
+      "day": 235,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "Origen — pre-existence of souls; restoration of all",
+      "focus": "Origen — pre-existence of souls; restoration of all",
+      "prior_refs": [
+        232,
+        233,
+        234
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Origen — pre-existence of souls; restoration of all\" already appear, even faintly?"
+    },
+    {
+      "day": 236,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "The Second Council of Constantinople (553 AD) — what was anathematized",
+      "focus": "The Second Council of Constantinople (553 AD) — what was anathematized",
+      "prior_refs": [
+        233,
+        234,
+        235
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Second Council of Constantinople (553 AD) — what was anathematized\" already appear, even faintly?"
+    },
+    {
+      "day": 237,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "Clement of Alexandria — the Christian gnosis",
+      "focus": "Clement of Alexandria — the Christian gnosis",
+      "prior_refs": [
+        234,
+        235,
+        236
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Clement of Alexandria — the Christian gnosis\" already appear, even faintly?"
+    },
+    {
+      "day": 238,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "Pseudo-Dionysius the Areopagite — apophatic theology",
+      "focus": "Pseudo-Dionysius the Areopagite — apophatic theology",
+      "prior_refs": [
+        235,
+        236,
+        237
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Pseudo-Dionysius the Areopagite — apophatic theology\" already appear, even faintly?"
+    },
+    {
+      "day": 239,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "Maximus the Confessor — deification (theosis)",
+      "focus": "Maximus the Confessor — deification (theosis)",
+      "prior_refs": [
+        236,
+        237,
+        238
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Maximus the Confessor — deification (theosis)\" already appear, even faintly?"
+    },
+    {
+      "day": 240,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "Gregory of Nyssa — infinite progress in God",
+      "focus": "Gregory of Nyssa — infinite progress in God",
+      "prior_refs": [
+        237,
+        238,
+        239
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Gregory of Nyssa — infinite progress in God\" already appear, even faintly?"
+    },
+    {
+      "day": 241,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "Meister Eckhart — the spark of the soul",
+      "focus": "Meister Eckhart — the spark of the soul",
+      "prior_refs": [
+        238,
+        239,
+        240
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Meister Eckhart — the spark of the soul\" already appear, even faintly?"
+    },
+    {
+      "day": 242,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "Hildegard of Bingen — visions of the living light",
+      "focus": "Hildegard of Bingen — visions of the living light",
+      "prior_refs": [
+        239,
+        240,
+        241
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Hildegard of Bingen — visions of the living light\" already appear, even faintly?"
+    },
+    {
+      "day": 243,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "The Cloud of Unknowing — apophatic prayer",
+      "focus": "The Cloud of Unknowing — apophatic prayer",
+      "prior_refs": [
+        240,
+        241,
+        242
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Cloud of Unknowing — apophatic prayer\" already appear, even faintly?"
+    },
+    {
+      "day": 244,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "St. John of the Cross — the dark night",
+      "focus": "St. John of the Cross — the dark night",
+      "prior_refs": [
+        241,
+        242,
+        243
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"St. John of the Cross — the dark night\" already appear, even faintly?"
+    },
+    {
+      "day": 245,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "St. Teresa of Ávila — the interior castle",
+      "focus": "St. Teresa of Ávila — the interior castle",
+      "prior_refs": [
+        242,
+        243,
+        244
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"St. Teresa of Ávila — the interior castle\" already appear, even faintly?"
+    },
+    {
+      "day": 246,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "Constantine — when politics swallowed mystery",
+      "focus": "Constantine — when politics swallowed mystery",
+      "prior_refs": [
+        243,
+        244,
+        245
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Constantine — when politics swallowed mystery\" already appear, even faintly?"
+    },
+    {
+      "day": 247,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "What Rome could not afford to preserve",
+      "focus": "What Rome could not afford to preserve",
+      "prior_refs": [
+        244,
+        245,
+        246
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"What Rome could not afford to preserve\" already appear, even faintly?"
+    },
+    {
+      "day": 248,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "The Nicene formula — what it includes and what it omits",
+      "focus": "The Nicene formula — what it includes and what it omits",
+      "prior_refs": [
+        245,
+        246,
+        247
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Nicene formula — what it includes and what it omits\" already appear, even faintly?"
+    },
+    {
+      "day": 249,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "The Council of Chalcedon — what it pins down and what it crushes",
+      "focus": "The Council of Chalcedon — what it pins down and what it crushes",
+      "prior_refs": [
+        246,
+        247,
+        248
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Council of Chalcedon — what it pins down and what it crushes\" already appear, even faintly?"
+    },
+    {
+      "day": 250,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "The Gospel of Thomas — sayings outside the canon",
+      "focus": "The Gospel of Thomas — sayings outside the canon",
+      "prior_refs": [
+        247,
+        248,
+        249
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Gospel of Thomas — sayings outside the canon\" already appear, even faintly?"
+    },
+    {
+      "day": 251,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "The Gospel of Philip — the bridal chamber",
+      "focus": "The Gospel of Philip — the bridal chamber",
+      "prior_refs": [
+        248,
+        249,
+        250
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Gospel of Philip — the bridal chamber\" already appear, even faintly?"
+    },
+    {
+      "day": 252,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "Apocryphon of John — the Sethian cosmos",
+      "focus": "Apocryphon of John — the Sethian cosmos",
+      "prior_refs": [
+        249,
+        250,
+        251
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Apocryphon of John — the Sethian cosmos\" already appear, even faintly?"
+    },
+    {
+      "day": 253,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "Pistis Sophia — Sophia's fall and restoration",
+      "focus": "Pistis Sophia — Sophia's fall and restoration",
+      "prior_refs": [
+        250,
+        251,
+        252
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Pistis Sophia — Sophia's fall and restoration\" already appear, even faintly?"
+    },
+    {
+      "day": 254,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "Valentinian Christianity and its sophistication",
+      "focus": "Valentinian Christianity and its sophistication",
+      "prior_refs": [
+        251,
+        252,
+        253
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Valentinian Christianity and its sophistication\" already appear, even faintly?"
+    },
+    {
+      "day": 255,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "The Sethian Gnostics and their ascent texts",
+      "focus": "The Sethian Gnostics and their ascent texts",
+      "prior_refs": [
+        252,
+        253,
+        254
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Sethian Gnostics and their ascent texts\" already appear, even faintly?"
+    },
+    {
+      "day": 256,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "The Manichean current — what it added and what it distorted",
+      "focus": "The Manichean current — what it added and what it distorted",
+      "prior_refs": [
+        253,
+        254,
+        255
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Manichean current — what it added and what it distorted\" already appear, even faintly?"
+    },
+    {
+      "day": 257,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "The Cathars — the medieval echo",
+      "focus": "The Cathars — the medieval echo",
+      "prior_refs": [
+        254,
+        255,
+        256
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Cathars — the medieval echo\" already appear, even faintly?"
+    },
+    {
+      "day": 258,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "Hesychasm — the Jesus Prayer as practice",
+      "focus": "Hesychasm — the Jesus Prayer as practice",
+      "prior_refs": [
+        255,
+        256,
+        257
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Hesychasm — the Jesus Prayer as practice\" already appear, even faintly?"
+    },
+    {
+      "day": 259,
+      "section": "Mystical Christianity",
+      "weekTopic": "Mystical Christianity",
+      "topic": "Synthesis: the deep current beneath orthodox Christianity",
+      "focus": "Synthesis: the deep current beneath orthodox Christianity",
+      "prior_refs": [
+        256,
+        257,
+        258
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Synthesis: the deep current beneath orthodox Christianity\" already appear, even faintly?"
+    },
+    {
+      "day": 260,
+      "section": "First-Century Jewish Mysticism",
+      "weekTopic": "Merkabah, Hekhalot, Qumran",
+      "topic": "Why first-century Jewish mysticism matters for everything else",
+      "focus": "Why first-century Jewish mysticism matters for everything else",
+      "prior_refs": [
+        257,
+        258,
+        259
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Why first-century Jewish mysticism matters for everything else\" already appear, even faintly?"
+    },
+    {
+      "day": 261,
+      "section": "First-Century Jewish Mysticism",
+      "weekTopic": "Merkabah, Hekhalot, Qumran",
+      "topic": "Merkabah — the chariot tradition before the Talmud closed",
+      "focus": "Merkabah — the chariot tradition before the Talmud closed",
+      "prior_refs": [
+        258,
+        259,
+        260
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Merkabah — the chariot tradition before the Talmud closed\" already appear, even faintly?"
+    },
+    {
+      "day": 262,
+      "section": "First-Century Jewish Mysticism",
+      "weekTopic": "Merkabah, Hekhalot, Qumran",
+      "topic": "Hekhalot literature — the palaces and the ascent",
+      "focus": "Hekhalot literature — the palaces and the ascent",
+      "prior_refs": [
+        259,
+        260,
+        261
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Hekhalot literature — the palaces and the ascent\" already appear, even faintly?"
+    },
+    {
+      "day": 263,
+      "section": "First-Century Jewish Mysticism",
+      "weekTopic": "Merkabah, Hekhalot, Qumran",
+      "topic": "Sefer Yetzirah — the oldest Kabbalistic text",
+      "focus": "Sefer Yetzirah — the oldest Kabbalistic text",
+      "prior_refs": [
+        260,
+        261,
+        262
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Sefer Yetzirah — the oldest Kabbalistic text\" already appear, even faintly?"
+    },
+    {
+      "day": 264,
+      "section": "First-Century Jewish Mysticism",
+      "weekTopic": "Merkabah, Hekhalot, Qumran",
+      "topic": "The Dead Sea community at Qumran — who they were and what they kept",
+      "focus": "The Dead Sea community at Qumran — who they were and what they kept",
+      "prior_refs": [
+        261,
+        262,
+        263
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Dead Sea community at Qumran — who they were and what they kept\" already appear, even faintly?"
+    },
+    {
+      "day": 265,
+      "section": "First-Century Jewish Mysticism",
+      "weekTopic": "Merkabah, Hekhalot, Qumran",
+      "topic": "The Community Rule (1QS) — two spirits in every person",
+      "focus": "The Community Rule (1QS) — two spirits in every person",
+      "prior_refs": [
+        262,
+        263,
+        264
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Community Rule (1QS) — two spirits in every person\" already appear, even faintly?"
+    },
+    {
+      "day": 266,
+      "section": "First-Century Jewish Mysticism",
+      "weekTopic": "Merkabah, Hekhalot, Qumran",
+      "topic": "11Q13 — the Melchizedek scroll explained",
+      "focus": "11Q13 — the Melchizedek scroll explained",
+      "prior_refs": [
+        263,
+        264,
+        265
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"11Q13 — the Melchizedek scroll explained\" already appear, even faintly?"
+    },
+    {
+      "day": 267,
+      "section": "First-Century Jewish Mysticism",
+      "weekTopic": "Merkabah, Hekhalot, Qumran",
+      "topic": "11Q13 continued — Melchizedek and Jubilee theology",
+      "focus": "11Q13 continued — Melchizedek and Jubilee theology",
+      "prior_refs": [
+        264,
+        265,
+        266
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"11Q13 continued — Melchizedek and Jubilee theology\" already appear, even faintly?"
+    },
+    {
+      "day": 268,
+      "section": "First-Century Jewish Mysticism",
+      "weekTopic": "Merkabah, Hekhalot, Qumran",
+      "topic": "The War Scroll and cosmic dualism",
+      "focus": "The War Scroll and cosmic dualism",
+      "prior_refs": [
+        265,
+        266,
+        267
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The War Scroll and cosmic dualism\" already appear, even faintly?"
+    },
+    {
+      "day": 269,
+      "section": "First-Century Jewish Mysticism",
+      "weekTopic": "Merkabah, Hekhalot, Qumran",
+      "topic": "The Thanksgiving Hymns — what Qumran's mystics prayed",
+      "focus": "The Thanksgiving Hymns — what Qumran's mystics prayed",
+      "prior_refs": [
+        266,
+        267,
+        268
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Thanksgiving Hymns — what Qumran's mystics prayed\" already appear, even faintly?"
+    },
+    {
+      "day": 270,
+      "section": "First-Century Jewish Mysticism",
+      "weekTopic": "Merkabah, Hekhalot, Qumran",
+      "topic": "Enochic literature — 1 Enoch and the Book of Watchers",
+      "focus": "Enochic literature — 1 Enoch and the Book of Watchers",
+      "prior_refs": [
+        267,
+        268,
+        269
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Enochic literature — 1 Enoch and the Book of Watchers\" already appear, even faintly?"
+    },
+    {
+      "day": 271,
+      "section": "First-Century Jewish Mysticism",
+      "weekTopic": "Merkabah, Hekhalot, Qumran",
+      "topic": "2 Enoch — the heavenly ascent retold",
+      "focus": "2 Enoch — the heavenly ascent retold",
+      "prior_refs": [
+        268,
+        269,
+        270
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"2 Enoch — the heavenly ascent retold\" already appear, even faintly?"
+    },
+    {
+      "day": 272,
+      "section": "First-Century Jewish Mysticism",
+      "weekTopic": "Merkabah, Hekhalot, Qumran",
+      "topic": "3 Enoch — Enoch transformed into Metatron",
+      "focus": "3 Enoch — Enoch transformed into Metatron",
+      "prior_refs": [
+        269,
+        270,
+        271
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"3 Enoch — Enoch transformed into Metatron\" already appear, even faintly?"
+    },
+    {
+      "day": 273,
+      "section": "First-Century Jewish Mysticism",
+      "weekTopic": "Merkabah, Hekhalot, Qumran",
+      "topic": "The Apocalypse of Abraham — vision and ascent",
+      "focus": "The Apocalypse of Abraham — vision and ascent",
+      "prior_refs": [
+        270,
+        271,
+        272
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Apocalypse of Abraham — vision and ascent\" already appear, even faintly?"
+    },
+    {
+      "day": 274,
+      "section": "First-Century Jewish Mysticism",
+      "weekTopic": "Merkabah, Hekhalot, Qumran",
+      "topic": "The Testament of Levi — a priestly initiation",
+      "focus": "The Testament of Levi — a priestly initiation",
+      "prior_refs": [
+        271,
+        272,
+        273
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Testament of Levi — a priestly initiation\" already appear, even faintly?"
+    },
+    {
+      "day": 275,
+      "section": "First-Century Jewish Mysticism",
+      "weekTopic": "Merkabah, Hekhalot, Qumran",
+      "topic": "Philo of Alexandria — the marriage of Plato and Moses",
+      "focus": "Philo of Alexandria — the marriage of Plato and Moses",
+      "prior_refs": [
+        272,
+        273,
+        274
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Philo of Alexandria — the marriage of Plato and Moses\" already appear, even faintly?"
+    },
+    {
+      "day": 276,
+      "section": "First-Century Jewish Mysticism",
+      "weekTopic": "Merkabah, Hekhalot, Qumran",
+      "topic": "Philo on the Logos — the Word that became flesh elsewhere",
+      "focus": "Philo on the Logos — the Word that became flesh elsewhere",
+      "prior_refs": [
+        273,
+        274,
+        275
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Philo on the Logos — the Word that became flesh elsewhere\" already appear, even faintly?"
+    },
+    {
+      "day": 277,
+      "section": "First-Century Jewish Mysticism",
+      "weekTopic": "Merkabah, Hekhalot, Qumran",
+      "topic": "Therapeutae of Egypt — what they practiced",
+      "focus": "Therapeutae of Egypt — what they practiced",
+      "prior_refs": [
+        274,
+        275,
+        276
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Therapeutae of Egypt — what they practiced\" already appear, even faintly?"
+    },
+    {
+      "day": 278,
+      "section": "First-Century Jewish Mysticism",
+      "weekTopic": "Merkabah, Hekhalot, Qumran",
+      "topic": "The Essenes as the Greco-Roman world saw them",
+      "focus": "The Essenes as the Greco-Roman world saw them",
+      "prior_refs": [
+        275,
+        276,
+        277
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Essenes as the Greco-Roman world saw them\" already appear, even faintly?"
+    },
+    {
+      "day": 279,
+      "section": "First-Century Jewish Mysticism",
+      "weekTopic": "Merkabah, Hekhalot, Qumran",
+      "topic": "Hekhalot Rabbati — the palace texts",
+      "focus": "Hekhalot Rabbati — the palace texts",
+      "prior_refs": [
+        276,
+        277,
+        278
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Hekhalot Rabbati — the palace texts\" already appear, even faintly?"
+    },
+    {
+      "day": 280,
+      "section": "First-Century Jewish Mysticism",
+      "weekTopic": "Merkabah, Hekhalot, Qumran",
+      "topic": "Shi'ur Qomah — the divine body of measurement",
+      "focus": "Shi'ur Qomah — the divine body of measurement",
+      "prior_refs": [
+        277,
+        278,
+        279
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Shi'ur Qomah — the divine body of measurement\" already appear, even faintly?"
+    },
+    {
+      "day": 281,
+      "section": "First-Century Jewish Mysticism",
+      "weekTopic": "Merkabah, Hekhalot, Qumran",
+      "topic": "Maaseh Bereshit — the work of creation",
+      "focus": "Maaseh Bereshit — the work of creation",
+      "prior_refs": [
+        278,
+        279,
+        280
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Maaseh Bereshit — the work of creation\" already appear, even faintly?"
+    },
+    {
+      "day": 282,
+      "section": "First-Century Jewish Mysticism",
+      "weekTopic": "Merkabah, Hekhalot, Qumran",
+      "topic": "Maaseh Merkavah — the work of the chariot",
+      "focus": "Maaseh Merkavah — the work of the chariot",
+      "prior_refs": [
+        279,
+        280,
+        281
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Maaseh Merkavah — the work of the chariot\" already appear, even faintly?"
+    },
+    {
+      "day": 283,
+      "section": "First-Century Jewish Mysticism",
+      "weekTopic": "Merkabah, Hekhalot, Qumran",
+      "topic": "Pardes — the four who entered the garden",
+      "focus": "Pardes — the four who entered the garden",
+      "prior_refs": [
+        280,
+        281,
+        282
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Pardes — the four who entered the garden\" already appear, even faintly?"
+    },
+    {
+      "day": 284,
+      "section": "First-Century Jewish Mysticism",
+      "weekTopic": "Merkabah, Hekhalot, Qumran",
+      "topic": "Akiva who entered in peace and came out in peace",
+      "focus": "Akiva who entered in peace and came out in peace",
+      "prior_refs": [
+        281,
+        282,
+        283
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Akiva who entered in peace and came out in peace\" already appear, even faintly?"
+    },
+    {
+      "day": 285,
+      "section": "First-Century Jewish Mysticism",
+      "weekTopic": "Merkabah, Hekhalot, Qumran",
+      "topic": "Hagigah 14b — the foundational Pardes story",
+      "focus": "Hagigah 14b — the foundational Pardes story",
+      "prior_refs": [
+        282,
+        283,
+        284
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Hagigah 14b — the foundational Pardes story\" already appear, even faintly?"
+    },
+    {
+      "day": 286,
+      "section": "First-Century Jewish Mysticism",
+      "weekTopic": "Merkabah, Hekhalot, Qumran",
+      "topic": "The seventy faces of Torah",
+      "focus": "The seventy faces of Torah",
+      "prior_refs": [
+        283,
+        284,
+        285
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The seventy faces of Torah\" already appear, even faintly?"
+    },
+    {
+      "day": 287,
+      "section": "First-Century Jewish Mysticism",
+      "weekTopic": "Merkabah, Hekhalot, Qumran",
+      "topic": "The Bahir — first medieval gleam of Kabbalah",
+      "focus": "The Bahir — first medieval gleam of Kabbalah",
+      "prior_refs": [
+        284,
+        285,
+        286
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Bahir — first medieval gleam of Kabbalah\" already appear, even faintly?"
+    },
+    {
+      "day": 288,
+      "section": "First-Century Jewish Mysticism",
+      "weekTopic": "Merkabah, Hekhalot, Qumran",
+      "topic": "The Zohar — its claims and its substance",
+      "focus": "The Zohar — its claims and its substance",
+      "prior_refs": [
+        285,
+        286,
+        287
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Zohar — its claims and its substance\" already appear, even faintly?"
+    },
+    {
+      "day": 289,
+      "section": "First-Century Jewish Mysticism",
+      "weekTopic": "Merkabah, Hekhalot, Qumran",
+      "topic": "Synthesis: the unbroken stream from Hekhalot to Kabbalah",
+      "focus": "Synthesis: the unbroken stream from Hekhalot to Kabbalah",
+      "prior_refs": [
+        286,
+        287,
+        288
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Synthesis: the unbroken stream from Hekhalot to Kabbalah\" already appear, even faintly?"
+    },
+    {
+      "day": 290,
+      "section": "Comparative Tradition",
+      "weekTopic": "Neoplatonism, Sufism, Vedanta, Taoism",
+      "topic": "Why compare — what comparison reveals and what it conceals",
+      "focus": "Why compare — what comparison reveals and what it conceals",
+      "prior_refs": [
+        287,
+        288,
+        289
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Why compare — what comparison reveals and what it conceals\" already appear, even faintly?"
+    },
+    {
+      "day": 291,
+      "section": "Comparative Tradition",
+      "weekTopic": "Neoplatonism, Sufism, Vedanta, Taoism",
+      "topic": "Plotinus — the One and the procession of being",
+      "focus": "Plotinus — the One and the procession of being",
+      "prior_refs": [
+        288,
+        289,
+        290
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Plotinus — the One and the procession of being\" already appear, even faintly?"
+    },
+    {
+      "day": 292,
+      "section": "Comparative Tradition",
+      "weekTopic": "Neoplatonism, Sufism, Vedanta, Taoism",
+      "topic": "Plotinus — the return of the soul",
+      "focus": "Plotinus — the return of the soul",
+      "prior_refs": [
+        289,
+        290,
+        291
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Plotinus — the return of the soul\" already appear, even faintly?"
+    },
+    {
+      "day": 293,
+      "section": "Comparative Tradition",
+      "weekTopic": "Neoplatonism, Sufism, Vedanta, Taoism",
+      "topic": "Iamblichus — theurgy and the divine names",
+      "focus": "Iamblichus — theurgy and the divine names",
+      "prior_refs": [
+        290,
+        291,
+        292
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Iamblichus — theurgy and the divine names\" already appear, even faintly?"
+    },
+    {
+      "day": 294,
+      "section": "Comparative Tradition",
+      "weekTopic": "Neoplatonism, Sufism, Vedanta, Taoism",
+      "topic": "Porphyry — the philosopher who edited Plotinus",
+      "focus": "Porphyry — the philosopher who edited Plotinus",
+      "prior_refs": [
+        291,
+        292,
+        293
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Porphyry — the philosopher who edited Plotinus\" already appear, even faintly?"
+    },
+    {
+      "day": 295,
+      "section": "Comparative Tradition",
+      "weekTopic": "Neoplatonism, Sufism, Vedanta, Taoism",
+      "topic": "Proclus — Platonic theology as architecture",
+      "focus": "Proclus — Platonic theology as architecture",
+      "prior_refs": [
+        292,
+        293,
+        294
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Proclus — Platonic theology as architecture\" already appear, even faintly?"
+    },
+    {
+      "day": 296,
+      "section": "Comparative Tradition",
+      "weekTopic": "Neoplatonism, Sufism, Vedanta, Taoism",
+      "topic": "The Chaldean Oracles — late Neoplatonic ritual texts",
+      "focus": "The Chaldean Oracles — late Neoplatonic ritual texts",
+      "prior_refs": [
+        293,
+        294,
+        295
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Chaldean Oracles — late Neoplatonic ritual texts\" already appear, even faintly?"
+    },
+    {
+      "day": 297,
+      "section": "Comparative Tradition",
+      "weekTopic": "Neoplatonism, Sufism, Vedanta, Taoism",
+      "topic": "The Emerald Tablet — its Arabic, Latin, and Hermetic lives",
+      "focus": "The Emerald Tablet — its Arabic, Latin, and Hermetic lives",
+      "prior_refs": [
+        294,
+        295,
+        296
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Emerald Tablet — its Arabic, Latin, and Hermetic lives\" already appear, even faintly?"
+    },
+    {
+      "day": 298,
+      "section": "Comparative Tradition",
+      "weekTopic": "Neoplatonism, Sufism, Vedanta, Taoism",
+      "topic": "Hermes Trismegistus in Renaissance Florence",
+      "focus": "Hermes Trismegistus in Renaissance Florence",
+      "prior_refs": [
+        295,
+        296,
+        297
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Hermes Trismegistus in Renaissance Florence\" already appear, even faintly?"
+    },
+    {
+      "day": 299,
+      "section": "Comparative Tradition",
+      "weekTopic": "Neoplatonism, Sufism, Vedanta, Taoism",
+      "topic": "Marsilio Ficino and the Hermetic revival",
+      "focus": "Marsilio Ficino and the Hermetic revival",
+      "prior_refs": [
+        296,
+        297,
+        298
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Marsilio Ficino and the Hermetic revival\" already appear, even faintly?"
+    },
+    {
+      "day": 300,
+      "section": "Comparative Tradition",
+      "weekTopic": "Neoplatonism, Sufism, Vedanta, Taoism",
+      "topic": "Giordano Bruno — the cosmologist burned at the stake",
+      "focus": "Giordano Bruno — the cosmologist burned at the stake",
+      "prior_refs": [
+        297,
+        298,
+        299
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Giordano Bruno — the cosmologist burned at the stake\" already appear, even faintly?"
+    },
+    {
+      "day": 301,
+      "section": "Comparative Tradition",
+      "weekTopic": "Neoplatonism, Sufism, Vedanta, Taoism",
+      "topic": "Rumi — the silent poet of fana",
+      "focus": "Rumi — the silent poet of fana",
+      "prior_refs": [
+        298,
+        299,
+        300
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Rumi — the silent poet of fana\" already appear, even faintly?"
+    },
+    {
+      "day": 302,
+      "section": "Comparative Tradition",
+      "weekTopic": "Neoplatonism, Sufism, Vedanta, Taoism",
+      "topic": "Rumi — 'Out beyond ideas of wrongdoing and rightdoing'",
+      "focus": "Rumi — 'Out beyond ideas of wrongdoing and rightdoing'",
+      "prior_refs": [
+        299,
+        300,
+        301
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Rumi — 'Out beyond ideas of wrongdoing and rightdoing'\" already appear, even faintly?"
+    },
+    {
+      "day": 303,
+      "section": "Comparative Tradition",
+      "weekTopic": "Neoplatonism, Sufism, Vedanta, Taoism",
+      "topic": "Ibn Arabi — the unity of being (wahdat al-wujud)",
+      "focus": "Ibn Arabi — the unity of being (wahdat al-wujud)",
+      "prior_refs": [
+        300,
+        301,
+        302
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Ibn Arabi — the unity of being (wahdat al-wujud)\" already appear, even faintly?"
+    },
+    {
+      "day": 304,
+      "section": "Comparative Tradition",
+      "weekTopic": "Neoplatonism, Sufism, Vedanta, Taoism",
+      "topic": "Ibn Arabi — the divine self-disclosures (tajalliyat)",
+      "focus": "Ibn Arabi — the divine self-disclosures (tajalliyat)",
+      "prior_refs": [
+        301,
+        302,
+        303
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Ibn Arabi — the divine self-disclosures (tajalliyat)\" already appear, even faintly?"
+    },
+    {
+      "day": 305,
+      "section": "Comparative Tradition",
+      "weekTopic": "Neoplatonism, Sufism, Vedanta, Taoism",
+      "topic": "Suhrawardi — the philosophy of illumination",
+      "focus": "Suhrawardi — the philosophy of illumination",
+      "prior_refs": [
+        302,
+        303,
+        304
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Suhrawardi — the philosophy of illumination\" already appear, even faintly?"
+    },
+    {
+      "day": 306,
+      "section": "Comparative Tradition",
+      "weekTopic": "Neoplatonism, Sufism, Vedanta, Taoism",
+      "topic": "Al-Ghazali — the inner science of Islam",
+      "focus": "Al-Ghazali — the inner science of Islam",
+      "prior_refs": [
+        303,
+        304,
+        305
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Al-Ghazali — the inner science of Islam\" already appear, even faintly?"
+    },
+    {
+      "day": 307,
+      "section": "Comparative Tradition",
+      "weekTopic": "Neoplatonism, Sufism, Vedanta, Taoism",
+      "topic": "The Sufi station and state vocabulary",
+      "focus": "The Sufi station and state vocabulary",
+      "prior_refs": [
+        304,
+        305,
+        306
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Sufi station and state vocabulary\" already appear, even faintly?"
+    },
+    {
+      "day": 308,
+      "section": "Comparative Tradition",
+      "weekTopic": "Neoplatonism, Sufism, Vedanta, Taoism",
+      "topic": "The Sufi sama' — listening as practice",
+      "focus": "The Sufi sama' — listening as practice",
+      "prior_refs": [
+        305,
+        306,
+        307
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Sufi sama' — listening as practice\" already appear, even faintly?"
+    },
+    {
+      "day": 309,
+      "section": "Comparative Tradition",
+      "weekTopic": "Neoplatonism, Sufism, Vedanta, Taoism",
+      "topic": "Hafiz — the drunkard who knew",
+      "focus": "Hafiz — the drunkard who knew",
+      "prior_refs": [
+        306,
+        307,
+        308
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Hafiz — the drunkard who knew\" already appear, even faintly?"
+    },
+    {
+      "day": 310,
+      "section": "Comparative Tradition",
+      "weekTopic": "Neoplatonism, Sufism, Vedanta, Taoism",
+      "topic": "Attar — the conference of the birds",
+      "focus": "Attar — the conference of the birds",
+      "prior_refs": [
+        307,
+        308,
+        309
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Attar — the conference of the birds\" already appear, even faintly?"
+    },
+    {
+      "day": 311,
+      "section": "Comparative Tradition",
+      "weekTopic": "Neoplatonism, Sufism, Vedanta, Taoism",
+      "topic": "Vedic Upanishads — atman is brahman",
+      "focus": "Vedic Upanishads — atman is brahman",
+      "prior_refs": [
+        308,
+        309,
+        310
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Vedic Upanishads — atman is brahman\" already appear, even faintly?"
+    },
+    {
+      "day": 312,
+      "section": "Comparative Tradition",
+      "weekTopic": "Neoplatonism, Sufism, Vedanta, Taoism",
+      "topic": "Patanjali — the eight limbs",
+      "focus": "Patanjali — the eight limbs",
+      "prior_refs": [
+        309,
+        310,
+        311
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Patanjali — the eight limbs\" already appear, even faintly?"
+    },
+    {
+      "day": 313,
+      "section": "Comparative Tradition",
+      "weekTopic": "Neoplatonism, Sufism, Vedanta, Taoism",
+      "topic": "Tibetan dzogchen — the natural state",
+      "focus": "Tibetan dzogchen — the natural state",
+      "prior_refs": [
+        310,
+        311,
+        312
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Tibetan dzogchen — the natural state\" already appear, even faintly?"
+    },
+    {
+      "day": 314,
+      "section": "Comparative Tradition",
+      "weekTopic": "Neoplatonism, Sufism, Vedanta, Taoism",
+      "topic": "Tao Te Ching — the way that cannot be named",
+      "focus": "Tao Te Ching — the way that cannot be named",
+      "prior_refs": [
+        311,
+        312,
+        313
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Tao Te Ching — the way that cannot be named\" already appear, even faintly?"
+    },
+    {
+      "day": 315,
+      "section": "Comparative Tradition",
+      "weekTopic": "Neoplatonism, Sufism, Vedanta, Taoism",
+      "topic": "Chuang Tzu — the butterfly dream",
+      "focus": "Chuang Tzu — the butterfly dream",
+      "prior_refs": [
+        312,
+        313,
+        314
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Chuang Tzu — the butterfly dream\" already appear, even faintly?"
+    },
+    {
+      "day": 316,
+      "section": "Comparative Tradition",
+      "weekTopic": "Neoplatonism, Sufism, Vedanta, Taoism",
+      "topic": "Zen — pointing at the moon",
+      "focus": "Zen — pointing at the moon",
+      "prior_refs": [
+        313,
+        314,
+        315
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Zen — pointing at the moon\" already appear, even faintly?"
+    },
+    {
+      "day": 317,
+      "section": "Comparative Tradition",
+      "weekTopic": "Neoplatonism, Sufism, Vedanta, Taoism",
+      "topic": "Sufi parallels with Christian apophatic theology",
+      "focus": "Sufi parallels with Christian apophatic theology",
+      "prior_refs": [
+        314,
+        315,
+        316
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Sufi parallels with Christian apophatic theology\" already appear, even faintly?"
+    },
+    {
+      "day": 318,
+      "section": "Comparative Tradition",
+      "weekTopic": "Neoplatonism, Sufism, Vedanta, Taoism",
+      "topic": "Hermetic parallels with Vedanta",
+      "focus": "Hermetic parallels with Vedanta",
+      "prior_refs": [
+        315,
+        316,
+        317
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Hermetic parallels with Vedanta\" already appear, even faintly?"
+    },
+    {
+      "day": 319,
+      "section": "Comparative Tradition",
+      "weekTopic": "Neoplatonism, Sufism, Vedanta, Taoism",
+      "topic": "Synthesis: the common architecture beneath all initiatory traditions",
+      "focus": "Synthesis: the common architecture beneath all initiatory traditions",
+      "prior_refs": [
+        316,
+        317,
+        318
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Synthesis: the common architecture beneath all initiatory traditions\" already appear, even faintly?"
+    },
+    {
+      "day": 320,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "Why sacred geometry — pattern as the language of the cosmos",
+      "focus": "Why sacred geometry — pattern as the language of the cosmos",
+      "prior_refs": [
+        317,
+        318,
+        319
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Why sacred geometry — pattern as the language of the cosmos\" already appear, even faintly?"
+    },
+    {
+      "day": 321,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "The Point, the Line, the Triangle — the first steps of creation",
+      "focus": "The Point, the Line, the Triangle — the first steps of creation",
+      "prior_refs": [
+        318,
+        319,
+        320
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Point, the Line, the Triangle — the first steps of creation\" already appear, even faintly?"
+    },
+    {
+      "day": 322,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "The Vesica Piscis — the womb where two become three",
+      "focus": "The Vesica Piscis — the womb where two become three",
+      "prior_refs": [
+        319,
+        320,
+        321
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Vesica Piscis — the womb where two become three\" already appear, even faintly?"
+    },
+    {
+      "day": 323,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "The Flower of Life — the seed pattern of organic form",
+      "focus": "The Flower of Life — the seed pattern of organic form",
+      "prior_refs": [
+        320,
+        321,
+        322
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Flower of Life — the seed pattern of organic form\" already appear, even faintly?"
+    },
+    {
+      "day": 324,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "Metatron's Cube — the platonic solids implicit in the Fruit of Life",
+      "focus": "Metatron's Cube — the platonic solids implicit in the Fruit of Life",
+      "prior_refs": [
+        321,
+        322,
+        323
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Metatron's Cube — the platonic solids implicit in the Fruit of Life\" already appear, even faintly?"
+    },
+    {
+      "day": 325,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "The Tetrahedron — fire",
+      "focus": "The Tetrahedron — fire",
+      "prior_refs": [
+        322,
+        323,
+        324
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Tetrahedron — fire\" already appear, even faintly?"
+    },
+    {
+      "day": 326,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "The Cube — earth",
+      "focus": "The Cube — earth",
+      "prior_refs": [
+        323,
+        324,
+        325
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Cube — earth\" already appear, even faintly?"
+    },
+    {
+      "day": 327,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "The Octahedron — air",
+      "focus": "The Octahedron — air",
+      "prior_refs": [
+        324,
+        325,
+        326
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Octahedron — air\" already appear, even faintly?"
+    },
+    {
+      "day": 328,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "The Icosahedron — water",
+      "focus": "The Icosahedron — water",
+      "prior_refs": [
+        325,
+        326,
+        327
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Icosahedron — water\" already appear, even faintly?"
+    },
+    {
+      "day": 329,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "The Dodecahedron — ether / the cosmos",
+      "focus": "The Dodecahedron — ether / the cosmos",
+      "prior_refs": [
+        326,
+        327,
+        328
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Dodecahedron — ether / the cosmos\" already appear, even faintly?"
+    },
+    {
+      "day": 330,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "The Golden Ratio — phi and the proportions of beauty",
+      "focus": "The Golden Ratio — phi and the proportions of beauty",
+      "prior_refs": [
+        327,
+        328,
+        329
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Golden Ratio — phi and the proportions of beauty\" already appear, even faintly?"
+    },
+    {
+      "day": 331,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "The Fibonacci Sequence — phi unfolding in time",
+      "focus": "The Fibonacci Sequence — phi unfolding in time",
+      "prior_refs": [
+        328,
+        329,
+        330
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Fibonacci Sequence — phi unfolding in time\" already appear, even faintly?"
+    },
+    {
+      "day": 332,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "Pythagoras and the music of the spheres",
+      "focus": "Pythagoras and the music of the spheres",
+      "prior_refs": [
+        329,
+        330,
+        331
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Pythagoras and the music of the spheres\" already appear, even faintly?"
+    },
+    {
+      "day": 333,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "Sacred geometry in Gothic cathedrals",
+      "focus": "Sacred geometry in Gothic cathedrals",
+      "prior_refs": [
+        330,
+        331,
+        332
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Sacred geometry in Gothic cathedrals\" already appear, even faintly?"
+    },
+    {
+      "day": 334,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "Sacred geometry in Islamic art",
+      "focus": "Sacred geometry in Islamic art",
+      "prior_refs": [
+        331,
+        332,
+        333
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Sacred geometry in Islamic art\" already appear, even faintly?"
+    },
+    {
+      "day": 335,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "Sacred geometry in mandalas",
+      "focus": "Sacred geometry in mandalas",
+      "prior_refs": [
+        332,
+        333,
+        334
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Sacred geometry in mandalas\" already appear, even faintly?"
+    },
+    {
+      "day": 336,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "The Sri Yantra — geometry of the divine feminine",
+      "focus": "The Sri Yantra — geometry of the divine feminine",
+      "prior_refs": [
+        333,
+        334,
+        335
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Sri Yantra — geometry of the divine feminine\" already appear, even faintly?"
+    },
+    {
+      "day": 337,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "Why alchemy is not chemistry",
+      "focus": "Why alchemy is not chemistry",
+      "prior_refs": [
+        334,
+        335,
+        336
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Why alchemy is not chemistry\" already appear, even faintly?"
+    },
+    {
+      "day": 338,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "Prima Materia — the unformed substance",
+      "focus": "Prima Materia — the unformed substance",
+      "prior_refs": [
+        335,
+        336,
+        337
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Prima Materia — the unformed substance\" already appear, even faintly?"
+    },
+    {
+      "day": 339,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "Sulfur, Mercury, Salt — the three principles",
+      "focus": "Sulfur, Mercury, Salt — the three principles",
+      "prior_refs": [
+        336,
+        337,
+        338
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Sulfur, Mercury, Salt — the three principles\" already appear, even faintly?"
+    },
+    {
+      "day": 340,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "Calcinatio — burning to ash",
+      "focus": "Calcinatio — burning to ash",
+      "prior_refs": [
+        337,
+        338,
+        339
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Calcinatio — burning to ash\" already appear, even faintly?"
+    },
+    {
+      "day": 341,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "Solutio — dissolution in waters",
+      "focus": "Solutio — dissolution in waters",
+      "prior_refs": [
+        338,
+        339,
+        340
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Solutio — dissolution in waters\" already appear, even faintly?"
+    },
+    {
+      "day": 342,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "Coagulatio — taking form again",
+      "focus": "Coagulatio — taking form again",
+      "prior_refs": [
+        339,
+        340,
+        341
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Coagulatio — taking form again\" already appear, even faintly?"
+    },
+    {
+      "day": 343,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "Sublimatio — rising to refinement",
+      "focus": "Sublimatio — rising to refinement",
+      "prior_refs": [
+        340,
+        341,
+        342
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Sublimatio — rising to refinement\" already appear, even faintly?"
+    },
+    {
+      "day": 344,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "Mortificatio — the death stage",
+      "focus": "Mortificatio — the death stage",
+      "prior_refs": [
+        341,
+        342,
+        343
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Mortificatio — the death stage\" already appear, even faintly?"
+    },
+    {
+      "day": 345,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "Separatio — distinguishing what mingles",
+      "focus": "Separatio — distinguishing what mingles",
+      "prior_refs": [
+        342,
+        343,
+        344
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Separatio — distinguishing what mingles\" already appear, even faintly?"
+    },
+    {
+      "day": 346,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "Coniunctio — the marriage of opposites",
+      "focus": "Coniunctio — the marriage of opposites",
+      "prior_refs": [
+        343,
+        344,
+        345
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Coniunctio — the marriage of opposites\" already appear, even faintly?"
+    },
+    {
+      "day": 347,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "The Philosopher's Stone — what it is and what it isn't",
+      "focus": "The Philosopher's Stone — what it is and what it isn't",
+      "prior_refs": [
+        344,
+        345,
+        346
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Philosopher's Stone — what it is and what it isn't\" already appear, even faintly?"
+    },
+    {
+      "day": 348,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "The Peacock's Tail — the multiplication of colors",
+      "focus": "The Peacock's Tail — the multiplication of colors",
+      "prior_refs": [
+        345,
+        346,
+        347
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Peacock's Tail — the multiplication of colors\" already appear, even faintly?"
+    },
+    {
+      "day": 349,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "The Red King and the White Queen — the alchemical marriage",
+      "focus": "The Red King and the White Queen — the alchemical marriage",
+      "prior_refs": [
+        346,
+        347,
+        348
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Red King and the White Queen — the alchemical marriage\" already appear, even faintly?"
+    },
+    {
+      "day": 350,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "The Ouroboros — the serpent that swallows its tail",
+      "focus": "The Ouroboros — the serpent that swallows its tail",
+      "prior_refs": [
+        347,
+        348,
+        349
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Ouroboros — the serpent that swallows its tail\" already appear, even faintly?"
+    },
+    {
+      "day": 351,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "The Pelican — the bird that feeds on its own breast",
+      "focus": "The Pelican — the bird that feeds on its own breast",
+      "prior_refs": [
+        348,
+        349,
+        350
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Pelican — the bird that feeds on its own breast\" already appear, even faintly?"
+    },
+    {
+      "day": 352,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "Carl Jung on alchemy as inner work",
+      "focus": "Carl Jung on alchemy as inner work",
+      "prior_refs": [
+        349,
+        350,
+        351
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Carl Jung on alchemy as inner work\" already appear, even faintly?"
+    },
+    {
+      "day": 353,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "Splendor Solis — the great alchemical manuscript",
+      "focus": "Splendor Solis — the great alchemical manuscript",
+      "prior_refs": [
+        350,
+        351,
+        352
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Splendor Solis — the great alchemical manuscript\" already appear, even faintly?"
+    },
+    {
+      "day": 354,
+      "section": "Sacred Geometry & Alchemy",
+      "weekTopic": "Geometry & Alchemy",
+      "topic": "Synthesis: the Great Work in your own life",
+      "focus": "Synthesis: the Great Work in your own life",
+      "prior_refs": [
+        351,
+        352,
+        353
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Synthesis: the Great Work in your own life\" already appear, even faintly?"
+    },
+    {
+      "day": 355,
+      "section": "Synthesis",
+      "weekTopic": "The Year Reviewed",
+      "topic": "Looking back at the year — what has changed in you",
+      "focus": "Looking back at the year — what has changed in you",
+      "prior_refs": [
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Looking back at the year — what has changed in you\" already appear, even faintly?"
+    },
+    {
+      "day": 356,
+      "section": "Synthesis",
+      "weekTopic": "The Year Reviewed",
+      "topic": "The Seven Principles, revisited from where you now stand",
+      "focus": "The Seven Principles, revisited from where you now stand",
+      "prior_refs": [
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        355
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Seven Principles, revisited from where you now stand\" already appear, even faintly?"
+    },
+    {
+      "day": 357,
+      "section": "Synthesis",
+      "weekTopic": "The Year Reviewed",
+      "topic": "The Tree of Life as your own body now",
+      "focus": "The Tree of Life as your own body now",
+      "prior_refs": [
+        350,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Tree of Life as your own body now\" already appear, even faintly?"
+    },
+    {
+      "day": 358,
+      "section": "Synthesis",
+      "weekTopic": "The Year Reviewed",
+      "topic": "PaRDeS as your default way of reading anything",
+      "focus": "PaRDeS as your default way of reading anything",
+      "prior_refs": [
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"PaRDeS as your default way of reading anything\" already appear, even faintly?"
+    },
+    {
+      "day": 359,
+      "section": "Synthesis",
+      "weekTopic": "The Year Reviewed",
+      "topic": "The Lodge within — your own inner architecture",
+      "focus": "The Lodge within — your own inner architecture",
+      "prior_refs": [
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Lodge within — your own inner architecture\" already appear, even faintly?"
+    },
+    {
+      "day": 360,
+      "section": "Synthesis",
+      "weekTopic": "The Year Reviewed",
+      "topic": "The Hidden Christ — what you now recognize",
+      "focus": "The Hidden Christ — what you now recognize",
+      "prior_refs": [
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Hidden Christ — what you now recognize\" already appear, even faintly?"
+    },
+    {
+      "day": 361,
+      "section": "Synthesis",
+      "weekTopic": "The Year Reviewed",
+      "topic": "The Ascent — what Merkabah means in your own dreams",
+      "focus": "The Ascent — what Merkabah means in your own dreams",
+      "prior_refs": [
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Ascent — what Merkabah means in your own dreams\" already appear, even faintly?"
+    },
+    {
+      "day": 362,
+      "section": "Synthesis",
+      "weekTopic": "The Year Reviewed",
+      "topic": "The Marriage — what 'union' has come to mean",
+      "focus": "The Marriage — what 'union' has come to mean",
+      "prior_refs": [
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Marriage — what 'union' has come to mean\" already appear, even faintly?"
+    },
+    {
+      "day": 363,
+      "section": "Synthesis",
+      "weekTopic": "The Year Reviewed",
+      "topic": "The Stone — the work that remains",
+      "focus": "The Stone — the work that remains",
+      "prior_refs": [
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        362
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Stone — the work that remains\" already appear, even faintly?"
+    },
+    {
+      "day": 364,
+      "section": "Synthesis",
+      "weekTopic": "The Year Reviewed",
+      "topic": "The Quiet — what the silence between the lessons has been teaching",
+      "focus": "The Quiet — what the silence between the lessons has been teaching",
+      "prior_refs": [
+        357,
+        358,
+        359,
+        360,
+        361,
+        362,
+        363
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"The Quiet — what the silence between the lessons has been teaching\" already appear, even faintly?"
+    },
+    {
+      "day": 365,
+      "section": "Synthesis",
+      "weekTopic": "The Year Reviewed",
+      "topic": "Year Two — what comes next on the spiral",
+      "focus": "Year Two — what comes next on the spiral",
+      "prior_refs": [
+        358,
+        359,
+        360,
+        361,
+        362,
+        363,
+        364
+      ],
+      "seed": "Sit briefly with this question: where in your life right now does \"Year Two — what comes next on the spiral\" already appear, even faintly?"
+    }
+  ]
+}
