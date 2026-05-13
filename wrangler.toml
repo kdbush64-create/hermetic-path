@@ -16,7 +16,7 @@ globs = ["**/*.json"]
 fallthrough = true
 
 # ---------------------------------------------------------------------------
-# DEV environment — deploys to hermetic-path-dev.<account>.workers.dev
+# DEV environment — deploys to hermetic-path-dev.kdbush64.workers.dev
 # ---------------------------------------------------------------------------
 [env.dev]
 name = "hermetic-path-dev"
@@ -30,12 +30,12 @@ id = "e0272c7f42d44a67a1828571b3233688"
 binding = "HERMETIC_INVITES"
 id = "c2c70e208b1b441a8ded72c270804a0c"
 
-# Cloudflare Workers AI — free tier, runs Llama 3.3 70B inside CF.
 [env.dev.ai]
 binding = "AI"
 
 [env.dev.vars]
 ENVIRONMENT = "dev"
+ADMIN_EMAIL = "kdbush64@gmail.com"
 
 # ---------------------------------------------------------------------------
 # PRODUCTION environment — serves hermeticpath.v64otd.com
@@ -60,3 +60,4 @@ binding = "AI"
 
 [env.production.vars]
 ENVIRONMENT = "production"
+ADMIN_EMAIL = "kdbush64@gmail.com"
