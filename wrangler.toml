@@ -9,12 +9,6 @@ type = "Text"
 globs = ["**/*.html", "**/*.webmanifest", "**/*.txt", "**/*.svg"]
 fallthrough = true
 
-# Import .json files as parsed JS objects.
-[[rules]]
-type = "Data"
-globs = ["**/*.json"]
-fallthrough = true
-
 # ---------------------------------------------------------------------------
 # DEV environment — deploys to hermetic-path-dev.kdbush64.workers.dev
 # ---------------------------------------------------------------------------
