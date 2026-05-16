@@ -57,7 +57,8 @@ import {
   verifySessionToken,
 } from "./auth.js";
 
-import { buildPrompt, callClaude } from "./prompts.js";
+import { generate as runGenerate, curriculumDay, getCurriculum } from "./prompts.js";
+import symbolsData from "./symbols.json";
 
 export default {
   async fetch(request, env, ctx) {
@@ -110,7 +111,57 @@ async function route(request, env) {
     return jsonResponse({
       hasUsers,
       environment: env.ENVIRONMENT || "unknown",
-      configured: Boolean(env.HERMETIC_USERS && env.SESSION_SECRET && env.ANTHROPIC_API_KEY),
+      // "configured" means: enough to sign in and use the app.
+      configured: Boolean(env.HERMETIC_USERS && env.SESSION_SECRET && (env.AI || env.ANTHROPIC_API_KEY)),
+      aiProvider: env.ANTHROPIC_API_KEY ? "anthropic" : (env.AI ? "workers-ai" : "none"),
+    });
+  }
+  if (url.pathname === "/api/symbols" && method === "GET") {
+    return jsonResponse({
+      total: symbolsData.total,
+      traditions: symbolsData.traditions,
+      counts: symbolsData.counts,
+      symbols: symbolsData.symbols,
+    });
+  }
+  if (url.pathname === "/api/curriculum" && method === "GET") {
+    return requireAuth(request, env, async (session) => {
+      const c = getCurriculum();
+      const user = await getUserByEmail(env, session.payload.email);
+      const settings = user?.settings || defaultSettings();
+      return jsonResponse({
+        total_days: c.total_days,
+        sections: c.sections,
+        currentDay: settings.currentDay || 1,
+        today: curriculumDay(settings.currentDay || 1),
+      });
+    });
+  }
+  if (url.pathname === "/api/curriculum/advance" && method === "POST") {
+    return requireAuth(request, env, async (session) => {
+      const user = await getUserByEmail(env, session.payload.email);
+      if (!user) return jsonResponse({ error: "User not found." }, 404);
+      user.settings = user.settings || defaultSettings();
+      const cur = user.settings.currentDay || 1;
+      const total = getCurriculum().total_days;
+      user.settings.currentDay = Math.min(total, cur + 1);
+      await saveUser(env, user);
+      return jsonResponse({ ok: true, currentDay: user.settings.currentDay, today: curriculumDay(user.settings.currentDay) });
+    });
+  }
+  if (url.pathname === "/api/curriculum/set" && method === "POST") {
+    return requireAuth(request, env, async (session) => {
+      let body;
+      try { body = await request.json(); } catch { return jsonResponse({ error: "Invalid JSON" }, 400); }
+      const day = Number(body?.day);
+      const total = getCurriculum().total_days;
+      if (!Number.isFinite(day) || day < 1 || day > total) return jsonResponse({ error: `day must be between 1 and ${total}` }, 400);
+      const user = await getUserByEmail(env, session.payload.email);
+      if (!user) return jsonResponse({ error: "User not found." }, 404);
+      user.settings = user.settings || defaultSettings();
+      user.settings.currentDay = day;
+      await saveUser(env, user);
+      return jsonResponse({ ok: true, currentDay: day, today: curriculumDay(day) });
     });
   }
 
@@ -472,12 +523,12 @@ function sanitizeSettings(raw) {
 }
 
 // ---------------------------------------------------------------------------
-// Generate (proxy to Anthropic)
+// Generate (routes to Workers AI or Anthropic via prompts.js)
 // ---------------------------------------------------------------------------
 
 async function handleGenerate(request, session, env) {
-  if (!env.ANTHROPIC_API_KEY) {
-    return jsonResponse({ error: "Server is missing ANTHROPIC_API_KEY." }, 500);
+  if (!env.AI && !env.ANTHROPIC_API_KEY) {
+    return jsonResponse({ error: "No AI provider configured on the Worker." }, 500);
   }
   let payload;
   try {
@@ -490,15 +541,12 @@ async function handleGenerate(request, session, env) {
     return jsonResponse({ error: "Missing 'feature' in request body." }, 400);
   }
 
-  // Use the user's stored settings (server-side) so each user gets their own voice.
   const user = await getUserByEmail(env, session.payload.email);
   const settings = user?.settings || defaultSettings();
-
-  const prompt = buildPrompt(feature, params, settings);
-  if (!prompt) return jsonResponse({ error: `Unknown feature: ${feature}` }, 400);
+  const ctx = { user, currentDay: settings.currentDay || 1 };
 
   try {
-    const result = await callClaude(env, prompt);
+    const result = await runGenerate(env, feature, params, settings, ctx);
     return jsonResponse({ ok: true, feature, ...result });
   } catch (err) {
     return jsonResponse(

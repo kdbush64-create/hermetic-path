@@ -8,6 +8,7 @@
   <meta name="robots" content="noindex, nofollow, noarchive" />
   <title>∴ The Hermetic Path ∴</title>
   <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%230a0a0f'/%3E%3Cg fill='none' stroke='%23e8c97a' stroke-width='5' stroke-linecap='round'%3E%3Cellipse cx='32' cy='22' rx='10' ry='12'/%3E%3Cline x1='32' y1='34' x2='32' y2='54'/%3E%3Cline x1='22' y1='42' x2='42' y2='42'/%3E%3C/g%3E%3C/svg%3E" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;500;600&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" />
@@ -203,6 +204,96 @@
     .lock-symbols { display: flex; gap: 28px; margin-top: 24px; opacity: 0.55; }
     .lock-symbols svg { width: 32px; height: 32px; fill: var(--gold); }
 
+    /* ---------- About / Privacy accordions ---------- */
+    .about-section { margin-top: 32px; padding-top: 24px; border-top: 1px solid var(--gold-dim); }
+    .about-section h3 { color: var(--gold); font-family: "Cinzel Decorative", serif; letter-spacing: 0.1em; margin-bottom: 14px; }
+    details.about-block { margin: 8px 0; border-bottom: 1px solid var(--gold-dim); }
+    details.about-block summary {
+      padding: 12px 0;
+      cursor: pointer;
+      color: var(--gold-light);
+      font-family: "Cinzel", serif;
+      font-size: 0.78rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: color 0.2s;
+    }
+    details.about-block summary::-webkit-details-marker { display: none; }
+    details.about-block summary::after {
+      content: "+";
+      font-family: serif;
+      font-size: 1.2rem;
+      color: var(--gold-dim);
+      transition: transform 0.2s;
+    }
+    details.about-block[open] summary::after { content: "−"; color: var(--gold); }
+    details.about-block summary:hover { color: var(--gold); }
+    details.about-block[open] summary { color: var(--gold); }
+    details.about-block .about-body {
+      padding: 4px 0 18px;
+      color: var(--silver);
+      font-family: "EB Garamond", serif;
+      font-size: 0.98rem;
+      line-height: 1.65;
+    }
+    details.about-block .about-body p { margin: 0.6em 0; }
+    details.about-block .about-body ul { margin: 0.6em 0 0.6em 1.2em; padding: 0; }
+    details.about-block .about-body li { margin: 0.35em 0; }
+    details.about-block .about-body strong { color: var(--gold-light); }
+    .about-section .closing-glyph { text-align: center; font-style: italic; color: var(--gold-light); margin-top: 18px; font-size: 1.05rem; }
+    
+    /* ---------- Symbol Library grid ---------- */
+    .sym-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      gap: 12px;
+      margin-top: 16px;
+    }
+    .sym-card {
+      background: rgba(10,10,15,0.5);
+      border: 1px solid var(--gold-dim);
+      border-radius: 8px;
+      padding: 12px 8px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s;
+      min-height: 144px;
+      text-align: center;
+    }
+    .sym-card:hover { border-color: var(--gold); background: rgba(201,168,76,0.08); transform: translateY(-1px); }
+    .sym-card svg { width: 56px; height: 56px; flex: 0 0 56px; }
+    .sym-card .sym-name { font-family: "Cinzel", serif; font-size: 0.72rem; letter-spacing: 0.06em; color: var(--gold-light); line-height: 1.3; }
+    .sym-card .sym-trad { font-size: 0.65rem; color: var(--silver-dim); }
+    .sym-card.expanded { grid-column: 1 / -1; flex-direction: column; align-items: stretch; padding: 20px; cursor: default; min-height: 0; }
+    .sym-card.expanded:hover { transform: none; }
+    .sym-card.expanded svg { width: 96px; height: 96px; align-self: center; }
+    .sym-card.expanded .sym-name { font-family: "Cinzel Decorative", serif; font-size: 1.2rem; color: var(--gold); margin: 4px 0; text-align: center; }
+    .sym-card.expanded .sym-trad { font-size: 0.78rem; text-align: center; color: var(--gold-dim); letter-spacing: 0.15em; text-transform: uppercase; }
+    .sym-card .sym-tagline { font-style: italic; color: var(--gold-light); font-size: 0.95rem; margin: 10px 0 6px; text-align: center; }
+    .sym-card .sym-blurb { color: var(--silver); font-family: "EB Garamond", serif; font-size: 1rem; line-height: 1.6; }
+    .sym-card .sym-actions { display: flex; gap: 10px; justify-content: center; margin-top: 14px; flex-wrap: wrap; }
+    .sym-chip {
+      font-family: "Cinzel", serif;
+      font-size: 0.7rem;
+      letter-spacing: 0.12em;
+      padding: 6px 12px;
+      border: 1px solid var(--gold-dim);
+      border-radius: 20px;
+      cursor: pointer;
+      color: var(--silver-dim);
+      background: transparent;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    .sym-chip:hover { color: var(--gold-light); }
+    .sym-chip.active { background: rgba(201,168,76,0.12); color: var(--gold); border-color: var(--gold); }
     /* ---------- Markdown rendered content ---------- */
     .md h1, .md h2, .md h3 { color: var(--gold); }
     .md em { color: var(--gold-light); font-style: italic; }
@@ -229,10 +320,20 @@
     .center { text-align: center; }
 
     /* ---------- Responsive ---------- */
-    @media (max-width: 480px) {
-      .app-header { flex-direction: column; gap: 8px; padding: 10px 12px; }
-      .app-user { font-size: 0.78rem; }
-      .tab { padding: 8px 10px; font-size: 0.7rem; letter-spacing: 0.1em; }
+    @media (max-width: 600px) {
+      .app-header { flex-direction: column; gap: 6px; padding: 10px 12px; }
+      .app-title { font-size: 0.85rem; letter-spacing: 0.18em; white-space: nowrap; }
+      .app-user { width: 100%; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px; font-size: 0.72rem; }
+      .app-user .email { flex: 1 1 100%; text-align: center; font-size: 0.78rem; letter-spacing: 0.06em; word-break: break-all; color: var(--gold-light); }
+      .app-user .btn { padding: 6px 14px; font-size: 0.68rem; letter-spacing: 0.12em; white-space: nowrap; flex: 1 1 auto; }
+      .tabs { flex-wrap: wrap; gap: 4px; padding: 0 8px; margin-bottom: 16px; }
+      .tab { padding: 7px 9px; font-size: 0.65rem; letter-spacing: 0.08em; flex: 0 1 auto; }
+      .panel { padding: 16px 14px; }
+      h1 { font-size: 1.4rem; }
+      h2 { font-size: 1.15rem; }
+      .row { gap: 8px; }
+      .row > * { flex: 1 1 100%; }
+      .btn-row .btn { flex: 1 1 auto; }
     }
   </style>
 </head>
@@ -435,32 +536,38 @@
         <div class="tab" data-tab="admin" role="tab" id="tab-admin-btn" hidden>Admin</div>
       </nav>
 
-      <!-- ---------- Daily Tutor ---------- -->
+      <!-- ---------- Daily Tutor (curriculum-driven) ---------- -->
       <div class="tab-panel active" id="tab-tutor">
         <div class="panel wide">
           <h2>Daily Tutor</h2>
-          <p class="small">A fresh lesson rooted in the Seven Hermetic Principles and the wider mystery tradition.</p>
-          <div class="row">
-            <select id="tutor-principle">
-              <option value="">— Choose a principle (or let the day decide) —</option>
-              <option>Mentalism — "The All is Mind"</option>
-              <option>Correspondence — "As above, so below"</option>
-              <option>Vibration — "Nothing rests; everything moves"</option>
-              <option>Polarity — "Everything is dual"</option>
-              <option>Rhythm — "Everything flows out and in"</option>
-              <option>Cause and Effect — "Every cause has its effect"</option>
-              <option>Gender — "Gender is in everything"</option>
-              <option>PaRDeS — Four-layer scripture interpretation</option>
-              <option>The Tree of Life — the Ten Sefirot</option>
-              <option>Merkabah mysticism — the chariot ascent</option>
-              <option>Hermetic & Masonic ritual structure</option>
-              <option>Sufi tajalliyat — divine self-disclosure</option>
-              <option>Origen and reincarnation in early Christianity</option>
-              <option>The Melchizedek scroll (11Q13)</option>
-            </select>
-            <button class="btn primary" id="tutor-go">Open the lesson</button>
+          <p class="small">A 365-day curriculum — every lesson builds on what came before.</p>
+
+          <div id="tutor-header" style="display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between; margin: 16px 0 4px;">
+            <div>
+              <div class="small">Section</div>
+              <div id="tutor-section" style="font-family: 'Cinzel', serif; letter-spacing: 0.1em; color: var(--gold-light);">—</div>
+            </div>
+            <div>
+              <div class="small">Day</div>
+              <div id="tutor-day-number" style="font-family: 'Cinzel Decorative', serif; font-size: 1.6rem; color: var(--gold);">—</div>
+            </div>
+            <div>
+              <div class="small">Topic</div>
+              <div id="tutor-topic" style="font-family: 'EB Garamond', serif; font-size: 1.05rem; color: var(--silver);">—</div>
+            </div>
           </div>
-          <div class="content md" id="tutor-out"><p class="placeholder">Today's lesson will appear here.</p></div>
+
+          <div class="row" style="margin-top: 12px">
+            <button class="btn primary" id="tutor-go">Open today's lesson</button>
+            <button class="btn ghost" id="tutor-advance" title="Mark today complete and advance to tomorrow's lesson">Mark complete → next</button>
+            <div style="flex: 0 0 auto">
+              <label class="mt-0" style="margin-bottom: 4px">Jump to day</label>
+              <input id="tutor-jump" type="number" min="1" max="365" placeholder="1–365" style="width: 100px" />
+            </div>
+            <button class="btn ghost" id="tutor-jump-go">Go</button>
+          </div>
+
+          <div class="content md" id="tutor-out"><p class="placeholder">Click "Open today's lesson" to begin.</p></div>
         </div>
       </div>
 
@@ -540,30 +647,46 @@
             <button class="btn ghost suggest" data-passage="Hebrews 7">Hebrews 7</button>
             <button class="btn ghost suggest" data-passage="Genesis 1:1–3">Gen 1:1–3</button>
             <button class="btn ghost suggest" data-passage="Surah 35 (Fatir)">Surah Fatir</button>
+          </div><p class="small" style="margin-top: 14px; margin-bottom: 4px; color: var(--gold-dim);">Apocrypha, Dead Sea Scrolls, Kabbalah, Hermetica, Gnostic, Sufi:</p>
+          <div class="row tight">
+            <button class="btn ghost suggest" data-passage="1 Enoch 14">1 Enoch 14</button>
+            <button class="btn ghost suggest" data-passage="Wisdom of Solomon 7:25–26">Wisdom 7</button>
+            <button class="btn ghost suggest" data-passage="11Q13 Melchizedek scroll">11Q13 Melch.</button>
+            <button class="btn ghost suggest" data-passage="Bavli, Hagigah 14b — the Pardes story">Hagigah 14b</button>
+            <button class="btn ghost suggest" data-passage="Sefer Yetzirah 1:1">Sefer Yetzirah</button>
+            <button class="btn ghost suggest" data-passage="Zohar I:15a — Bereshit">Zohar I:15a</button>
+            <button class="btn ghost suggest" data-passage="Corpus Hermeticum I (Poimandres)">Corpus Hermeticum I</button>
+            <button class="btn ghost suggest" data-passage="Emerald Tablet of Hermes Trismegistus">Emerald Tablet</button>
+            <button class="btn ghost suggest" data-passage="Gospel of Thomas, saying 77">Thomas 77</button>
+            <button class="btn ghost suggest" data-passage="Gospel of Philip 56 — the bridal chamber">Philip 56</button>
+            <button class="btn ghost suggest" data-passage="Rumi, Masnavi Book I:1–18 — the reed flute">Rumi I:1</button>
+            <button class="btn ghost suggest" data-passage="Ibn Arabi, Bezels of Wisdom — Adam">Ibn Arabi: Adam</button>
           </div>
           <div class="content md" id="scr-out"><p class="placeholder">The four layers will unfold here.</p></div>
         </div>
       </div>
 
       <!-- ---------- Symbol Library ---------- -->
+      <!-- ---------- Symbol Library ---------- -->
       <div class="tab-panel" id="tab-symbols">
-        <div class="panel wide">
+        <div class="panel full">
           <h2>Symbol Library</h2>
-          <p class="small">A living reference — entries are generated fresh, so each reading reveals a new layer.</p>
+          <p class="small">A living reference — click any symbol below to read its tradition, or type any name to generate a fresh AI entry on the spot.</p>
+
           <div class="row">
-            <input id="lib-symbol" type="text" placeholder="Symbol (e.g. The Pillars Jachin and Boaz)" />
+            <input id="lib-symbol" type="text" placeholder="Any symbol name (e.g. Lamen of Solomon)..." />
             <button class="btn primary" id="lib-go">Open the entry</button>
           </div>
-          <div class="row tight" style="margin-top: 8px">
-            <button class="btn ghost suggest-sym" data-s="The Square and Compass">Sq & Comp</button>
-            <button class="btn ghost suggest-sym" data-s="The Pillars Jachin and Boaz">Jachin & Boaz</button>
-            <button class="btn ghost suggest-sym" data-s="The Letter Aleph">Aleph (א)</button>
-            <button class="btn ghost suggest-sym" data-s="The Caduceus">Caduceus</button>
-            <button class="btn ghost suggest-sym" data-s="The Ouroboros">Ouroboros</button>
-            <button class="btn ghost suggest-sym" data-s="The Vesica Piscis">Vesica Piscis</button>
-            <button class="btn ghost suggest-sym" data-s="The Tetragrammaton">YHVH</button>
-            <button class="btn ghost suggest-sym" data-s="The Royal Arch">Royal Arch</button>
-          </div>
+          <div class="content md" id="lib-out" style="display: none; margin-top: 12px"></div>
+
+          <hr style="margin: 24px 0" />
+
+          <h3 style="margin-bottom: 12px">Browse the Library</h3>
+          <div id="sym-traditions" class="row tight" style="gap: 6px; margin-bottom: 12px"></div>
+          <input id="sym-search" type="text" placeholder="Search by name, tradition, or keyword (fire, eye, mercury, serpent, …)" />
+          <div id="sym-grid" class="sym-grid"><p class="placeholder">Loading symbols…</p></div>
+        </div>
+      </div>
           <div class="content md" id="lib-out"><p class="placeholder">Symbol entry will appear here.</p></div>
         </div>
       </div>
@@ -645,6 +768,53 @@
             </div>
             <div id="pw-msg"></div>
           </form>
+          
+          <div class="about-section">
+            <h3>About &amp; Privacy</h3>
+
+            <details class="about-block">
+              <summary>Privacy</summary>
+              <div class="about-body">
+                <p>The Hermetic Path collects only what's needed to let you use it:</p>
+                <ul>
+                  <li><strong>Email address</strong> — your login identifier.</li>
+                  <li><strong>Password hash</strong> — stored as a one-way PBKDF2 hash with a 16-byte random salt and 100,000 iterations. Plaintext is never kept.</li>
+                  <li><strong>Your settings</strong> — tradition emphasis, depth, notification preferences, and your current day in the 365-day curriculum.</li>
+                  <li><strong>Timestamps</strong> — when your account was created, and when you last signed in.</li>
+                </ul>
+                <p>It does <strong>not</strong> collect: analytics, advertising identifiers, browser fingerprints, third-party trackers, or any data about your browsing outside this app. There are no scripts loaded from external services beyond Google Fonts (used only to render typography — they receive no user data).</p>
+                <p>Your data lives in Cloudflare's KV storage on the owner's private account. It is not sold, not shared, and is not used to train any model. A single session cookie (<code>hp_session</code>) keeps you signed in for thirty days — it is HttpOnly, Secure, SameSite=Strict, and used only for authentication, not for tracking.</p>
+                <p>To delete your account, ask the admin to remove your record from the Admin panel. Deletion is immediate and permanent.</p>
+              </div>
+            </details>
+
+            <details class="about-block">
+              <summary>Disclaimer</summary>
+              <div class="about-body">
+                <p>Every lesson, meditation, affirmation, scripture interpretation, and symbol entry in this app is <strong>AI-generated</strong>. The text is composed at the moment you request it by a large language model — scaffolded by a curated 365-day curriculum and a library of 95 hand-drawn symbols, but written fresh each time.</p>
+                <ul>
+                  <li><strong>Treat the content as a contemplative companion, not authoritative spiritual counsel.</strong></li>
+                  <li>The app draws across traditions — Hermetic, Kabbalistic, Masonic, Christian mystical, Sufi, Neoplatonic, Gnostic, alchemical — and does not represent the official position of any of them.</li>
+                  <li><strong>AI models can produce errors</strong>, including in gematria values, scripture citations, and historical claims. Verify anything you would quote or rely on elsewhere.</li>
+                  <li>This is not medical, psychological, religious, or legal advice.</li>
+                </ul>
+              </div>
+            </details>
+
+            <details class="about-block">
+              <summary>About</summary>
+              <div class="about-body">
+                <p><strong>The Hermetic Path</strong> is a private esoteric study companion built for personal contemplation. It is not for sale, not advertising-supported, and not commercially affiliated with any tradition or institution.</p>
+                <ul>
+                  <li><strong>Creator:</strong> maintained by the owner of v64otd.com.</li>
+                  <li><strong>Source code:</strong> kept in a private GitHub repository.</li>
+                  <li><strong>Hosting:</strong> Cloudflare Workers, with on-edge AI via Cloudflare Workers AI (Llama 3.3 70B). Premium upgrade path available via Anthropic Claude if an API key is configured.</li>
+                  <li><strong>Source traditions:</strong> the Seven Hermetic Principles, the Corpus Hermeticum, Kabbalistic literature (Zohar, Sefer Yetzirah, Bahir), Masonic ritual, the Gospel of John and Pauline mysticism, Origen and the early Church Fathers, Merkabah and Hekhalot texts, the Dead Sea Scrolls (especially 11Q13 Melchizedek), Neoplatonism (Plotinus, Iamblichus, Porphyry), Sufi mysticism (Ibn Arabi, Rumi), sacred geometry, and alchemy.</li>
+                </ul>
+                <p class="closing-glyph">∴ As above, so below. As within, so without. ∴</p>
+              </div>
+            </details>
+          </div>
         </div>
       </div>
 
@@ -826,6 +996,7 @@
       document.getElementById('tab-admin-btn').hidden = currentUser.role !== 'admin';
       appSettings = currentUser.settings || {};
       populateSettings();
+      refreshCurriculum();
       showScreen('lock');
       startLockScreen();
     }
@@ -940,9 +1111,46 @@
       }
     }
 
+    // --- Curriculum-driven Daily Tutor ---
+    let curriculumState = { currentDay: 1, today: null };
+    async function refreshCurriculum() {
+      try {
+        const r = await api('GET', '/api/curriculum');
+        curriculumState.currentDay = r.currentDay;
+        curriculumState.today = r.today;
+        if (r.today) {
+          document.getElementById('tutor-section').textContent = r.today.section || '—';
+          document.getElementById('tutor-day-number').textContent = String(r.today.day);
+          document.getElementById('tutor-topic').textContent = r.today.topic || '—';
+        }
+      } catch (_e) {}
+    }
     document.getElementById('tutor-go').addEventListener('click', () => {
-      const principle = document.getElementById('tutor-principle').value;
-      generate('tutor', { principle }, 'tutor-out');
+      generate('tutor', { day: curriculumState.currentDay }, 'tutor-out');
+    });
+    document.getElementById('tutor-advance').addEventListener('click', async () => {
+      try {
+        const r = await api('POST', '/api/curriculum/advance', {});
+        curriculumState.currentDay = r.currentDay;
+        curriculumState.today = r.today;
+        await refreshCurriculum();
+        generate('tutor', { day: curriculumState.currentDay }, 'tutor-out');
+      } catch (err) {
+        document.getElementById('tutor-out').innerHTML = '<div class="form-error">' + escapeHtml(err.message) + '</div>';
+      }
+    });
+    document.getElementById('tutor-jump-go').addEventListener('click', async () => {
+      const day = Number(document.getElementById('tutor-jump').value);
+      if (!Number.isFinite(day) || day < 1 || day > 365) return;
+      try {
+        const r = await api('POST', '/api/curriculum/set', { day });
+        curriculumState.currentDay = r.currentDay;
+        curriculumState.today = r.today;
+        await refreshCurriculum();
+        generate('tutor', { day: curriculumState.currentDay }, 'tutor-out');
+      } catch (err) {
+        document.getElementById('tutor-out').innerHTML = '<div class="form-error">' + escapeHtml(err.message) + '</div>';
+      }
     });
     document.getElementById('aff-go').addEventListener('click', () => {
       const count = Number(document.getElementById('aff-count').value) || 3;
@@ -969,14 +1177,107 @@
       document.getElementById('scr-passage').value = b.dataset.passage;
       generate('scripture_pardes', { passage: b.dataset.passage }, 'scr-out');
     }));
+    // --- Symbol Library: free-text input ---
     document.getElementById('lib-go').addEventListener('click', () => {
-      const symbol = document.getElementById('lib-symbol').value.trim() || 'The Square and Compass';
+      const symbol = document.getElementById('lib-symbol').value.trim();
+      if (!symbol) return;
+      document.getElementById('lib-out').style.display = 'block';
       generate('symbol_library', { symbol }, 'lib-out');
     });
-    document.querySelectorAll('.suggest-sym').forEach(b => b.addEventListener('click', () => {
-      document.getElementById('lib-symbol').value = b.dataset.s;
-      generate('symbol_library', { symbol: b.dataset.s }, 'lib-out');
-    }));
+
+    // --- Symbol Library: curated grid ---
+    let symbolsCache = null;
+    let symFilter = { tradition: 'All', search: '' };
+    let symExpandedId = null;
+
+    async function loadSymbols() {
+      if (symbolsCache) return symbolsCache;
+      try { symbolsCache = await api('GET', '/api/symbols'); return symbolsCache; }
+      catch (_e) { return null; }
+    }
+    function renderTraditions(data) {
+      const el = document.getElementById('sym-traditions');
+      const list = ['All', ...data.traditions];
+      el.innerHTML = list.map(t => {
+        const count = t === 'All' ? data.total : (data.counts[t] || 0);
+        const active = (symFilter.tradition === t) ? 'active' : '';
+        return '<button class="sym-chip ' + active + '" data-trad="' + escapeHtml(t) + '">' + escapeHtml(t) + ' (' + count + ')</button>';
+      }).join('');
+      el.querySelectorAll('.sym-chip').forEach(c => c.addEventListener('click', () => {
+        symFilter.tradition = c.dataset.trad;
+        symExpandedId = null;
+        renderTraditions(data); renderSymGrid(data);
+      }));
+    }
+    function symMatch(s, f) {
+      if (f.tradition !== 'All' && s.tradition !== f.tradition) return false;
+      if (f.search) {
+        const q = f.search.toLowerCase();
+        const hay = (s.name + ' ' + s.tradition + ' ' + s.tagline + ' ' + (s.keywords || []).join(' ')).toLowerCase();
+        if (!hay.includes(q)) return false;
+      }
+      return true;
+    }
+    function renderSymGrid(data) {
+      const grid = document.getElementById('sym-grid');
+      const filtered = data.symbols.filter(s => symMatch(s, symFilter));
+      if (!filtered.length) { grid.innerHTML = '<p class="placeholder">No symbols match your filters.</p>'; return; }
+      grid.innerHTML = filtered.map(s => {
+        if (s.id === symExpandedId) {
+          return '<div class="sym-card expanded" data-id="' + s.id + '">'
+            + s.svg
+            + '<div class="sym-name">' + escapeHtml(s.name) + '</div>'
+            + '<div class="sym-trad">' + escapeHtml(s.tradition) + '</div>'
+            + '<div class="sym-tagline">' + escapeHtml(s.tagline) + '</div>'
+            + '<div class="sym-blurb">' + escapeHtml(s.blurb) + '</div>'
+            + '<div class="sym-actions">'
+            + '<button class="btn primary deepen-btn" data-name="' + escapeHtml(s.name) + '">Deepen with the AI</button>'
+            + '<button class="btn ghost collapse-btn">Close</button>'
+            + '</div>'
+            + '<div class="content md deep-out" id="deep-' + s.id + '" style="display:none; margin-top:14px"></div>'
+            + '</div>';
+        }
+        return '<div class="sym-card" data-id="' + s.id + '">'
+          + s.svg
+          + '<div class="sym-name">' + escapeHtml(s.name) + '</div>'
+          + '<div class="sym-trad">' + escapeHtml(s.tradition) + '</div>'
+          + '</div>';
+      }).join('');
+      grid.querySelectorAll('.sym-card').forEach(card => {
+        card.addEventListener('click', (e) => {
+          if (e.target.closest('.deepen-btn') || e.target.closest('.collapse-btn')) return;
+          if (card.classList.contains('expanded')) return;
+          symExpandedId = card.dataset.id;
+          renderSymGrid(data);
+        });
+      });
+      grid.querySelectorAll('.deepen-btn').forEach(btn => btn.addEventListener('click', async (e) => {
+        e.stopPropagation();
+        const name = btn.dataset.name;
+        const id = btn.closest('.sym-card').dataset.id;
+        const out = document.getElementById('deep-' + id);
+        out.style.display = 'block';
+        out.innerHTML = '<div class="loading">Drawing from the well…</div>';
+        try { const r = await api('POST', '/api/generate', { feature: 'symbol_library', params: { symbol: name } }); out.innerHTML = renderMarkdown(r.content || ''); }
+        catch (err) { out.innerHTML = '<div class="form-error">' + escapeHtml(err.message) + '</div>'; }
+      }));
+      grid.querySelectorAll('.collapse-btn').forEach(btn => btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        symExpandedId = null;
+        renderSymGrid(data);
+      }));
+    }
+    document.getElementById('sym-search').addEventListener('input', async (e) => {
+      symFilter.search = e.target.value.trim();
+      const data = await loadSymbols();
+      if (data) renderSymGrid(data);
+    });
+    document.querySelector('.tab[data-tab="symbols"]').addEventListener('click', async () => {
+      const data = await loadSymbols();
+      if (!data) return;
+      if (!document.getElementById('sym-traditions').children.length) renderTraditions(data);
+      renderSymGrid(data);
+    });
     document.getElementById('gc-go').addEventListener('click', () => {
       const word = document.getElementById('gc-word').value.trim();
       generate('gematria_calc', { word }, 'gc-out');

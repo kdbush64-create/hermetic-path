@@ -1,0 +1,1447 @@
+{
+  "version": 2,
+  "generated_at": "2026-05-15T21:31:04.693Z",
+  "total": 95,
+  "traditions": [
+    "Alchemical",
+    "Christian Mystical",
+    "Egyptian",
+    "Freemasonry",
+    "Gnostic",
+    "Hermetic",
+    "Qabalah",
+    "Sacred Geometry",
+    "Sufi"
+  ],
+  "counts": {
+    "Freemasonry": 15,
+    "Qabalah": 15,
+    "Hermetic": 5,
+    "Alchemical": 10,
+    "Egyptian": 10,
+    "Sacred Geometry": 10,
+    "Gnostic": 10,
+    "Sufi": 10,
+    "Christian Mystical": 10
+  },
+  "symbols": [
+    {
+      "id": "square-compass",
+      "name": "Square and Compass",
+      "tradition": "Freemasonry",
+      "tagline": "The two tools of inner work, joined by the letter G.",
+      "blurb": "The square keeps action upright; the compass keeps desire within measure. Between them stands G — for Geometry, for the Great Architect, for the generative principle. The image is the whole of Masonic teaching in three strokes.",
+      "keywords": [
+        "mason",
+        "geometry",
+        "tools",
+        "letter g",
+        "architect"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M32 12 L18 44 M32 12 L46 44\"/><circle cx=\"32\" cy=\"12\" r=\"1.5\" fill=\"#e8c97a\"/><path d=\"M18 32 L32 52 L46 32\"/></g><text x=\"32\" y=\"40\" text-anchor=\"middle\" font-family=\"serif\" font-size=\"14\" font-weight=\"700\" fill=\"#e8c97a\">G</text></svg>"
+    },
+    {
+      "id": "all-seeing-eye",
+      "name": "All-Seeing Eye",
+      "tradition": "Freemasonry",
+      "tagline": "The eye of providence, the witness within.",
+      "blurb": "A single eye set within a triangle, surrounded by rays. It marks the watchful intelligence of the cosmos and of one's own higher self — that which observes without judgment. Found in Egyptian, Christian, and Masonic iconography, it became the seal of vigilance and of the conscience that cannot be hidden from.",
+      "keywords": [
+        "eye",
+        "providence",
+        "triangle",
+        "rays",
+        "watcher"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2\" stroke-linejoin=\"round\"><polygon points=\"32,8 56,52 8,52\"/><g stroke-width=\"1.2\"><line x1=\"32\" y1=\"2\" x2=\"32\" y2=\"6\"/><line x1=\"14\" y1=\"14\" x2=\"11\" y2=\"11\"/><line x1=\"50\" y1=\"14\" x2=\"53\" y2=\"11\"/><line x1=\"6\" y1=\"32\" x2=\"2\" y2=\"32\"/><line x1=\"58\" y1=\"32\" x2=\"62\" y2=\"32\"/><line x1=\"20\" y1=\"58\" x2=\"17\" y2=\"61\"/><line x1=\"44\" y1=\"58\" x2=\"47\" y2=\"61\"/></g></g><ellipse cx=\"32\" cy=\"36\" rx=\"14\" ry=\"6\" fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2\"/><circle cx=\"32\" cy=\"36\" r=\"3.5\" fill=\"#e8c97a\"/></svg>"
+    },
+    {
+      "id": "letter-g",
+      "name": "Letter G",
+      "tradition": "Freemasonry",
+      "tagline": "Geometry. God. Generation.",
+      "blurb": "The letter G stands at the center of the Masonic order. It signifies Geometry — the science by which the universe was built — and the Generative Principle that gives form to the formless. Some say it is the initial of the unspoken Name. In every Lodge it hangs above the master's chair.",
+      "keywords": [
+        "g",
+        "geometry",
+        "god",
+        "generation",
+        "lodge"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"32\" cy=\"32\" r=\"26\" fill=\"none\" stroke=\"#c9a84c\" stroke-width=\"1.2\"/><text x=\"32\" y=\"42\" text-anchor=\"middle\" font-family=\"serif\" font-size=\"34\" font-weight=\"700\" fill=\"#e8c97a\">G</text></svg>"
+    },
+    {
+      "id": "jachin-boaz",
+      "name": "Jachin and Boaz",
+      "tradition": "Freemasonry",
+      "tagline": "The two pillars of Solomon's temple.",
+      "blurb": "Jachin (Establishment, right pillar) and Boaz (Strength, left pillar) stood at the porch of Solomon's temple and remain in every Masonic lodge. They are also Chesed and Gevurah on the Tree of Life — mercy and severity, the two pillars between which the initiate walks.",
+      "keywords": [
+        "pillars",
+        "temple",
+        "solomon",
+        "chesed",
+        "gevurah"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.6\"><rect x=\"14\" y=\"14\" width=\"10\" height=\"40\"/><rect x=\"40\" y=\"14\" width=\"10\" height=\"40\"/><circle cx=\"19\" cy=\"10\" r=\"4\"/><circle cx=\"45\" cy=\"10\" r=\"4\"/><line x1=\"14\" y1=\"20\" x2=\"24\" y2=\"20\"/><line x1=\"14\" y1=\"48\" x2=\"24\" y2=\"48\"/><line x1=\"40\" y1=\"20\" x2=\"50\" y2=\"20\"/><line x1=\"40\" y1=\"48\" x2=\"50\" y2=\"48\"/></g></svg>"
+    },
+    {
+      "id": "trowel",
+      "name": "The Trowel",
+      "tradition": "Freemasonry",
+      "tagline": "The cement of brotherly love.",
+      "blurb": "The Master Mason's working tool. It spreads the cement that binds the temple's stones — the brotherly affection that unites all who labor together. The trowel reminds the initiate that knowledge alone does not build; only love bonds the work into a single edifice.",
+      "keywords": [
+        "trowel",
+        "cement",
+        "love",
+        "master",
+        "tool"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"><polygon points=\"14,38 50,16 50,28 22,46\" fill=\"#e8c97a\" fill-opacity=\"0.15\"/><line x1=\"22\" y1=\"46\" x2=\"14\" y2=\"56\"/><circle cx=\"12\" cy=\"58\" r=\"3\" fill=\"#e8c97a\"/></g></svg>"
+    },
+    {
+      "id": "47th-problem",
+      "name": "The 47th Problem of Euclid",
+      "tradition": "Freemasonry",
+      "tagline": "Pythagoras' theorem — the geometry of right relation.",
+      "blurb": "A right triangle with squares on its three sides. Pythagoras called it the most beautiful proof. In Masonry it represents the harmonious proportions underlying creation — and the discipline of mind that perceives them. The square on the hypotenuse equals the sum of the squares on the legs: as below, so above.",
+      "keywords": [
+        "pythagoras",
+        "geometry",
+        "triangle",
+        "euclid",
+        "proportion"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"><polygon points=\"22,22 22,42 42,42\"/><rect x=\"2\" y=\"22\" width=\"20\" height=\"20\"/><rect x=\"22\" y=\"42\" width=\"20\" height=\"20\"/><polygon points=\"22,22 42,42 50,28 30,8\" stroke=\"#c9a84c\"/></g></svg>"
+    },
+    {
+      "id": "blazing-star",
+      "name": "The Blazing Star",
+      "tradition": "Freemasonry",
+      "tagline": "The light of the Center — Tiferet in Masonic dress.",
+      "blurb": "A five-pointed star with rays of light. It marks the divine presence at the heart of the Lodge and at the heart of the candidate. Some traditions equate it with the Christ-center, others with the inner sun, others with the Sefirah Tiferet.",
+      "keywords": [
+        "star",
+        "light",
+        "tiferet",
+        "center",
+        "blazing"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"#e8c97a\" stroke=\"#e8c97a\" stroke-width=\"0.6\" stroke-linejoin=\"round\"><polygon points=\"32,8 38,26 56,26 41,38 47,56 32,44 17,56 23,38 8,26 26,26\"/></g></svg>"
+    },
+    {
+      "id": "beehive",
+      "name": "The Beehive",
+      "tradition": "Freemasonry",
+      "tagline": "Industry — the work of the many for the one.",
+      "blurb": "The beehive teaches that men were not formed for idleness. Each bee labors for the whole; the whole sustains each bee. In the Lodge it stands for the brotherhood of cooperative work, where the temple of the soul is built one quiet act at a time.",
+      "keywords": [
+        "bee",
+        "hive",
+        "industry",
+        "labor"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.6\" stroke-linecap=\"round\"><path d=\"M16 50 Q16 30 32 16 Q48 30 48 50 Z\" fill=\"#e8c97a\" fill-opacity=\"0.08\"/><line x1=\"20\" y1=\"28\" x2=\"44\" y2=\"28\"/><line x1=\"17\" y1=\"36\" x2=\"47\" y2=\"36\"/><line x1=\"16\" y1=\"44\" x2=\"48\" y2=\"44\"/><line x1=\"20\" y1=\"52\" x2=\"44\" y2=\"52\"/></g><g stroke=\"#c9a84c\" stroke-width=\"0.8\" fill=\"none\"><ellipse cx=\"52\" cy=\"22\" rx=\"3\" ry=\"2\"/><line x1=\"50\" y1=\"20\" x2=\"48\" y2=\"18\"/></g></svg>"
+    },
+    {
+      "id": "three-great-lights",
+      "name": "Three Great Lights",
+      "tradition": "Freemasonry",
+      "tagline": "Volume of Sacred Law, Square, and Compasses.",
+      "blurb": "The three lights that illuminate every Lodge: the Volume of Sacred Law (the divine teaching), the Square (rectitude of action), and the Compasses (circumscription of desire). The Lights rest on the altar; without them the Lodge does not open.",
+      "keywords": [
+        "lights",
+        "altar",
+        "scripture",
+        "square",
+        "compass"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.5\" stroke-linejoin=\"round\"><rect x=\"10\" y=\"38\" width=\"44\" height=\"16\" rx=\"2\"/><line x1=\"32\" y1=\"38\" x2=\"32\" y2=\"54\"/><path d=\"M22 22 L14 38 L20 38 M22 22 L30 38\" stroke-width=\"1.8\"/><path d=\"M42 22 L34 38 M42 22 L50 38 L44 38\" stroke-width=\"1.8\"/><circle cx=\"22\" cy=\"20\" r=\"1.4\" fill=\"#e8c97a\"/><circle cx=\"42\" cy=\"20\" r=\"1.4\" fill=\"#e8c97a\"/></g></svg>"
+    },
+    {
+      "id": "mosaic-pavement",
+      "name": "Mosaic Pavement",
+      "tradition": "Freemasonry",
+      "tagline": "The chequered floor — light and shadow interwoven.",
+      "blurb": "The black-and-white pavement of every Lodge. It represents the duality of mortal life — joy and sorrow, light and shadow, good and evil — interwoven. The Mason learns to walk upon it without preference for one square over the other; both are necessary, both are sacred.",
+      "keywords": [
+        "chequered",
+        "floor",
+        "duality",
+        "black white",
+        "pavement"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g><rect x=\"8\" y=\"8\" width=\"12\" height=\"12\" fill=\"#e8c97a\"/><rect x=\"32\" y=\"8\" width=\"12\" height=\"12\" fill=\"#e8c97a\"/><rect x=\"20\" y=\"20\" width=\"12\" height=\"12\" fill=\"#e8c97a\"/><rect x=\"44\" y=\"20\" width=\"12\" height=\"12\" fill=\"#e8c97a\"/><rect x=\"8\" y=\"32\" width=\"12\" height=\"12\" fill=\"#e8c97a\"/><rect x=\"32\" y=\"32\" width=\"12\" height=\"12\" fill=\"#e8c97a\"/><rect x=\"20\" y=\"44\" width=\"12\" height=\"12\" fill=\"#e8c97a\"/><rect x=\"44\" y=\"44\" width=\"12\" height=\"12\" fill=\"#e8c97a\"/><rect x=\"8\" y=\"8\" width=\"48\" height=\"48\" fill=\"none\" stroke=\"#c9a84c\" stroke-width=\"1\"/></g></svg>"
+    },
+    {
+      "id": "anchor-ark",
+      "name": "Anchor and Ark",
+      "tradition": "Freemasonry",
+      "tagline": "Hope safely moored after the storm.",
+      "blurb": "An anchor and a small ark together. The ark is the well-spent life that has weathered the flood; the anchor is the hope that holds it fast in the harbor of peace. Of the Mason's working tools, this pair speaks to the journey's end — what carries you through, and what holds you when you arrive.",
+      "keywords": [
+        "anchor",
+        "ark",
+        "hope",
+        "harbor",
+        "ship"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.8\" stroke-linecap=\"round\"><line x1=\"32\" y1=\"10\" x2=\"32\" y2=\"46\"/><circle cx=\"32\" cy=\"12\" r=\"3\"/><path d=\"M22 36 Q22 50 32 50 Q42 50 42 36\"/><line x1=\"22\" y1=\"22\" x2=\"42\" y2=\"22\"/></g><g fill=\"none\" stroke=\"#c9a84c\" stroke-width=\"1.4\"><path d=\"M16 56 L48 56 L52 52 L12 52 Z\"/></g></svg>"
+    },
+    {
+      "id": "hourglass",
+      "name": "Hourglass",
+      "tradition": "Freemasonry",
+      "tagline": "How short, how silent, how swift our time.",
+      "blurb": "Two glass bulbs joined at a narrow waist, sand falling from one into the other. The hourglass reminds the Mason that the moment is brief, the work must be done now, and the upper world becomes the lower not all at once but grain by grain. A meditation on impermanence in glass.",
+      "keywords": [
+        "hourglass",
+        "time",
+        "sand",
+        "impermanence",
+        "mortality"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2\" stroke-linejoin=\"round\"><path d=\"M14 10 L50 10 L34 32 L50 54 L14 54 L30 32 Z\"/><line x1=\"14\" y1=\"10\" x2=\"50\" y2=\"10\"/><line x1=\"14\" y1=\"54\" x2=\"50\" y2=\"54\"/></g><g fill=\"#e8c97a\"><path d=\"M18 14 L46 14 L34 28 L30 28 Z\"/><path d=\"M30 36 L34 36 L46 50 L18 50 Z\" fill-opacity=\"0.5\"/></g></svg>"
+    },
+    {
+      "id": "acacia",
+      "name": "Sprig of Acacia",
+      "tradition": "Freemasonry",
+      "tagline": "Immortality — what cannot be buried.",
+      "blurb": "A sprig of acacia laid at the head of Hiram Abiff's grave. The acacia is evergreen, its wood incorruptible — in Masonic tradition it marks the imperishable principle in man, the soul that death cannot touch. To pluck the acacia is to recognize that what you are is older than what dies.",
+      "keywords": [
+        "acacia",
+        "evergreen",
+        "hiram",
+        "immortality",
+        "soul"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.6\" stroke-linecap=\"round\"><line x1=\"32\" y1=\"56\" x2=\"32\" y2=\"14\"/><line x1=\"32\" y1=\"18\" x2=\"22\" y2=\"12\"/><line x1=\"32\" y1=\"18\" x2=\"42\" y2=\"12\"/><line x1=\"32\" y1=\"26\" x2=\"20\" y2=\"22\"/><line x1=\"32\" y1=\"26\" x2=\"44\" y2=\"22\"/><line x1=\"32\" y1=\"34\" x2=\"18\" y2=\"32\"/><line x1=\"32\" y1=\"34\" x2=\"46\" y2=\"32\"/><line x1=\"32\" y1=\"42\" x2=\"20\" y2=\"42\"/><line x1=\"32\" y1=\"42\" x2=\"44\" y2=\"42\"/></g><g fill=\"#e8c97a\"><circle cx=\"22\" cy=\"12\" r=\"1.6\"/><circle cx=\"42\" cy=\"12\" r=\"1.6\"/><circle cx=\"20\" cy=\"22\" r=\"1.6\"/><circle cx=\"44\" cy=\"22\" r=\"1.6\"/><circle cx=\"18\" cy=\"32\" r=\"1.6\"/><circle cx=\"46\" cy=\"32\" r=\"1.6\"/><circle cx=\"20\" cy=\"42\" r=\"1.6\"/><circle cx=\"44\" cy=\"42\" r=\"1.6\"/></g></svg>"
+    },
+    {
+      "id": "plumb",
+      "name": "The Plumb",
+      "tradition": "Freemasonry",
+      "tagline": "Vertical truth — uprightness in all things.",
+      "blurb": "A weight on a string that always falls toward the earth's center. The plumb is the Fellow Craft's working tool: it teaches uprightness, the constant correction toward the vertical line that gravity itself draws. To walk plumb is to walk in truth with no deviation.",
+      "keywords": [
+        "plumb",
+        "vertical",
+        "upright",
+        "fellow craft",
+        "truth"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.8\" stroke-linecap=\"round\"><line x1=\"32\" y1=\"8\" x2=\"32\" y2=\"50\"/><polygon points=\"32,50 26,58 38,58\" fill=\"#e8c97a\"/></g><circle cx=\"32\" cy=\"8\" r=\"2\" fill=\"#e8c97a\"/></svg>"
+    },
+    {
+      "id": "level",
+      "name": "The Level",
+      "tradition": "Freemasonry",
+      "tagline": "Horizontal truth — equality of all who stand upon the earth.",
+      "blurb": "A horizontal beam with a plumb at center. The level is the Senior Warden's tool: when its plumb falls true at the midline, the beam is level and the world it tests is balanced. In ethics it teaches that all who stand upon the earth are equal in dignity — the rich and the poor share the same level.",
+      "keywords": [
+        "level",
+        "horizontal",
+        "equality",
+        "warden",
+        "balance"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.8\" stroke-linecap=\"round\"><line x1=\"10\" y1=\"24\" x2=\"54\" y2=\"24\"/><line x1=\"10\" y1=\"24\" x2=\"10\" y2=\"30\"/><line x1=\"54\" y1=\"24\" x2=\"54\" y2=\"30\"/><line x1=\"32\" y1=\"24\" x2=\"32\" y2=\"52\"/><polygon points=\"32,52 26,58 38,58\" fill=\"#e8c97a\"/></g></svg>"
+    },
+    {
+      "id": "tree-of-life",
+      "name": "Tree of Life",
+      "tradition": "Qabalah",
+      "tagline": "Ten Sefirot connected by twenty-two paths.",
+      "blurb": "The diagram at the heart of Kabbalah. Ten luminous spheres arranged in three columns — Mercy, Severity, and the Middle Pillar — joined by twenty-two paths, each corresponding to a Hebrew letter. The map of how the unmanifest unfolds into form and how the soul ascends back to source.",
+      "keywords": [
+        "tree",
+        "sefirot",
+        "kabbalah",
+        "paths",
+        "ten"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#c9a84c\" stroke-width=\"0.8\"><line x1=\"32\" y1=\"6\" x2=\"20\" y2=\"20\"/><line x1=\"32\" y1=\"6\" x2=\"44\" y2=\"20\"/><line x1=\"20\" y1=\"20\" x2=\"44\" y2=\"20\"/><line x1=\"20\" y1=\"20\" x2=\"32\" y2=\"34\"/><line x1=\"44\" y1=\"20\" x2=\"32\" y2=\"34\"/><line x1=\"20\" y1=\"20\" x2=\"20\" y2=\"48\"/><line x1=\"44\" y1=\"20\" x2=\"44\" y2=\"48\"/><line x1=\"20\" y1=\"48\" x2=\"44\" y2=\"48\"/><line x1=\"20\" y1=\"48\" x2=\"32\" y2=\"34\"/><line x1=\"44\" y1=\"48\" x2=\"32\" y2=\"34\"/><line x1=\"32\" y1=\"34\" x2=\"32\" y2=\"58\"/><line x1=\"20\" y1=\"48\" x2=\"32\" y2=\"58\"/><line x1=\"44\" y1=\"48\" x2=\"32\" y2=\"58\"/></g><g fill=\"#e8c97a\" stroke=\"#e8c97a\" stroke-width=\"0.6\"><circle cx=\"32\" cy=\"6\" r=\"3.2\"/><circle cx=\"20\" cy=\"20\" r=\"3.2\"/><circle cx=\"44\" cy=\"20\" r=\"3.2\"/><circle cx=\"32\" cy=\"34\" r=\"3.2\"/><circle cx=\"20\" cy=\"48\" r=\"3.2\"/><circle cx=\"44\" cy=\"48\" r=\"3.2\"/><circle cx=\"32\" cy=\"58\" r=\"3.2\"/></g></svg>"
+    },
+    {
+      "id": "star-of-david",
+      "name": "Star of David",
+      "tradition": "Qabalah",
+      "tagline": "The hexagram — as above, so below, interlocked.",
+      "blurb": "Two overlapping triangles: one pointing upward (fire, the masculine, aspiration toward heaven) and one pointing downward (water, the feminine, the descent of grace). Their interpenetration is the Hermetic axiom in geometric form. Known as the Magen David in Judaism and the Seal of Solomon in older traditions.",
+      "keywords": [
+        "hexagram",
+        "david",
+        "solomon",
+        "triangle",
+        "fire",
+        "water"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2.2\" stroke-linejoin=\"round\"><polygon points=\"32,8 54,46 10,46\"/><polygon points=\"32,56 54,18 10,18\"/></g></svg>"
+    },
+    {
+      "id": "tetragrammaton",
+      "name": "Tetragrammaton (יהוה)",
+      "tradition": "Qabalah",
+      "tagline": "The four-letter name — Yod He Vav He.",
+      "blurb": "The most sacred name of God in the Hebrew Bible, not pronounced aloud in traditional Judaism. The four letters Yod (י), He (ה), Vav (ו), He (ה) each map onto a world, an element, a phase of the divine self-disclosure. Mystics read the whole cosmos in these four characters.",
+      "keywords": [
+        "yhvh",
+        "name",
+        "yod",
+        "he",
+        "vav",
+        "ineffable"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"32\" y=\"44\" text-anchor=\"middle\" font-family=\"serif\" font-size=\"32\" font-weight=\"500\" fill=\"#e8c97a\">יהוה</text></svg>"
+    },
+    {
+      "id": "menorah",
+      "name": "Menorah",
+      "tradition": "Qabalah",
+      "tagline": "Seven flames — the seven planets, the seven lower Sefirot.",
+      "blurb": "The seven-branched lampstand of the temple. Each lamp corresponds to a planetary intelligence and to a Sefirah from Chesed through Malkhut. The central shaft is the Middle Pillar — the path of return. In Solomon's sanctuary it burned continually.",
+      "keywords": [
+        "menorah",
+        "seven",
+        "lamp",
+        "temple",
+        "branches"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.6\" stroke-linecap=\"round\"><line x1=\"32\" y1=\"22\" x2=\"32\" y2=\"52\"/><path d=\"M32 22 Q22 26 22 36 L22 42\"/><path d=\"M32 22 Q42 26 42 36 L42 42\"/><path d=\"M32 22 Q16 26 14 32 L14 42\"/><path d=\"M32 22 Q48 26 50 32 L50 42\"/><path d=\"M32 22 Q10 26 6 30 L6 42\"/><path d=\"M32 22 Q54 26 58 30 L58 42\"/><line x1=\"22\" y1=\"52\" x2=\"42\" y2=\"52\"/></g><g fill=\"#e8c97a\"><circle cx=\"6\" cy=\"40\" r=\"2\"/><circle cx=\"14\" cy=\"40\" r=\"2\"/><circle cx=\"22\" cy=\"40\" r=\"2\"/><circle cx=\"32\" cy=\"20\" r=\"2\"/><circle cx=\"42\" cy=\"40\" r=\"2\"/><circle cx=\"50\" cy=\"40\" r=\"2\"/><circle cx=\"58\" cy=\"40\" r=\"2\"/></g></svg>"
+    },
+    {
+      "id": "aleph",
+      "name": "Aleph (א)",
+      "tradition": "Qabalah",
+      "tagline": "The silent breath — the unity beneath all sound.",
+      "blurb": "The first letter of the Hebrew alphabet. Aleph is silent — it carries no sound of its own but gives breath to every other letter. Its shape is a yod above, a yod below, and a diagonal vav joining them: the upper and lower waters held by the line of return.",
+      "keywords": [
+        "aleph",
+        "first",
+        "letter",
+        "breath",
+        "unity"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"32\" y=\"52\" text-anchor=\"middle\" font-family=\"serif\" font-size=\"56\" font-weight=\"500\" fill=\"#e8c97a\">א</text></svg>"
+    },
+    {
+      "id": "tav",
+      "name": "Tav (ת)",
+      "tradition": "Qabalah",
+      "tagline": "The completed signature — the seal of the work.",
+      "blurb": "The last letter of the Hebrew alphabet. Tav is the cross-mark, the ancient X that signified a sealed covenant. In Ezekiel 9 the angel marks the foreheads of the faithful with this letter. It is completion, signature, the final stroke that says: it is finished, and it is true.",
+      "keywords": [
+        "tav",
+        "last",
+        "letter",
+        "seal",
+        "cross"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"32\" y=\"52\" text-anchor=\"middle\" font-family=\"serif\" font-size=\"56\" font-weight=\"500\" fill=\"#e8c97a\">ת</text></svg>"
+    },
+    {
+      "id": "yod",
+      "name": "Yod (י)",
+      "tradition": "Qabalah",
+      "tagline": "The point — the seed-flame of every letter.",
+      "blurb": "The smallest Hebrew letter, a single flame-shaped mark. Yod is the seed-point from which every other letter is composed: every letter contains within itself one or more yods. Mystics see in it the spark of the divine creative will — the first downward motion of Keter into form.",
+      "keywords": [
+        "yod",
+        "point",
+        "seed",
+        "letter",
+        "keter"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"32\" y=\"52\" text-anchor=\"middle\" font-family=\"serif\" font-size=\"56\" font-weight=\"500\" fill=\"#e8c97a\">י</text></svg>"
+    },
+    {
+      "id": "shin",
+      "name": "Shin (ש)",
+      "tradition": "Qabalah",
+      "tagline": "The three-flamed fire — the consuming letter.",
+      "blurb": "The 21st Hebrew letter. Shin is shaped like a three-pronged flame, and represents fire — the element of transformation. Inscribed on the priestly headplate and on the mezuzah, it stands for Shaddai, the Almighty. Christian Kabbalists noted that inserting Shin into YHVH yields YHShVH — the name of Jesus.",
+      "keywords": [
+        "shin",
+        "fire",
+        "three",
+        "shaddai",
+        "letter"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"32\" y=\"52\" text-anchor=\"middle\" font-family=\"serif\" font-size=\"56\" font-weight=\"500\" fill=\"#e8c97a\">ש</text></svg>"
+    },
+    {
+      "id": "mem",
+      "name": "Mem (מ)",
+      "tradition": "Qabalah",
+      "tagline": "The waters — revealed and hidden wisdom.",
+      "blurb": "The thirteenth Hebrew letter. Mem signifies the waters — both the visible waters of creation and the hidden waters of mystical knowledge. The letter has two forms: open mem (revealed teaching) and final mem (sealed teaching). Whoever drinks of the open mem may proceed toward the closed.",
+      "keywords": [
+        "mem",
+        "water",
+        "wisdom",
+        "hidden",
+        "letter"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"32\" y=\"52\" text-anchor=\"middle\" font-family=\"serif\" font-size=\"56\" font-weight=\"500\" fill=\"#e8c97a\">מ</text></svg>"
+    },
+    {
+      "id": "three-pillars",
+      "name": "Three Pillars of the Tree",
+      "tradition": "Qabalah",
+      "tagline": "Mercy, Severity, and the Middle Way.",
+      "blurb": "The Tree of Life resolves into three vertical columns: the Pillar of Mercy on the right (Chokhmah, Chesed, Netzach), the Pillar of Severity on the left (Binah, Gevurah, Hod), and the Middle Pillar of Equilibrium (Keter, Tiferet, Yesod, Malkhut). The initiate's path is up the central pillar, balancing opposites at every step.",
+      "keywords": [
+        "pillars",
+        "mercy",
+        "severity",
+        "middle",
+        "balance"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2\"><line x1=\"18\" y1=\"6\" x2=\"18\" y2=\"58\"/><line x1=\"32\" y1=\"6\" x2=\"32\" y2=\"58\"/><line x1=\"46\" y1=\"6\" x2=\"46\" y2=\"58\"/></g><g fill=\"#e8c97a\"><circle cx=\"18\" cy=\"14\" r=\"2.5\"/><circle cx=\"18\" cy=\"34\" r=\"2.5\"/><circle cx=\"18\" cy=\"50\" r=\"2.5\"/><circle cx=\"32\" cy=\"10\" r=\"2.5\"/><circle cx=\"32\" cy=\"32\" r=\"2.5\"/><circle cx=\"32\" cy=\"46\" r=\"2.5\"/><circle cx=\"32\" cy=\"56\" r=\"2.5\"/><circle cx=\"46\" cy=\"14\" r=\"2.5\"/><circle cx=\"46\" cy=\"34\" r=\"2.5\"/><circle cx=\"46\" cy=\"50\" r=\"2.5\"/></g></svg>"
+    },
+    {
+      "id": "lightning-flash",
+      "name": "Lightning Flash",
+      "tradition": "Qabalah",
+      "tagline": "The descent of creation across the Sefirot.",
+      "blurb": "The zig-zag path traced by emanation as it descends from Keter through all ten Sefirot to Malkhut. It is the route by which the unmanifest becomes manifest, and the route the soul retraces in reverse to find its source. Sometimes called the Path of the Flaming Sword.",
+      "keywords": [
+        "lightning",
+        "flash",
+        "descent",
+        "creation",
+        "flaming sword"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"><polyline points=\"32,6 20,20 44,20 20,34 44,34 20,48 44,48 32,58\"/></g><g fill=\"#c9a84c\"><circle cx=\"32\" cy=\"6\" r=\"2\"/><circle cx=\"32\" cy=\"58\" r=\"2\"/></g></svg>"
+    },
+    {
+      "id": "merkabah",
+      "name": "Merkabah",
+      "tradition": "Qabalah",
+      "tagline": "The chariot of ascent — Ezekiel's vision in geometry.",
+      "blurb": "Ezekiel's vision of the divine throne-chariot — wheels within wheels, four faces, the rider above. Later mystics reduced its essence to two interlocking tetrahedra: a star tetrahedron in three dimensions, the spiritual vehicle of the ascending soul. To activate the Merkabah is to begin the ascent through the heavenly palaces.",
+      "keywords": [
+        "merkabah",
+        "chariot",
+        "ezekiel",
+        "ascent",
+        "tetrahedra"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.6\" stroke-linejoin=\"round\"><polygon points=\"32,8 52,46 12,46\"/><polygon points=\"32,56 52,18 12,18\"/><circle cx=\"32\" cy=\"32\" r=\"22\" stroke=\"#c9a84c\" stroke-width=\"0.7\"/></g></svg>"
+    },
+    {
+      "id": "keter",
+      "name": "Keter — Crown",
+      "tradition": "Qabalah",
+      "tagline": "The first Sefirah — the unknowable apex.",
+      "blurb": "Keter is the highest of the Sefirot, the crown that touches the unmanifest Ein Sof. It is pure being before any attribute, the silent root from which all distinctions flow. Mystics describe Keter as the breath above thought, the I AM that precedes the I.",
+      "keywords": [
+        "keter",
+        "crown",
+        "sefirah",
+        "supernal",
+        "ein sof"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2\"><circle cx=\"32\" cy=\"32\" r=\"22\"/><path d=\"M16 32 L20 22 L26 28 L32 18 L38 28 L44 22 L48 32 Z\" fill=\"#e8c97a\" fill-opacity=\"0.15\"/><circle cx=\"32\" cy=\"32\" r=\"3\" fill=\"#e8c97a\"/></g></svg>"
+    },
+    {
+      "id": "tiferet",
+      "name": "Tiferet — Beauty",
+      "tradition": "Qabalah",
+      "tagline": "The heart of the Tree — sun, son, harmony.",
+      "blurb": "Tiferet sits at the center of the Tree of Life — the Sefirah of beauty, harmony, the reconciling middle. It is the Sun, the heart-center, the place where Chesed and Gevurah are balanced. Christian Kabbalists identified Tiferet with the Christ; in alchemy it is Sol; in the body it is the heart.",
+      "keywords": [
+        "tiferet",
+        "beauty",
+        "sun",
+        "heart",
+        "christ",
+        "sefirah"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.8\"><circle cx=\"32\" cy=\"32\" r=\"18\"/><circle cx=\"32\" cy=\"32\" r=\"5\" fill=\"#e8c97a\"/></g><g stroke=\"#c9a84c\" stroke-width=\"1.2\" stroke-linecap=\"round\"><line x1=\"32\" y1=\"6\" x2=\"32\" y2=\"12\"/><line x1=\"32\" y1=\"52\" x2=\"32\" y2=\"58\"/><line x1=\"6\" y1=\"32\" x2=\"12\" y2=\"32\"/><line x1=\"52\" y1=\"32\" x2=\"58\" y2=\"32\"/><line x1=\"14\" y1=\"14\" x2=\"18\" y2=\"18\"/><line x1=\"50\" y1=\"14\" x2=\"46\" y2=\"18\"/><line x1=\"14\" y1=\"50\" x2=\"18\" y2=\"46\"/><line x1=\"50\" y1=\"50\" x2=\"46\" y2=\"46\"/></g></svg>"
+    },
+    {
+      "id": "malkhut",
+      "name": "Malkhut — Kingdom",
+      "tradition": "Qabalah",
+      "tagline": "The world, the body, the Shekhinah in exile.",
+      "blurb": "Malkhut is the tenth and final Sefirah — the manifest world, the kingdom into which the divine descent terminates. She is the Shekhinah, the indwelling presence; the daughter who is also the mother; the bride of Tiferet. The work of return begins here: blessing the most ordinary thing as the King's footstool.",
+      "keywords": [
+        "malkhut",
+        "kingdom",
+        "shekhinah",
+        "world",
+        "earth"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2\" stroke-linejoin=\"round\"><rect x=\"14\" y=\"14\" width=\"36\" height=\"36\"/><line x1=\"14\" y1=\"14\" x2=\"50\" y2=\"50\"/><line x1=\"50\" y1=\"14\" x2=\"14\" y2=\"50\"/></g><circle cx=\"32\" cy=\"32\" r=\"4\" fill=\"#e8c97a\"/></svg>"
+    },
+    {
+      "id": "caduceus",
+      "name": "Caduceus",
+      "tradition": "Hermetic",
+      "tagline": "The staff of Hermes — two serpents on a winged rod.",
+      "blurb": "Hermes' staff. Two serpents climb a central rod, crowned with wings. The serpents are the ascending kundalini currents of left and right channels; the rod is the spine, the axis mundi; the wings are the soul's flight. Also the symbol of healing — the rod that turns poison into medicine.",
+      "keywords": [
+        "caduceus",
+        "hermes",
+        "serpent",
+        "wings",
+        "staff"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2\" stroke-linecap=\"round\"><line x1=\"32\" y1=\"10\" x2=\"32\" y2=\"56\"/><circle cx=\"32\" cy=\"10\" r=\"2.5\" fill=\"#e8c97a\"/><path d=\"M32 14 Q20 12 14 20\"/><path d=\"M32 14 Q44 12 50 20\"/><path d=\"M32 18 Q22 18 16 26\"/><path d=\"M32 18 Q42 18 48 26\"/></g><g fill=\"none\" stroke=\"#c9a84c\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M24 28 Q32 34 40 40 Q32 46 24 52\"/><path d=\"M40 28 Q32 34 24 40 Q32 46 40 52\"/></g></svg>"
+    },
+    {
+      "id": "ouroboros",
+      "name": "Ouroboros",
+      "tradition": "Hermetic",
+      "tagline": "The serpent that eats its own tail.",
+      "blurb": "The dragon or serpent biting its own tail. It marks the eternal return — the cycle without beginning or end, the One that contains its own contradiction. In alchemy it represents the prima materia, the substance that is its own source. To meditate on it is to learn the geometry of wholeness.",
+      "keywords": [
+        "ouroboros",
+        "serpent",
+        "circle",
+        "eternal",
+        "wholeness"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"32\" cy=\"32\" r=\"20\" fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"3\"/><ellipse cx=\"51\" cy=\"32\" rx=\"5\" ry=\"3.5\" fill=\"#e8c97a\"/><circle cx=\"53.5\" cy=\"31\" r=\"0.9\" fill=\"#0a0a0f\"/><path d=\"M46 32 L52 29 L52 35 Z\" fill=\"#0a0a0f\"/></svg>"
+    },
+    {
+      "id": "emerald-tablet",
+      "name": "Emerald Tablet",
+      "tradition": "Hermetic",
+      "tagline": "\"As above, so below\" — the Hermetic axiom inscribed.",
+      "blurb": "The legendary tablet of Hermes Trismegistus, said to contain the entirety of alchemy in a few short lines: \"That which is above is like that which is below, and that which is below is like that which is above, to accomplish the miracles of the One Thing.\" The single most quoted Hermetic text in the West.",
+      "keywords": [
+        "emerald",
+        "tablet",
+        "hermes",
+        "as above",
+        "trismegistus"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.6\" stroke-linejoin=\"round\"><rect x=\"10\" y=\"10\" width=\"44\" height=\"44\" rx=\"3\"/><line x1=\"14\" y1=\"20\" x2=\"50\" y2=\"20\"/><line x1=\"14\" y1=\"28\" x2=\"50\" y2=\"28\"/><line x1=\"14\" y1=\"36\" x2=\"50\" y2=\"36\"/><line x1=\"14\" y1=\"44\" x2=\"50\" y2=\"44\"/></g><text x=\"32\" y=\"44\" text-anchor=\"middle\" font-family=\"serif\" font-size=\"10\" font-weight=\"700\" fill=\"#c9a84c\">∴</text></svg>"
+    },
+    {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "tradition": "Hermetic",
+      "tagline": "The bird born from its own ashes.",
+      "blurb": "The phoenix burns to ash and rises renewed every five hundred years. In alchemy it represents the final stage of the Great Work — the regeneration after the death of the old form. To Hermetic mystics it is the immortal aspect of the soul, surviving every dissolution, reborn each time more itself.",
+      "keywords": [
+        "phoenix",
+        "fire",
+        "rebirth",
+        "regeneration",
+        "ashes"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M32 14 Q26 8 22 14\"/><circle cx=\"22\" cy=\"12\" r=\"1.5\" fill=\"#e8c97a\"/><path d=\"M28 18 Q26 24 30 30 L34 30 Q38 24 36 18\"/><path d=\"M30 30 Q18 36 12 26 Q14 38 24 42\"/><path d=\"M34 30 Q46 36 52 26 Q50 38 40 42\"/><path d=\"M28 42 Q24 50 28 56 M36 42 Q40 50 36 56 M32 42 L32 58\"/></g></svg>"
+    },
+    {
+      "id": "pelican",
+      "name": "Alchemical Pelican",
+      "tradition": "Hermetic",
+      "tagline": "The bird that feeds its young with its own breast.",
+      "blurb": "In alchemy the pelican is the vessel of the inner work — a glass retort whose long neck curves back to its body, distilling the matter through itself again and again. Symbolically, it is the heart that nourishes by its own sacrifice: the Christ-image native to both Hermetic and Christian thought.",
+      "keywords": [
+        "pelican",
+        "vessel",
+        "retort",
+        "sacrifice",
+        "heart"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"32\" cy=\"44\" rx=\"16\" ry=\"12\"/><path d=\"M32 32 Q30 22 36 16 Q44 14 46 22 Q44 30 36 32\"/><circle cx=\"40\" cy=\"20\" r=\"1.4\" fill=\"#e8c97a\"/></g><g fill=\"#c9a84c\"><circle cx=\"28\" cy=\"42\" r=\"1.6\"/><circle cx=\"32\" cy=\"46\" r=\"1.6\"/><circle cx=\"36\" cy=\"42\" r=\"1.6\"/></g></svg>"
+    },
+    {
+      "id": "sulfur",
+      "name": "Sulfur",
+      "tradition": "Alchemical",
+      "tagline": "The active principle — soul, fire, will.",
+      "blurb": "One of the three alchemical primes. Sulfur is the soul-aspect of any substance — its hot, expansive, masculine, willful quality. In the Great Work it must be separated, purified, and reunited with Mercury (mind) and Salt (body). Its symbol is a triangle of fire over a cross of matter.",
+      "keywords": [
+        "sulfur",
+        "sulphur",
+        "fire",
+        "soul",
+        "principle"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"><polygon points=\"32,12 46,36 18,36\"/><line x1=\"32\" y1=\"36\" x2=\"32\" y2=\"54\"/><line x1=\"24\" y1=\"46\" x2=\"40\" y2=\"46\"/></g></svg>"
+    },
+    {
+      "id": "mercury",
+      "name": "Mercury (Alchemical)",
+      "tradition": "Alchemical",
+      "tagline": "The mediating principle — mind, breath, the messenger.",
+      "blurb": "The second alchemical prime. Mercury is the mind-aspect, the volatile spirit that mediates between soul and body. It is also the planet Mercury, governed by Hermes himself. The glyph shows the crescent of receptivity above the circle of essence above the cross of matter — spirit, soul, body integrated.",
+      "keywords": [
+        "mercury",
+        "hermes",
+        "mind",
+        "mediator",
+        "planet"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M22 12 Q32 22 42 12\"/><circle cx=\"32\" cy=\"30\" r=\"9\"/><line x1=\"32\" y1=\"39\" x2=\"32\" y2=\"54\"/><line x1=\"24\" y1=\"46\" x2=\"40\" y2=\"46\"/></g></svg>"
+    },
+    {
+      "id": "salt",
+      "name": "Salt",
+      "tradition": "Alchemical",
+      "tagline": "The fixed principle — body, matter, the residue.",
+      "blurb": "The third alchemical prime. Salt is what remains after burning — the fixed, crystallized, earthy aspect. In the soul-work it represents the body and the patterns it has formed, the conditioning that must be dissolved and re-crystallized in higher form. Its glyph: a circle divided by a horizontal line — heaven met by earth.",
+      "keywords": [
+        "salt",
+        "body",
+        "fixed",
+        "matter"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2.4\" stroke-linecap=\"round\"><circle cx=\"32\" cy=\"32\" r=\"20\"/><line x1=\"12\" y1=\"32\" x2=\"52\" y2=\"32\"/></g></svg>"
+    },
+    {
+      "id": "sol",
+      "name": "Sol (Sun)",
+      "tradition": "Alchemical",
+      "tagline": "Gold, kingship, the heart of the Work.",
+      "blurb": "The sun — and the alchemical metal gold, the perfect substance. Sol is the king, the masculine principle, the radiance of the central heart. In the inner work it is Tiferet, the harmonized center where opposites meet. Every alchemical operation aims at producing Sol in its purest form.",
+      "keywords": [
+        "sun",
+        "sol",
+        "gold",
+        "king",
+        "tiferet"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2\"><circle cx=\"32\" cy=\"32\" r=\"14\"/><circle cx=\"32\" cy=\"32\" r=\"3\" fill=\"#e8c97a\"/></g><g stroke=\"#c9a84c\" stroke-width=\"1.4\" stroke-linecap=\"round\"><line x1=\"32\" y1=\"6\" x2=\"32\" y2=\"12\"/><line x1=\"32\" y1=\"52\" x2=\"32\" y2=\"58\"/><line x1=\"6\" y1=\"32\" x2=\"12\" y2=\"32\"/><line x1=\"52\" y1=\"32\" x2=\"58\" y2=\"32\"/><line x1=\"14\" y1=\"14\" x2=\"18\" y2=\"18\"/><line x1=\"50\" y1=\"14\" x2=\"46\" y2=\"18\"/><line x1=\"14\" y1=\"50\" x2=\"18\" y2=\"46\"/><line x1=\"50\" y1=\"50\" x2=\"46\" y2=\"46\"/></g></svg>"
+    },
+    {
+      "id": "luna",
+      "name": "Luna (Moon)",
+      "tradition": "Alchemical",
+      "tagline": "Silver, the reflecting feminine, the soul's mirror.",
+      "blurb": "The moon — and the alchemical metal silver. Luna is the queen, the feminine, the cool light that reveals the unconscious depths. In Kabbalah she is Yesod (Foundation), the dream-self that gathers the patterns of all higher Sefirot before they descend into Malkhut.",
+      "keywords": [
+        "moon",
+        "luna",
+        "silver",
+        "queen",
+        "yesod"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M40 16 A20 20 0 1 0 40 48 A14 14 0 1 1 40 16 Z\" fill=\"#e8c97a\"/></svg>"
+    },
+    {
+      "id": "philosophers-stone",
+      "name": "Philosopher's Stone",
+      "tradition": "Alchemical",
+      "tagline": "The squared circle — completion of the Great Work.",
+      "blurb": "The goal of the alchemical opus. Often depicted as a square within a circle within a triangle within a square — the integration of body (square), soul (circle), and spirit (triangle). It transmutes lead into gold not in the laboratory but in the soul: the human transformed into the philosophic.",
+      "keywords": [
+        "stone",
+        "philosophers",
+        "lapis",
+        "transmutation"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.6\" stroke-linejoin=\"round\"><rect x=\"8\" y=\"8\" width=\"48\" height=\"48\"/><polygon points=\"32,14 54,50 10,50\"/><circle cx=\"32\" cy=\"36\" r=\"14\"/><rect x=\"24\" y=\"28\" width=\"16\" height=\"16\"/></g></svg>"
+    },
+    {
+      "id": "mars",
+      "name": "Mars (♂)",
+      "tradition": "Alchemical",
+      "tagline": "Iron — the warrior planet, severity in metal.",
+      "blurb": "The alchemical metal iron and the planet Mars. The glyph: circle with arrow pointing upper-right, signifying outward thrust. In Kabbalah Mars corresponds to Gevurah (Severity); in the soul, the cutting power of will. Iron tempers blades — and tempers character.",
+      "keywords": [
+        "mars",
+        "iron",
+        "warrior",
+        "gevurah",
+        "severity"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"26\" cy=\"38\" r=\"12\"/><line x1=\"34\" y1=\"30\" x2=\"50\" y2=\"14\"/><polyline points=\"50,14 38,14 50,14 50,26\"/></g></svg>"
+    },
+    {
+      "id": "venus",
+      "name": "Venus (♀)",
+      "tradition": "Alchemical",
+      "tagline": "Copper — the goddess of love and union.",
+      "blurb": "The alchemical metal copper and the planet Venus. The glyph: circle above the equal-armed cross — spirit perfected over balanced matter. In Kabbalah Venus corresponds to Netzach (Eternity, Victory); in soul-work, the principle of attraction, the binding of opposites through love.",
+      "keywords": [
+        "venus",
+        "copper",
+        "love",
+        "netzach",
+        "union"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2.4\" stroke-linecap=\"round\"><circle cx=\"32\" cy=\"26\" r=\"12\"/><line x1=\"32\" y1=\"38\" x2=\"32\" y2=\"56\"/><line x1=\"24\" y1=\"48\" x2=\"40\" y2=\"48\"/></g></svg>"
+    },
+    {
+      "id": "jupiter",
+      "name": "Jupiter (♃)",
+      "tradition": "Alchemical",
+      "tagline": "Tin — the king, generosity, expansion.",
+      "blurb": "The alchemical metal tin and the planet Jupiter. In Kabbalah Jupiter corresponds to Chesed (Loving-kindness); in the soul, the principle of expansion, beneficence, the open hand. Jupiter is the elder ruler, the lawgiver who gives liberally.",
+      "keywords": [
+        "jupiter",
+        "tin",
+        "chesed",
+        "king",
+        "expansion"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M14 16 Q24 14 28 22 L28 44\"/><line x1=\"22\" y1=\"40\" x2=\"42\" y2=\"40\"/><line x1=\"40\" y1=\"32\" x2=\"40\" y2=\"46\"/></g></svg>"
+    },
+    {
+      "id": "saturn",
+      "name": "Saturn (♄)",
+      "tradition": "Alchemical",
+      "tagline": "Lead — the elder, the limit, the test of time.",
+      "blurb": "The alchemical metal lead and the planet Saturn. In Kabbalah Saturn corresponds to Binah (Understanding); in the soul, the principle of structure, time, contemplation, the cold weight that compresses raw matter into form. The slowest planet, the heaviest metal — and the gateway to wisdom.",
+      "keywords": [
+        "saturn",
+        "lead",
+        "binah",
+        "time",
+        "limit"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"20\" y1=\"16\" x2=\"36\" y2=\"16\"/><line x1=\"28\" y1=\"16\" x2=\"28\" y2=\"50\"/><path d=\"M20 50 Q28 50 32 44 Q40 38 44 44 L44 54\"/></g></svg>"
+    },
+    {
+      "id": "ankh",
+      "name": "Ankh",
+      "tradition": "Egyptian",
+      "tagline": "The key of life — circle and cross.",
+      "blurb": "The Egyptian symbol of life, breath, eternity. The loop above is the feminine, the receiver of the breath of God; the cross below is the masculine, the staff that walks the earth. Where they meet is the doorway between worlds. Pharaohs and gods are depicted holding it by the loop — life held in the hand.",
+      "keywords": [
+        "ankh",
+        "life",
+        "egypt",
+        "key",
+        "cross"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"3.2\" stroke-linecap=\"round\"><ellipse cx=\"32\" cy=\"22\" rx=\"10\" ry=\"12\"/><line x1=\"32\" y1=\"34\" x2=\"32\" y2=\"56\"/><line x1=\"20\" y1=\"44\" x2=\"44\" y2=\"44\"/></g></svg>"
+    },
+    {
+      "id": "eye-of-horus",
+      "name": "Eye of Horus (Wedjat)",
+      "tradition": "Egyptian",
+      "tagline": "The healed eye — restoration after wounding.",
+      "blurb": "The eye of the falcon-god Horus, plucked out in battle with Set and restored by Thoth. Each of its six parts corresponds to a fraction; together they sum to 63/64 — the missing 1/64 returns only through grace. A symbol of healing, perception, and the restoration of wholeness.",
+      "keywords": [
+        "horus",
+        "wedjat",
+        "eye",
+        "egypt",
+        "healing"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2.4\" stroke-linecap=\"round\"><path d=\"M10 26 Q32 14 54 30\"/><path d=\"M12 34 Q32 46 52 34\"/><circle cx=\"32\" cy=\"32\" r=\"5\" fill=\"#e8c97a\"/><path d=\"M32 38 Q28 50 22 56\"/><path d=\"M44 36 Q52 42 50 56 Q42 56 38 50\" stroke=\"#c9a84c\" stroke-width=\"2\"/></g></svg>"
+    },
+    {
+      "id": "eye-of-ra",
+      "name": "Eye of Ra",
+      "tradition": "Egyptian",
+      "tagline": "The fierce, solar feminine — the consuming sun.",
+      "blurb": "Distinct from the Eye of Horus: the Eye of Ra is the violent, protective, solar feminine, often identified with Sekhmet, Hathor, or Bastet. Where Horus' eye is the moon healed, Ra's eye is the sun in its destructive aspect — the heat that purifies, the fire that defends.",
+      "keywords": [
+        "ra",
+        "eye",
+        "sun",
+        "sekhmet",
+        "egypt"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2.4\" stroke-linecap=\"round\"><path d=\"M10 30 Q32 18 54 26\"/><path d=\"M14 36 Q32 50 50 36\"/><circle cx=\"32\" cy=\"32\" r=\"5\" fill=\"#e8c97a\"/></g><g stroke=\"#c9a84c\" stroke-width=\"1.6\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"32\" y1=\"14\" x2=\"32\" y2=\"8\"/><line x1=\"20\" y1=\"18\" x2=\"16\" y2=\"14\"/><line x1=\"44\" y1=\"18\" x2=\"48\" y2=\"14\"/></g></svg>"
+    },
+    {
+      "id": "djed",
+      "name": "Djed Pillar",
+      "tradition": "Egyptian",
+      "tagline": "The backbone of Osiris — stability of the resurrected.",
+      "blurb": "The Djed is a column with four horizontal bars at the top, identified with the spine of Osiris. It is the symbol of stability, of the upright axis that survives death and dismemberment. Pharaohs raised the Djed pillar in ritual to ensure cosmic order; mystics meditate on it as the spinal column of the inner Osiris.",
+      "keywords": [
+        "djed",
+        "pillar",
+        "osiris",
+        "spine",
+        "stability"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.8\" stroke-linecap=\"round\"><rect x=\"26\" y=\"12\" width=\"12\" height=\"36\" fill=\"#e8c97a\" fill-opacity=\"0.1\"/><line x1=\"18\" y1=\"16\" x2=\"46\" y2=\"16\"/><line x1=\"20\" y1=\"22\" x2=\"44\" y2=\"22\"/><line x1=\"22\" y1=\"28\" x2=\"42\" y2=\"28\"/><line x1=\"24\" y1=\"34\" x2=\"40\" y2=\"34\"/><line x1=\"22\" y1=\"48\" x2=\"42\" y2=\"48\"/><line x1=\"20\" y1=\"54\" x2=\"44\" y2=\"54\"/></g></svg>"
+    },
+    {
+      "id": "was-scepter",
+      "name": "Was Scepter",
+      "tradition": "Egyptian",
+      "tagline": "Dominion — the gods' instrument of power.",
+      "blurb": "A staff with a forked base and the stylized head of a Set-animal at the top. The gods of Egypt are depicted holding it. The Was scepter represents dominion, command, the authority that orders chaos. In Hermetic interpretation it is the wand of the magus, by which the will of the upper world descends to govern the lower.",
+      "keywords": [
+        "was",
+        "scepter",
+        "staff",
+        "egypt",
+        "dominion"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M28 8 L32 14 L36 8 Q40 12 38 18 L38 50\"/><path d=\"M32 50 L30 58 L36 56 L36 54 L40 58\"/></g></svg>"
+    },
+    {
+      "id": "scarab",
+      "name": "Scarab (Khepri)",
+      "tradition": "Egyptian",
+      "tagline": "The dung beetle — the morning sun reborn.",
+      "blurb": "The scarab beetle was identified with Khepri, the god of the rising sun. As the beetle rolls its ball of dung across the earth, so Khepri rolls the solar disc across the sky — each morning a new birth. The scarab is the symbol of becoming, of transformation, of the soul that buries itself in matter to emerge winged.",
+      "keywords": [
+        "scarab",
+        "beetle",
+        "khepri",
+        "sun",
+        "rebirth"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"><ellipse cx=\"32\" cy=\"36\" rx=\"14\" ry=\"16\" fill=\"#e8c97a\" fill-opacity=\"0.15\"/><path d=\"M28 22 L26 12 M36 22 L38 12\"/><line x1=\"18\" y1=\"32\" x2=\"10\" y2=\"28\"/><line x1=\"46\" y1=\"32\" x2=\"54\" y2=\"28\"/><line x1=\"20\" y1=\"40\" x2=\"10\" y2=\"42\"/><line x1=\"44\" y1=\"40\" x2=\"54\" y2=\"42\"/><line x1=\"22\" y1=\"48\" x2=\"14\" y2=\"56\"/><line x1=\"42\" y1=\"48\" x2=\"50\" y2=\"56\"/><line x1=\"32\" y1=\"22\" x2=\"32\" y2=\"52\"/></g></svg>"
+    },
+    {
+      "id": "ibis",
+      "name": "Ibis (Thoth)",
+      "tradition": "Egyptian",
+      "tagline": "The sacred bird — Thoth, scribe of the gods.",
+      "blurb": "The ibis was the sacred bird of Thoth, god of writing, magic, measure, and the moon. The Greeks identified Thoth with Hermes. Thoth invented the hieroglyphs, taught the secret arts, and judged the souls of the dead with his scales. The long curved beak and slender body became his hieroglyphic emblem.",
+      "keywords": [
+        "ibis",
+        "thoth",
+        "hermes",
+        "scribe",
+        "moon"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"36\" cy=\"38\" rx=\"14\" ry=\"10\"/><path d=\"M36 28 L30 16 Q28 10 22 12 Q20 16 26 20\"/><line x1=\"22\" y1=\"48\" x2=\"22\" y2=\"58\"/><line x1=\"30\" y1=\"48\" x2=\"30\" y2=\"58\"/><circle cx=\"32\" cy=\"22\" r=\"1\" fill=\"#e8c97a\"/></g></svg>"
+    },
+    {
+      "id": "pyramid",
+      "name": "Pyramid",
+      "tradition": "Egyptian",
+      "tagline": "Earth ascending to a single point.",
+      "blurb": "The pyramid is the four-sided ascent of matter toward a single apex. Each of the four faces represents an element; their meeting at the top is the principle that transcends them. The Great Pyramid was an initiatory chamber, a star-clock, and a geometric proof of cosmic harmonies. Both tomb and instrument of resurrection.",
+      "keywords": [
+        "pyramid",
+        "egypt",
+        "apex",
+        "four",
+        "elements"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2\" stroke-linejoin=\"round\"><polygon points=\"32,10 54,52 10,52\"/><line x1=\"32\" y1=\"10\" x2=\"32\" y2=\"52\"/></g><circle cx=\"32\" cy=\"14\" r=\"2.5\" fill=\"#e8c97a\"/></svg>"
+    },
+    {
+      "id": "lotus",
+      "name": "Lotus",
+      "tradition": "Egyptian",
+      "tagline": "Rooted in mud, opening to the sun.",
+      "blurb": "The blue lotus of Egypt closes at night and opens at dawn, lifting its head from the muddy water. It became the emblem of the soul's rebirth and of Nefertem, god of the rising sun. The same flower — under different names — became the central symbol of Indian and Buddhist mysticism: enlightenment growing out of the mud.",
+      "keywords": [
+        "lotus",
+        "flower",
+        "rebirth",
+        "egypt",
+        "sun"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"><path d=\"M32 16 Q28 28 32 40 Q36 28 32 16 Z\"/><path d=\"M20 24 Q22 36 30 40 Q28 28 20 24 Z\"/><path d=\"M44 24 Q42 36 34 40 Q36 28 44 24 Z\"/><path d=\"M14 32 Q20 42 30 42 Q24 34 14 32 Z\"/><path d=\"M50 32 Q44 42 34 42 Q40 34 50 32 Z\"/><line x1=\"32\" y1=\"42\" x2=\"32\" y2=\"56\"/></g></svg>"
+    },
+    {
+      "id": "feather-of-maat",
+      "name": "Feather of Ma'at",
+      "tradition": "Egyptian",
+      "tagline": "Weighing the heart in the hall of judgment.",
+      "blurb": "Ma'at is the Egyptian principle of truth, balance, cosmic order. Her feather is what the heart is weighed against in the Hall of Two Truths after death. If the heart is heavy with falsehood, it tips the scale; if light as the feather, the soul passes through. Ma'at is older than morality — she is the geometry by which the world coheres.",
+      "keywords": [
+        "maat",
+        "feather",
+        "truth",
+        "balance",
+        "judgment"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M32 8 Q22 16 22 38 Q22 50 32 56 Q42 50 42 38 Q42 16 32 8 Z\" fill=\"#e8c97a\" fill-opacity=\"0.12\"/><line x1=\"32\" y1=\"8\" x2=\"32\" y2=\"56\"/><path d=\"M32 14 Q28 14 26 18\"/><path d=\"M32 14 Q36 14 38 18\"/><path d=\"M32 22 Q26 22 24 26\"/><path d=\"M32 22 Q38 22 40 26\"/><path d=\"M32 30 Q26 30 24 34\"/><path d=\"M32 30 Q38 30 40 34\"/><path d=\"M32 38 Q26 38 24 42\"/><path d=\"M32 38 Q38 38 40 42\"/></g></svg>"
+    },
+    {
+      "id": "vesica-piscis",
+      "name": "Vesica Piscis",
+      "tradition": "Sacred Geometry",
+      "tagline": "Two circles meeting — the gateway of creation.",
+      "blurb": "Two identical circles whose centers lie on each other's circumference. Their overlap forms a pointed almond — the vesica — the visual signature of duality giving birth to a third. From this figure the entire geometry of the Flower of Life and the Tree of Life can be constructed. The proportions of √3 emerge here.",
+      "keywords": [
+        "vesica",
+        "piscis",
+        "almond",
+        "circles"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2\"><circle cx=\"24\" cy=\"32\" r=\"16\"/><circle cx=\"40\" cy=\"32\" r=\"16\"/></g></svg>"
+    },
+    {
+      "id": "flower-of-life",
+      "name": "Flower of Life",
+      "tradition": "Sacred Geometry",
+      "tagline": "Seven circles — the seed of the geometric universe.",
+      "blurb": "Six circles arranged around a central seventh, each touching its neighbors. From this seed the full Flower of Life pattern unfolds, and within it lies the Fruit of Life, Metatron's Cube, and the proportions of the Platonic solids. Inscribed on temples from Abydos to medieval cathedrals.",
+      "keywords": [
+        "flower",
+        "life",
+        "seven",
+        "circles"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.4\"><circle cx=\"32\" cy=\"32\" r=\"10\"/><circle cx=\"32\" cy=\"22\" r=\"10\"/><circle cx=\"32\" cy=\"42\" r=\"10\"/><circle cx=\"23.4\" cy=\"27\" r=\"10\"/><circle cx=\"40.6\" cy=\"27\" r=\"10\"/><circle cx=\"23.4\" cy=\"37\" r=\"10\"/><circle cx=\"40.6\" cy=\"37\" r=\"10\"/></g></svg>"
+    },
+    {
+      "id": "seed-of-life",
+      "name": "Seed of Life",
+      "tradition": "Sacred Geometry",
+      "tagline": "The first seven — the original genesis pattern.",
+      "blurb": "The Seed of Life is the foundational figure: a central circle with six identical circles arranged in perfect symmetry around it. It is read as the seven days of Genesis, each day a circle of creation. From the seed the Flower opens; from the Flower, all geometric form.",
+      "keywords": [
+        "seed",
+        "life",
+        "seven",
+        "genesis"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.6\"><circle cx=\"32\" cy=\"32\" r=\"12\"/><circle cx=\"32\" cy=\"20\" r=\"12\"/><circle cx=\"32\" cy=\"44\" r=\"12\"/><circle cx=\"21.6\" cy=\"26\" r=\"12\"/><circle cx=\"42.4\" cy=\"26\" r=\"12\"/><circle cx=\"21.6\" cy=\"38\" r=\"12\"/><circle cx=\"42.4\" cy=\"38\" r=\"12\"/></g></svg>"
+    },
+    {
+      "id": "metatrons-cube",
+      "name": "Metatron's Cube",
+      "tradition": "Sacred Geometry",
+      "tagline": "Thirteen circles holding all five Platonic solids.",
+      "blurb": "Thirteen circles arranged as the Fruit of Life, with all their centers connected by straight lines. Within those lines lie the projections of the five Platonic solids — tetrahedron, cube, octahedron, icosahedron, dodecahedron — the only fully regular three-dimensional forms. Named for the archangel Metatron.",
+      "keywords": [
+        "metatron",
+        "cube",
+        "platonic",
+        "thirteen"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"0.7\"><circle cx=\"32\" cy=\"14\" r=\"4\"/><circle cx=\"32\" cy=\"50\" r=\"4\"/><circle cx=\"32\" cy=\"32\" r=\"4\"/><circle cx=\"18\" cy=\"22\" r=\"4\"/><circle cx=\"46\" cy=\"22\" r=\"4\"/><circle cx=\"18\" cy=\"42\" r=\"4\"/><circle cx=\"46\" cy=\"42\" r=\"4\"/><line x1=\"32\" y1=\"14\" x2=\"46\" y2=\"22\"/><line x1=\"32\" y1=\"14\" x2=\"18\" y2=\"22\"/><line x1=\"46\" y1=\"22\" x2=\"46\" y2=\"42\"/><line x1=\"18\" y1=\"22\" x2=\"18\" y2=\"42\"/><line x1=\"18\" y1=\"42\" x2=\"32\" y2=\"50\"/><line x1=\"46\" y1=\"42\" x2=\"32\" y2=\"50\"/><line x1=\"32\" y1=\"14\" x2=\"32\" y2=\"50\"/><line x1=\"18\" y1=\"22\" x2=\"46\" y2=\"42\"/><line x1=\"46\" y1=\"22\" x2=\"18\" y2=\"42\"/><line x1=\"32\" y1=\"14\" x2=\"18\" y2=\"42\"/><line x1=\"32\" y1=\"14\" x2=\"46\" y2=\"42\"/><line x1=\"32\" y1=\"50\" x2=\"18\" y2=\"22\"/><line x1=\"32\" y1=\"50\" x2=\"46\" y2=\"22\"/></g></svg>"
+    },
+    {
+      "id": "tetractys",
+      "name": "Tetractys",
+      "tradition": "Sacred Geometry",
+      "tagline": "Ten dots in a triangle — the Pythagorean perfection.",
+      "blurb": "Pythagoras' sacred figure: ten points in four rows (1, 2, 3, 4) forming a triangle. The sum is the decad, the number that contains all numbers; the rows correspond to the dimensions (point, line, plane, solid). The Pythagorean oath was sworn upon it. It is the visual seed of harmonic ratio.",
+      "keywords": [
+        "tetractys",
+        "pythagoras",
+        "ten",
+        "triangle"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"#e8c97a\"><circle cx=\"32\" cy=\"12\" r=\"3.5\"/><circle cx=\"24\" cy=\"24\" r=\"3.5\"/><circle cx=\"40\" cy=\"24\" r=\"3.5\"/><circle cx=\"16\" cy=\"36\" r=\"3.5\"/><circle cx=\"32\" cy=\"36\" r=\"3.5\"/><circle cx=\"48\" cy=\"36\" r=\"3.5\"/><circle cx=\"8\" cy=\"48\" r=\"3.5\"/><circle cx=\"24\" cy=\"48\" r=\"3.5\"/><circle cx=\"40\" cy=\"48\" r=\"3.5\"/><circle cx=\"56\" cy=\"48\" r=\"3.5\"/></g></svg>"
+    },
+    {
+      "id": "pentagram",
+      "name": "Pentagram",
+      "tradition": "Sacred Geometry",
+      "tagline": "Five-pointed star — four elements crowned by spirit.",
+      "blurb": "The five-pointed star drawn in a single unbroken line. Its points are assigned to the four classical elements (earth, water, fire, air) plus spirit at the apex. The golden ratio appears throughout its geometry. Pythagoras' followers used it as a sign of recognition; Renaissance magi used it as a sign of binding.",
+      "keywords": [
+        "pentagram",
+        "five",
+        "elements",
+        "golden ratio"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2.2\" stroke-linejoin=\"round\"><polygon points=\"32,8 39,28 60,28 43,40 50,60 32,48 14,60 21,40 4,28 25,28\"/></g></svg>"
+    },
+    {
+      "id": "golden-spiral",
+      "name": "Golden Spiral",
+      "tradition": "Sacred Geometry",
+      "tagline": "Phi — the proportion of growth.",
+      "blurb": "The logarithmic spiral whose growth rate is the golden ratio (≈1.618). It appears in nautilus shells, galaxy arms, sunflower seeds, the proportions of the human body. Sacred geometers regard it as nature's signature — the curve along which the cosmos prefers to unfold. The Fibonacci sequence approaches it asymptotically.",
+      "keywords": [
+        "golden",
+        "spiral",
+        "phi",
+        "fibonacci",
+        "ratio"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.8\"><path d=\"M32 32 m-2 0 a2 2 0 1 1 4 0 a3 3 0 1 1 -3 -3 a5 5 0 1 1 5 5 a8 8 0 1 1 -8 -8 a13 13 0 1 1 13 13 a21 21 0 1 1 -21 -21\" /></g></svg>"
+    },
+    {
+      "id": "triquetra",
+      "name": "Triquetra",
+      "tradition": "Sacred Geometry",
+      "tagline": "Three-fold knot — the trinity in geometry.",
+      "blurb": "Three interlocking arcs forming a perfect three-fold knot. Pre-Christian Celts used it for the triple goddess; Christians adopted it as a Trinity symbol; Hermeticists read it as the union of body, soul, and spirit. Each loop is identical, each indispensable, all three the same single thread.",
+      "keywords": [
+        "triquetra",
+        "trinity",
+        "knot",
+        "celtic",
+        "three"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M32 12 Q44 24 38 40 Q32 46 26 40 Q20 24 32 12 Z\"/><path d=\"M32 12 Q20 24 26 40 Q32 46 38 40 Q44 24 32 12 Z\"/><path d=\"M14 36 Q26 28 38 40 Q40 50 32 52 Q22 50 14 36 Z\"/><path d=\"M50 36 Q38 28 26 40 Q24 50 32 52 Q42 50 50 36 Z\"/></g></svg>"
+    },
+    {
+      "id": "sri-yantra",
+      "name": "Sri Yantra",
+      "tradition": "Sacred Geometry",
+      "tagline": "Nine interlocking triangles — the cosmos in diagram.",
+      "blurb": "The Sri Yantra is the most revered of the Hindu yantras. Nine interlocking triangles (four upward, five downward) generate forty-three smaller triangles, all centered on a single point (the bindu). It maps the unfolding of the cosmos from unity to multiplicity — and the return inward. Tantric meditation traces its emergence in the mind's eye.",
+      "keywords": [
+        "sri",
+        "yantra",
+        "tantra",
+        "triangles",
+        "bindu"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.2\"><polygon points=\"32,8 56,52 8,52\"/><polygon points=\"32,56 56,12 8,12\"/><polygon points=\"32,16 50,46 14,46\"/><polygon points=\"32,48 50,18 14,18\"/><polygon points=\"32,22 46,42 18,42\"/><circle cx=\"32\" cy=\"32\" r=\"2\" fill=\"#e8c97a\"/></g></svg>"
+    },
+    {
+      "id": "fibonacci-rectangle",
+      "name": "Fibonacci Rectangle",
+      "tradition": "Sacred Geometry",
+      "tagline": "Squares in golden proportion — the architecture of growth.",
+      "blurb": "A rectangle subdivided into squares whose sides follow the Fibonacci sequence (1, 1, 2, 3, 5, 8, 13...). When the spiral is drawn through their corners, it approaches the golden spiral. The same proportion structures the Parthenon, the Mona Lisa, and the chambers of nautilus shells.",
+      "keywords": [
+        "fibonacci",
+        "rectangle",
+        "golden",
+        "squares",
+        "ratio"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.4\"><rect x=\"6\" y=\"14\" width=\"52\" height=\"32\"/><line x1=\"38\" y1=\"14\" x2=\"38\" y2=\"46\"/><line x1=\"38\" y1=\"34\" x2=\"58\" y2=\"34\"/><line x1=\"48\" y1=\"34\" x2=\"48\" y2=\"46\"/><line x1=\"48\" y1=\"40\" x2=\"58\" y2=\"40\"/><line x1=\"48\" y1=\"40\" x2=\"54\" y2=\"40\"/><line x1=\"54\" y1=\"40\" x2=\"54\" y2=\"46\"/></g><path d=\"M6 14 Q38 14 38 46 M38 14 Q58 14 58 34 M38 34 Q38 46 48 46 M38 40 Q48 40 48 46\" fill=\"none\" stroke=\"#c9a84c\" stroke-width=\"1.6\"/></svg>"
+    },
+    {
+      "id": "abraxas",
+      "name": "Abraxas",
+      "tradition": "Gnostic",
+      "tagline": "The 365-fold deity — sum of all powers, beyond good and evil.",
+      "blurb": "A Gnostic figure with a rooster's head, a human torso, and serpents for legs, holding a whip and a shield. The Greek letters of his name sum (by isopsephy) to 365 — the days, the aeons, the powers that fill the cosmos. Carl Jung wrote his Seven Sermons to the Dead in Abraxas' voice — the god in whom opposites are not yet sundered.",
+      "keywords": [
+        "abraxas",
+        "gnostic",
+        "rooster",
+        "serpent",
+        "365"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"><path d=\"M32 12 Q26 12 24 18 L20 14 M32 12 L36 16 L40 12\"/><circle cx=\"28\" cy=\"16\" r=\"1.2\" fill=\"#e8c97a\"/><rect x=\"22\" y=\"22\" width=\"20\" height=\"20\"/><path d=\"M22 42 Q14 50 18 58 Q26 56 26 48\"/><path d=\"M42 42 Q50 50 46 58 Q38 56 38 48\"/><line x1=\"22\" y1=\"28\" x2=\"14\" y2=\"22\"/><line x1=\"42\" y1=\"28\" x2=\"50\" y2=\"22\"/></g></svg>"
+    },
+    {
+      "id": "sophia",
+      "name": "Sophia",
+      "tradition": "Gnostic",
+      "tagline": "Wisdom personified — the divine feminine in exile.",
+      "blurb": "The Gnostic Sophia (Wisdom) emanated from the Pleroma and, in her longing to know the unknowable Father, fell into matter. Her tears made the lower cosmos; her redemption restores the fullness. In the Gospel of Philip she is the Holy Spirit, the consort of Christ.",
+      "keywords": [
+        "sophia",
+        "wisdom",
+        "feminine",
+        "gnostic",
+        "philip"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M32 14 Q24 18 20 24 Q24 22 30 22 Q34 20 36 16 Q36 24 32 30 Q30 22 32 14 Z\"/><path d=\"M40 50 A18 18 0 1 1 22 32\"/></g></svg>"
+    },
+    {
+      "id": "pleroma",
+      "name": "Pleroma",
+      "tradition": "Gnostic",
+      "tagline": "Fullness — the totality of the divine aeons.",
+      "blurb": "The Greek pleroma means \"fullness\" — the region of the absolute, populated by the aeons, the emanations of the Father. Below it lies the Kenoma (\"emptiness\") of our world. The Gnostic goal is to be drawn back into the Pleroma, where Sophia is restored to her bridal chamber.",
+      "keywords": [
+        "pleroma",
+        "fullness",
+        "aeons",
+        "gnostic"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.2\"><circle cx=\"32\" cy=\"32\" r=\"26\"/><circle cx=\"32\" cy=\"32\" r=\"20\" stroke=\"#c9a84c\"/><circle cx=\"32\" cy=\"32\" r=\"14\"/><circle cx=\"32\" cy=\"32\" r=\"8\" stroke=\"#c9a84c\"/><circle cx=\"32\" cy=\"32\" r=\"3\" fill=\"#e8c97a\"/></g></svg>"
+    },
+    {
+      "id": "demiurge",
+      "name": "Demiurge (Yaldabaoth)",
+      "tradition": "Gnostic",
+      "tagline": "The blind craftsman — the god of this world.",
+      "blurb": "In Gnostic cosmology the Demiurge is the false god, the craftsman who fashioned the material world in ignorance of the higher Pleroma. Often depicted as a lion-headed serpent. He is not evil so much as deluded — convinced he is the only god. Liberation begins when the initiate sees through him to the true Father beyond.",
+      "keywords": [
+        "demiurge",
+        "yaldabaoth",
+        "lion",
+        "serpent",
+        "craftsman"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M32 16 Q22 16 20 26 Q22 30 26 28 Q28 32 32 32 Q36 32 38 28 Q42 30 44 26 Q42 16 32 16 Z\"/><line x1=\"22\" y1=\"20\" x2=\"18\" y2=\"14\"/><line x1=\"42\" y1=\"20\" x2=\"46\" y2=\"14\"/><line x1=\"26\" y1=\"14\" x2=\"24\" y2=\"10\"/><line x1=\"38\" y1=\"14\" x2=\"40\" y2=\"10\"/><path d=\"M28 32 Q22 38 28 46 Q34 38 36 32\"/><path d=\"M30 46 Q26 52 32 56 Q38 52 34 46\"/></g><circle cx=\"28\" cy=\"24\" r=\"1.2\" fill=\"#e8c97a\"/><circle cx=\"36\" cy=\"24\" r=\"1.2\" fill=\"#e8c97a\"/></svg>"
+    },
+    {
+      "id": "bridal-chamber",
+      "name": "Bridal Chamber",
+      "tradition": "Gnostic",
+      "tagline": "The mystery of restoration — the soul reunited.",
+      "blurb": "Central to the Gospel of Philip: the bridal chamber is the sacrament in which the fragmented soul is reunited with its heavenly counterpart, Sophia returned to her bridegroom Christ. It is not a sexual rite but a mystery of integration — the upper and lower waters joined, the separated halves made one.",
+      "keywords": [
+        "bridal",
+        "chamber",
+        "gnostic",
+        "philip",
+        "union"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2\"><circle cx=\"22\" cy=\"32\" r=\"14\"/><circle cx=\"42\" cy=\"32\" r=\"14\"/><path d=\"M28 22 L36 22 M28 42 L36 42 M22 28 L22 36 M42 28 L42 36\" stroke-width=\"1.4\"/></g><g fill=\"#e8c97a\"><circle cx=\"22\" cy=\"32\" r=\"1.8\"/><circle cx=\"42\" cy=\"32\" r=\"1.8\"/></g></svg>"
+    },
+    {
+      "id": "apophis",
+      "name": "Apophis / Leviathan",
+      "tradition": "Gnostic",
+      "tagline": "The cosmic serpent that encircles the world.",
+      "blurb": "The great serpent or dragon that surrounds the material cosmos — Apophis in Egyptian-Gnostic syncretism, Leviathan in Hebrew apocalyptic, the dragon of Revelation. In Gnostic readings it is the boundary of the lower world, the limit that the soul must pass through to reach the Pleroma. To meet the serpent is to meet the threshold itself.",
+      "keywords": [
+        "apophis",
+        "leviathan",
+        "dragon",
+        "serpent",
+        "boundary"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2\" stroke-linecap=\"round\"><path d=\"M32 8 Q50 8 56 26 Q56 44 32 56 Q8 44 8 26 Q14 8 32 8 Z\"/><path d=\"M12 14 Q16 18 14 22 M18 12 Q22 16 20 20\"/></g><g fill=\"#e8c97a\"><circle cx=\"50\" cy=\"14\" r=\"1.4\"/><polygon points=\"48,18 54,16 54,20\"/></g></svg>"
+    },
+    {
+      "id": "aeon",
+      "name": "Aeon",
+      "tradition": "Gnostic",
+      "tagline": "An emanation of the Father — a face of the One.",
+      "blurb": "An aeon is one of the divine beings (or ages) that emanate from the Father within the Pleroma. Each aeon expresses a particular quality of the unmanifest — Mind, Truth, Logos, Life, Man. They come in syzygies (pairs). The Gnostic cosmos is structured as descending tiers of aeons; the soul ascends them in reverse on the way home.",
+      "keywords": [
+        "aeon",
+        "emanation",
+        "pleroma",
+        "syzygy"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.4\"><circle cx=\"32\" cy=\"32\" r=\"22\"/><circle cx=\"32\" cy=\"14\" r=\"4\"/><circle cx=\"32\" cy=\"50\" r=\"4\"/><circle cx=\"14\" cy=\"32\" r=\"4\"/><circle cx=\"50\" cy=\"32\" r=\"4\"/><circle cx=\"32\" cy=\"32\" r=\"6\" fill=\"#e8c97a\" fill-opacity=\"0.2\"/></g></svg>"
+    },
+    {
+      "id": "tree-of-knowledge",
+      "name": "Tree of Knowledge",
+      "tradition": "Gnostic",
+      "tagline": "The serpent's gift — gnosis itself.",
+      "blurb": "In orthodox reading, the serpent of Eden deceives. In Gnostic reading, the serpent is a liberator: he gives Adam and Eve knowledge of good and evil, breaking the Demiurge's monopoly on truth. The Tree of Knowledge becomes a sacrament of gnosis — the awakening that the false god forbade.",
+      "keywords": [
+        "tree",
+        "knowledge",
+        "serpent",
+        "eden",
+        "gnosis"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2\" stroke-linecap=\"round\"><line x1=\"32\" y1=\"56\" x2=\"32\" y2=\"32\"/><path d=\"M32 32 Q22 26 18 16 M32 32 Q42 26 46 16\"/><path d=\"M32 22 Q24 18 18 22 M32 22 Q40 18 46 22\"/><path d=\"M16 56 L48 56\"/></g><g fill=\"#e8c97a\"><circle cx=\"22\" cy=\"20\" r=\"3\"/><circle cx=\"42\" cy=\"20\" r=\"3\"/><circle cx=\"32\" cy=\"14\" r=\"3\"/></g><path d=\"M28 38 Q34 42 30 46 Q26 46 28 38\" fill=\"none\" stroke=\"#c9a84c\" stroke-width=\"1.4\"/></svg>"
+    },
+    {
+      "id": "drabsha",
+      "name": "Drabsha",
+      "tradition": "Gnostic",
+      "tagline": "The Mandaean banner — light over the cross of life.",
+      "blurb": "The Drabsha is the central symbol of the Mandaeans, the last continuous Gnostic tradition. A wooden cross draped with white silk and topped by a sprig of myrtle. It is not the Christian crucifix; it is the banner of light, the standard of the Manda d'Hayyi (Knowledge of Life), the emblem of the soul's ascent through the celestial worlds.",
+      "keywords": [
+        "drabsha",
+        "mandaean",
+        "gnostic",
+        "banner",
+        "cross"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2\" stroke-linecap=\"round\"><line x1=\"32\" y1=\"8\" x2=\"32\" y2=\"56\"/><line x1=\"14\" y1=\"22\" x2=\"50\" y2=\"22\"/></g><g fill=\"#e8c97a\"><rect x=\"18\" y=\"22\" width=\"28\" height=\"14\" fill=\"#e8c97a\" fill-opacity=\"0.25\"/></g><g stroke=\"#c9a84c\" stroke-width=\"1.4\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"32\" y1=\"8\" x2=\"28\" y2=\"4\"/><line x1=\"32\" y1=\"8\" x2=\"36\" y2=\"4\"/></g></svg>"
+    },
+    {
+      "id": "allogenes",
+      "name": "Allogenes",
+      "tradition": "Gnostic",
+      "tagline": "The stranger — the soul that knows itself foreign here.",
+      "blurb": "Allogenes means \"of another race\" in Greek. He is a Sethian Gnostic figure who ascends through the heavens by stripping away each lower self until only the pure pneuma remains. The Allogenes texts read like maps of an interior journey — what to discard, what to remember, what to greet at each gate.",
+      "keywords": [
+        "allogenes",
+        "stranger",
+        "seth",
+        "ascent",
+        "sethian"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.6\"><line x1=\"14\" y1=\"50\" x2=\"50\" y2=\"50\"/><line x1=\"14\" y1=\"40\" x2=\"50\" y2=\"40\"/><line x1=\"14\" y1=\"30\" x2=\"50\" y2=\"30\"/><line x1=\"14\" y1=\"20\" x2=\"50\" y2=\"20\"/><circle cx=\"32\" cy=\"50\" r=\"3\" fill=\"#e8c97a\"/><circle cx=\"32\" cy=\"40\" r=\"3\" fill=\"#e8c97a\" fill-opacity=\"0.7\"/><circle cx=\"32\" cy=\"30\" r=\"3\" fill=\"#e8c97a\" fill-opacity=\"0.4\"/><circle cx=\"32\" cy=\"20\" r=\"3\" fill=\"none\" stroke=\"#e8c97a\"/><line x1=\"32\" y1=\"50\" x2=\"32\" y2=\"10\"/></g><polygon points=\"32,6 28,12 36,12\" fill=\"#e8c97a\"/></svg>"
+    },
+    {
+      "id": "sufi-octagram",
+      "name": "Sufi Octagram",
+      "tradition": "Sufi",
+      "tagline": "Eight-pointed star — the eight gates of paradise.",
+      "blurb": "Two overlapping squares form the eight-pointed star, the rub al-hizb of Islamic geometry. Sufis read it as the eight gates of paradise, the eight angels who bear the Throne. In sacred architecture it covers the dome that becomes the cosmos.",
+      "keywords": [
+        "sufi",
+        "octagram",
+        "eight",
+        "star",
+        "paradise"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.6\"><rect x=\"14\" y=\"14\" width=\"36\" height=\"36\"/><rect x=\"14\" y=\"14\" width=\"36\" height=\"36\" transform=\"rotate(45 32 32)\"/></g></svg>"
+    },
+    {
+      "id": "allah-calligraphy",
+      "name": "Allah (الله)",
+      "tradition": "Sufi",
+      "tagline": "The Name — the heart's perpetual remembrance.",
+      "blurb": "The Arabic name of God. Sufi practice centers on dhikr — the rhythmic repetition of this name until the heart, not the tongue, speaks it. In Ibn Arabi's reading, every divine name is a face of the One; \"Allah\" is the name that contains all names.",
+      "keywords": [
+        "allah",
+        "name",
+        "sufi",
+        "dhikr",
+        "ibn arabi"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"32\" y=\"48\" text-anchor=\"middle\" font-family=\"serif\" font-size=\"32\" font-weight=\"500\" fill=\"#e8c97a\">الله</text></svg>"
+    },
+    {
+      "id": "hamsa",
+      "name": "Hamsa — Hand of Fatima",
+      "tradition": "Sufi",
+      "tagline": "The protective hand — five fingers, five pillars.",
+      "blurb": "An open right hand, often with an eye in the palm. Across Islamic, Jewish, and pre-Abrahamic traditions it wards off the evil eye and gathers blessing. Sufis sometimes read its five fingers as the five pillars of Islam, or as the family of the Prophet. A hand of protection that is also a hand of giving.",
+      "keywords": [
+        "hamsa",
+        "hand",
+        "fatima",
+        "five",
+        "protection"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"><path d=\"M22 30 L22 56 L42 56 L42 30\"/><path d=\"M22 30 Q22 18 26 18 Q30 18 30 30\"/><path d=\"M30 28 Q30 14 32 14 Q34 14 34 28\"/><path d=\"M34 30 Q34 18 38 18 Q42 18 42 30\"/></g><ellipse cx=\"32\" cy=\"42\" rx=\"5\" ry=\"3\" fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.4\"/><circle cx=\"32\" cy=\"42\" r=\"1.6\" fill=\"#e8c97a\"/></svg>"
+    },
+    {
+      "id": "crescent-star",
+      "name": "Crescent and Star",
+      "tradition": "Sufi",
+      "tagline": "Moon and morning star — the sign of the night journey.",
+      "blurb": "The crescent moon with a single star above it. Adopted by the Ottoman Empire and now by many Islamic nations, but the symbol predates Islam by millennia. Sufis read it as the night sky over the soul's journey — the moon of the heart, the morning star of the awakened intellect rising at its edge.",
+      "keywords": [
+        "crescent",
+        "star",
+        "moon",
+        "islam",
+        "night"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M42 12 A20 20 0 1 0 42 52 A14 14 0 1 1 42 12 Z\" fill=\"#e8c97a\"/><polygon points=\"20,18 22,24 28,24 23,28 25,34 20,30 15,34 17,28 12,24 18,24\" fill=\"#e8c97a\"/></svg>"
+    },
+    {
+      "id": "bismillah",
+      "name": "Bismillah",
+      "tradition": "Sufi",
+      "tagline": "\"In the name of God\" — the threshold of every act.",
+      "blurb": "Bismillah ir-Rahman ir-Rahim: \"In the name of God, the Compassionate, the Merciful.\" It opens every chapter of the Quran except the ninth, and every action of the conscious Muslim. Sufis treat its calligraphy as a meditation in itself — every dot, every curve, a contemplation of how the divine compassion underlies all that exists.",
+      "keywords": [
+        "bismillah",
+        "name",
+        "god",
+        "quran",
+        "compassion"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"32\" y=\"40\" text-anchor=\"middle\" font-family=\"serif\" font-size=\"14\" fill=\"#e8c97a\">بِسْمِ ٱللَّٰهِ</text><text x=\"32\" y=\"56\" text-anchor=\"middle\" font-family=\"serif\" font-size=\"10\" fill=\"#c9a84c\">الرَّحْمَٰنِ</text></svg>"
+    },
+    {
+      "id": "mevlevi-whirling",
+      "name": "Whirling Dervish",
+      "tradition": "Sufi",
+      "tagline": "Stillness made of motion — the Mevlevi sema.",
+      "blurb": "The whirling of the Mevlevi dervishes founded by Rumi's followers. One hand turned upward to receive the divine, the other turned downward to bestow it on earth. The dervish turns counter-clockwise around his own axis — a planet around its own center, a galaxy around its own black sun. The body becomes a wheel of dhikr.",
+      "keywords": [
+        "mevlevi",
+        "whirling",
+        "dervish",
+        "rumi",
+        "sema"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"32\" cy=\"16\" r=\"4\"/><polygon points=\"28,18 24,28 32,32 40,28 36,18\"/><polygon points=\"20,30 14,52 30,52 32,32\"/><polygon points=\"44,30 50,52 34,52 32,32\" fill=\"#e8c97a\" fill-opacity=\"0.1\"/></g><line x1=\"14\" y1=\"20\" x2=\"50\" y2=\"20\" stroke=\"#c9a84c\" stroke-width=\"1\" stroke-dasharray=\"2 2\"/></svg>"
+    },
+    {
+      "id": "tulip-lale",
+      "name": "Tulip (Lale)",
+      "tradition": "Sufi",
+      "tagline": "The flower of Allah — gematria's gift to the garden.",
+      "blurb": "In Ottoman Sufi tradition, the tulip is the flower of Allah. The Arabic letters of \"Allah\" (الله) and \"lale\" (لاله, tulip) share the same letters, just rearranged. Whole gardens of tulips were planted as living dhikr — a flower-bed reciting the Name. The Lale Devri (Tulip Era) made it Turkey's emblem.",
+      "keywords": [
+        "tulip",
+        "lale",
+        "flower",
+        "ottoman",
+        "allah"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"><path d=\"M22 24 Q20 14 32 14 Q44 14 42 24 L42 36 Q42 40 32 40 Q22 40 22 36 Z\" fill=\"#e8c97a\" fill-opacity=\"0.2\"/><path d=\"M22 24 Q26 18 32 24\"/><path d=\"M32 24 Q38 18 42 24\"/><line x1=\"32\" y1=\"40\" x2=\"32\" y2=\"56\"/><path d=\"M32 50 Q40 46 44 50\"/></g></svg>"
+    },
+    {
+      "id": "ya-ali",
+      "name": "Ya Ali (یا علی)",
+      "tradition": "Sufi",
+      "tagline": "\"O Ali!\" — the invocation of the gate of mystic knowledge.",
+      "blurb": "Ali ibn Abi Talib, the Prophet's cousin and son-in-law, is the spiritual ancestor of nearly every Sufi tariqa. The Prophet called him \"the gate of the city of knowledge.\" The calligraphic invocation Ya Ali (\"O Ali\") is etched into the heart of the Shi'a and the deep currents of Sufism alike.",
+      "keywords": [
+        "ali",
+        "ya ali",
+        "knowledge",
+        "sufi",
+        "tariqa"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"32\" y=\"44\" text-anchor=\"middle\" font-family=\"serif\" font-size=\"22\" fill=\"#e8c97a\">یا علی</text></svg>"
+    },
+    {
+      "id": "tasbih",
+      "name": "Tasbih (Prayer Beads)",
+      "tradition": "Sufi",
+      "tagline": "The 99 names counted on a string.",
+      "blurb": "The Sufi rosary, traditionally with 99 beads — one for each of the divine names, or grouped 33–33–33 for the three Tasbih invocations (SubhanAllah, Alhamdulillah, Allahu Akbar). The hand moves while the heart deepens. Each bead is a return; the whole circuit is a meditation on the Name.",
+      "keywords": [
+        "tasbih",
+        "beads",
+        "rosary",
+        "99",
+        "names"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1\"><circle cx=\"32\" cy=\"32\" r=\"20\"/></g><g fill=\"#e8c97a\"><circle cx=\"32\" cy=\"12\" r=\"2.4\"/><circle cx=\"44.1\" cy=\"15.2\" r=\"2.4\"/><circle cx=\"52\" cy=\"24\" r=\"2.4\"/><circle cx=\"52\" cy=\"40\" r=\"2.4\"/><circle cx=\"44.1\" cy=\"48.8\" r=\"2.4\"/><circle cx=\"32\" cy=\"52\" r=\"2.4\"/><circle cx=\"19.9\" cy=\"48.8\" r=\"2.4\"/><circle cx=\"12\" cy=\"40\" r=\"2.4\"/><circle cx=\"12\" cy=\"24\" r=\"2.4\"/><circle cx=\"19.9\" cy=\"15.2\" r=\"2.4\"/></g><g fill=\"none\" stroke=\"#c9a84c\" stroke-width=\"1.4\"><path d=\"M32 52 L36 60 L28 60 Z\"/></g></svg>"
+    },
+    {
+      "id": "reed-flute",
+      "name": "Reed Flute (Ney)",
+      "tradition": "Sufi",
+      "tagline": "The cry of the cut reed — opening line of the Masnavi.",
+      "blurb": "Rumi opens the Masnavi with the lament of the ney, the reed cut from its bed and hollowed to sing. The reed cries because it has been separated from its source; every breath through it is a complaint that becomes music. The ney is the soul that has forgotten where it came from — and remembers, painfully, through its own song.",
+      "keywords": [
+        "reed",
+        "flute",
+        "ney",
+        "rumi",
+        "masnavi"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2\" stroke-linecap=\"round\"><line x1=\"16\" y1=\"20\" x2=\"48\" y2=\"44\" stroke-width=\"3\"/></g><g fill=\"#c9a84c\"><circle cx=\"24\" cy=\"26\" r=\"1.4\"/><circle cx=\"30\" cy=\"30\" r=\"1.4\"/><circle cx=\"36\" cy=\"34\" r=\"1.4\"/><circle cx=\"42\" cy=\"38\" r=\"1.4\"/></g></svg>"
+    },
+    {
+      "id": "tau-cross",
+      "name": "Tau Cross",
+      "tradition": "Christian Mystical",
+      "tagline": "The T-cross — Moses' bronze serpent and St. Anthony's staff.",
+      "blurb": "The Tau was an ancient cross used in Egyptian and Israelite ritual long before Christianity adopted the Latin cross. Moses raised a bronze serpent on a Tau in the desert (Numbers 21); St. Anthony of the Desert wore it; the Franciscans took it as their mark. It is the cross of the wilderness, of healing, of the threshold.",
+      "keywords": [
+        "tau",
+        "cross",
+        "moses",
+        "serpent",
+        "franciscan"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"4.5\" stroke-linecap=\"round\"><line x1=\"14\" y1=\"18\" x2=\"50\" y2=\"18\"/><line x1=\"32\" y1=\"18\" x2=\"32\" y2=\"54\"/></g></svg>"
+    },
+    {
+      "id": "chi-rho",
+      "name": "Chi-Rho (☧)",
+      "tradition": "Christian Mystical",
+      "tagline": "The first two letters of Christ — XP intertwined.",
+      "blurb": "The Greek letters Chi (Χ) and Rho (Ρ), the first two of Christos. Constantine saw it before the Battle of the Milvian Bridge and adopted it as his standard. To mystics it is the monogram of the cosmic Christ, the Logos through whom all things were made. The X is also a multiplication — the place where two natures meet.",
+      "keywords": [
+        "chi",
+        "rho",
+        "christ",
+        "monogram",
+        "constantine",
+        "logos"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"3.6\" stroke-linecap=\"round\"><line x1=\"14\" y1=\"14\" x2=\"50\" y2=\"50\"/><line x1=\"50\" y1=\"14\" x2=\"14\" y2=\"50\"/><line x1=\"32\" y1=\"10\" x2=\"32\" y2=\"42\"/><path d=\"M32 14 Q44 14 44 24 Q44 32 32 32\"/></g></svg>"
+    },
+    {
+      "id": "ichthys",
+      "name": "Ichthys",
+      "tradition": "Christian Mystical",
+      "tagline": "The fish — the secret sign of the early Christians.",
+      "blurb": "The Greek word ICHTHYS (ΙΧΘΥΣ — fish) is an acrostic: Iēsous Christos Theou Yios Sōtēr — Jesus Christ, God's Son, Savior. In the Roman persecutions, one would draw the first arc; the friend would complete the fish if also Christian. A symbol of recognition, and of the soul drawn from the deep.",
+      "keywords": [
+        "fish",
+        "ichthys",
+        "christian",
+        "secret",
+        "savior"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"2.6\" stroke-linecap=\"round\"><path d=\"M12 32 Q22 18 38 32 Q22 46 12 32 Z\"/><path d=\"M38 32 L52 22 L48 32 L52 42 Z\"/></g></svg>"
+    },
+    {
+      "id": "alpha-omega",
+      "name": "Alpha and Omega",
+      "tradition": "Christian Mystical",
+      "tagline": "\"I am the first and the last.\"",
+      "blurb": "The first and last letters of the Greek alphabet, taken from Revelation: \"I am the Alpha and the Omega, the beginning and the end.\" Inscribed on early Christian sarcophagi and on the walls of catacombs, often flanking the Chi-Rho. The two letters say: in Christ, the whole arc of creation begins and ends.",
+      "keywords": [
+        "alpha",
+        "omega",
+        "revelation",
+        "first",
+        "last"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"#e8c97a\"><text x=\"20\" y=\"44\" text-anchor=\"middle\" font-family=\"serif\" font-size=\"32\" font-weight=\"500\">Α</text><text x=\"44\" y=\"44\" text-anchor=\"middle\" font-family=\"serif\" font-size=\"32\" font-weight=\"500\">Ω</text></g></svg>"
+    },
+    {
+      "id": "sacred-heart",
+      "name": "Sacred Heart",
+      "tradition": "Christian Mystical",
+      "tagline": "Love pierced and burning — the heart of Christ as it gives.",
+      "blurb": "The heart of Christ depicted with a wound, encircled by thorns, surmounted by a cross or flame. Catholic mystics — Margaret Mary Alacoque most famously — saw it in vision as the inexhaustible source of divine compassion. Esoterically: the Tiferet center of the cosmic body, the sun-heart that pours itself out without diminishment.",
+      "keywords": [
+        "heart",
+        "sacred",
+        "christ",
+        "love",
+        "tiferet"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"#e8c97a\" fill-opacity=\"0.2\" stroke=\"#e8c97a\" stroke-width=\"2\" stroke-linejoin=\"round\"><path d=\"M32 52 Q16 40 16 28 Q16 18 24 18 Q30 18 32 24 Q34 18 40 18 Q48 18 48 28 Q48 40 32 52 Z\"/></g><g fill=\"none\" stroke=\"#c9a84c\" stroke-width=\"1.4\" stroke-linecap=\"round\"><circle cx=\"32\" cy=\"32\" r=\"14\"/><line x1=\"22\" y1=\"22\" x2=\"20\" y2=\"20\"/><line x1=\"42\" y1=\"22\" x2=\"44\" y2=\"20\"/></g><path d=\"M30 14 L34 18 L30 22 Z M34 14 L38 18 L34 22 Z\" fill=\"#e8c97a\"/></svg>"
+    },
+    {
+      "id": "trinity",
+      "name": "Trinity Knot",
+      "tradition": "Christian Mystical",
+      "tagline": "Three eternally one — Father, Son, Spirit.",
+      "blurb": "Often called the Shield of the Trinity or Scutum Fidei. Three nodes — Father, Son, Holy Spirit — each connected to the others by lines saying \"is not,\" and each connected to the center (\"God\") by lines saying \"is.\" Three are not each other, and yet each is the one God. The diagram preserves the paradox without dissolving it.",
+      "keywords": [
+        "trinity",
+        "father",
+        "son",
+        "spirit",
+        "shield"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.6\" stroke-linejoin=\"round\"><circle cx=\"32\" cy=\"32\" r=\"5\"/><circle cx=\"32\" cy=\"14\" r=\"6\"/><circle cx=\"16\" cy=\"46\" r=\"6\"/><circle cx=\"48\" cy=\"46\" r=\"6\"/><line x1=\"32\" y1=\"20\" x2=\"32\" y2=\"27\"/><line x1=\"20\" y1=\"42\" x2=\"29\" y2=\"36\"/><line x1=\"44\" y1=\"42\" x2=\"35\" y2=\"36\"/><line x1=\"22\" y1=\"46\" x2=\"42\" y2=\"46\"/><line x1=\"32\" y1=\"14\" x2=\"16\" y2=\"46\" stroke-dasharray=\"2 2\"/><line x1=\"32\" y1=\"14\" x2=\"48\" y2=\"46\" stroke-dasharray=\"2 2\"/></g></svg>"
+    },
+    {
+      "id": "dove",
+      "name": "Dove",
+      "tradition": "Christian Mystical",
+      "tagline": "The Holy Spirit descending — peace upon the waters.",
+      "blurb": "The dove descends upon Jesus at his baptism; the dove returns to Noah with the olive branch; the dove broods upon the waters at the dawn of creation in the Hebrew imagination. In Christian iconography she is the Holy Spirit — Ruach, Pneuma, Sophia in motion. She prefers the soft and the patient.",
+      "keywords": [
+        "dove",
+        "holy spirit",
+        "baptism",
+        "peace",
+        "ruach"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 36 Q14 30 18 22 Q24 22 28 28\"/><path d=\"M28 28 L36 22 Q44 18 48 22 Q44 28 36 32\"/><path d=\"M36 32 Q40 36 38 44 Q32 46 28 40 Z\"/><line x1=\"36\" y1=\"34\" x2=\"44\" y2=\"42\"/><line x1=\"36\" y1=\"36\" x2=\"46\" y2=\"46\"/></g><g stroke=\"#c9a84c\" stroke-width=\"1.2\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"32\" y1=\"8\" x2=\"32\" y2=\"14\"/><line x1=\"24\" y1=\"10\" x2=\"28\" y2=\"14\"/><line x1=\"40\" y1=\"10\" x2=\"36\" y2=\"14\"/></g></svg>"
+    },
+    {
+      "id": "lamb",
+      "name": "Agnus Dei (Lamb of God)",
+      "tradition": "Christian Mystical",
+      "tagline": "The lamb who carries the banner — meekness victorious.",
+      "blurb": "A lamb holding a cross-staffed banner. The Agnus Dei — \"Behold the Lamb of God who takes away the sin of the world.\" In Revelation the slain lamb is found standing at the throne, his wound become the centerpiece of glory. The image holds together two truths: sacrifice is the strongest force, and meekness is finally triumphant.",
+      "keywords": [
+        "lamb",
+        "agnus",
+        "banner",
+        "sacrifice",
+        "revelation"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"30\" cy=\"38\" rx=\"14\" ry=\"10\"/><circle cx=\"20\" cy=\"32\" r=\"6\"/><line x1=\"18\" y1=\"48\" x2=\"18\" y2=\"56\"/><line x1=\"24\" y1=\"48\" x2=\"24\" y2=\"56\"/><line x1=\"34\" y1=\"48\" x2=\"34\" y2=\"56\"/><line x1=\"40\" y1=\"48\" x2=\"40\" y2=\"56\"/></g><g fill=\"none\" stroke=\"#c9a84c\" stroke-width=\"1.4\"><line x1=\"46\" y1=\"10\" x2=\"46\" y2=\"40\"/><rect x=\"46\" y=\"14\" width=\"12\" height=\"10\"/><line x1=\"48\" y1=\"14\" x2=\"48\" y2=\"24\"/><line x1=\"46\" y1=\"19\" x2=\"58\" y2=\"19\"/></g></svg>"
+    },
+    {
+      "id": "lily",
+      "name": "Madonna Lily",
+      "tradition": "Christian Mystical",
+      "tagline": "The flower of the Annunciation — purity that descends.",
+      "blurb": "The white lily that Gabriel offers Mary at the Annunciation. In Christian iconography it is the flower of immaculate receptivity — that which is willing to bear the divine without contamination. Esoterically, the lily is Malkhut prepared for the descent of the Logos; the body purified into worthy chalice.",
+      "keywords": [
+        "lily",
+        "annunciation",
+        "mary",
+        "purity",
+        "malkhut"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"><path d=\"M32 18 Q24 22 22 32 Q28 30 32 34 Q36 30 42 32 Q40 22 32 18 Z\"/><path d=\"M32 18 Q34 12 32 8 Q30 12 32 18 Z\"/><path d=\"M22 32 Q14 36 12 46 Q20 42 26 38\"/><path d=\"M42 32 Q50 36 52 46 Q44 42 38 38\"/><line x1=\"32\" y1=\"34\" x2=\"32\" y2=\"58\"/></g></svg>"
+    },
+    {
+      "id": "burning-bush",
+      "name": "Burning Bush",
+      "tradition": "Christian Mystical",
+      "tagline": "Fire that does not consume — the visible Name.",
+      "blurb": "Moses sees a bush that burns but is not consumed. From the fire comes the voice: \"I AM THAT I AM\" (Ehyeh asher ehyeh). Christian mystics — especially Eastern Orthodox — read the burning bush as the proto-image of the Theotokos who bears God in her body without being destroyed by the divine fire. The bush is what theosis looks like from outside.",
+      "keywords": [
+        "bush",
+        "burning",
+        "moses",
+        "i am",
+        "ehyeh"
+      ],
+      "svg": "<svg viewBox=\"0 0 64 64\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"#e8c97a\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><line x1=\"32\" y1=\"56\" x2=\"32\" y2=\"44\"/><path d=\"M32 44 Q24 44 22 38 Q20 32 28 30\"/><path d=\"M32 44 Q40 44 42 38 Q44 32 36 30\"/><path d=\"M32 38 Q26 36 26 28 Q28 22 34 24\"/><path d=\"M32 38 Q38 36 38 28 Q36 22 30 24\"/><path d=\"M32 30 Q28 24 30 18 Q34 16 36 22\"/><path d=\"M32 22 Q30 16 34 12\"/></g><g fill=\"#e8c97a\"><circle cx=\"22\" cy=\"36\" r=\"1.4\"/><circle cx=\"42\" cy=\"36\" r=\"1.4\"/><circle cx=\"32\" cy=\"26\" r=\"1.4\"/><circle cx=\"36\" cy=\"18\" r=\"1.4\"/></g></svg>"
+    }
+  ]
+}

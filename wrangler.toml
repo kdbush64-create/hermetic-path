@@ -3,38 +3,36 @@ main = "src/worker.js"
 compatibility_date = "2024-11-01"
 workers_dev = true
 
-# Import .html, .webmanifest, .txt files as text strings inside the worker.
+# Import .html, .webmanifest, .txt, .svg files as text strings inside the worker.
 [[rules]]
 type = "Text"
 globs = ["**/*.html", "**/*.webmanifest", "**/*.txt", "**/*.svg"]
 fallthrough = true
 
 # ---------------------------------------------------------------------------
-# DEV environment — deploys to hermetic-path-dev.<account>.workers.dev
-# Triggered by pushes to the `dev` branch via .github/workflows/deploy.yml
+# DEV environment — deploys to hermetic-path-dev.kdbush64.workers.dev
 # ---------------------------------------------------------------------------
 [env.dev]
 name = "hermetic-path-dev"
 workers_dev = true
 
-# Replace the `id` values below with the IDs Cloudflare gives you when you
-# create the KV namespaces (see SETUP.md, step "Create KV namespaces").
 [[env.dev.kv_namespaces]]
 binding = "HERMETIC_USERS"
-id = "REPLACE_WITH_DEV_USERS_KV_ID"
+id = "e0272c7f42d44a67a1828571b3233688"
 
 [[env.dev.kv_namespaces]]
 binding = "HERMETIC_INVITES"
-id = "REPLACE_WITH_DEV_INVITES_KV_ID"
+id = "c2c70e208b1b441a8ded72c270804a0c"
+
+[env.dev.ai]
+binding = "AI"
 
 [env.dev.vars]
 ENVIRONMENT = "dev"
-# ADMIN_EMAIL and SESSION_SECRET / ANTHROPIC_API_KEY are set via
-# `wrangler secret put` or the Cloudflare dashboard — never committed.
+ADMIN_EMAIL = "kdbush64@gmail.com"
 
 # ---------------------------------------------------------------------------
 # PRODUCTION environment — serves hermeticpath.v64otd.com
-# Triggered by pushes to the `main` branch
 # ---------------------------------------------------------------------------
 [env.production]
 name = "hermetic-path"
@@ -45,11 +43,15 @@ routes = [
 
 [[env.production.kv_namespaces]]
 binding = "HERMETIC_USERS"
-id = "REPLACE_WITH_PROD_USERS_KV_ID"
+id = "54be65b51d714a4e9b30fae36f549821"
 
 [[env.production.kv_namespaces]]
 binding = "HERMETIC_INVITES"
-id = "REPLACE_WITH_PROD_INVITES_KV_ID"
+id = "fb7b29a247e74fb6946c3a196aeba879"
+
+[env.production.ai]
+binding = "AI"
 
 [env.production.vars]
 ENVIRONMENT = "production"
+ADMIN_EMAIL = "kdbush64@gmail.com"
