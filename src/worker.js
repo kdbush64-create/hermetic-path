@@ -58,6 +58,7 @@ import {
 } from "./auth.js";
 
 import { generate as runGenerate, curriculumDay, getCurriculum } from "./prompts.js";
+import symbolsData from "./symbols.json";
 
 export default {
   async fetch(request, env, ctx) {
@@ -113,6 +114,14 @@ async function route(request, env) {
       // "configured" means: enough to sign in and use the app.
       configured: Boolean(env.HERMETIC_USERS && env.SESSION_SECRET && (env.AI || env.ANTHROPIC_API_KEY)),
       aiProvider: env.ANTHROPIC_API_KEY ? "anthropic" : (env.AI ? "workers-ai" : "none"),
+    });
+  }
+  if (url.pathname === "/api/symbols" && method === "GET") {
+    return jsonResponse({
+      total: symbolsData.total,
+      traditions: symbolsData.traditions,
+      counts: symbolsData.counts,
+      symbols: symbolsData.symbols,
     });
   }
   if (url.pathname === "/api/curriculum" && method === "GET") {
