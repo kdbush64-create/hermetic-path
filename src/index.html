@@ -204,6 +204,54 @@
     .lock-symbols { display: flex; gap: 28px; margin-top: 24px; opacity: 0.55; }
     .lock-symbols svg { width: 32px; height: 32px; fill: var(--gold); }
 
+    /* ---------- Symbol Library grid ---------- */
+    .sym-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      gap: 12px;
+      margin-top: 16px;
+    }
+    .sym-card {
+      background: rgba(10,10,15,0.5);
+      border: 1px solid var(--gold-dim);
+      border-radius: 8px;
+      padding: 12px 8px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s;
+      min-height: 144px;
+      text-align: center;
+    }
+    .sym-card:hover { border-color: var(--gold); background: rgba(201,168,76,0.08); transform: translateY(-1px); }
+    .sym-card svg { width: 56px; height: 56px; flex: 0 0 56px; }
+    .sym-card .sym-name { font-family: "Cinzel", serif; font-size: 0.72rem; letter-spacing: 0.06em; color: var(--gold-light); line-height: 1.3; }
+    .sym-card .sym-trad { font-size: 0.65rem; color: var(--silver-dim); }
+    .sym-card.expanded { grid-column: 1 / -1; flex-direction: column; align-items: stretch; padding: 20px; cursor: default; min-height: 0; }
+    .sym-card.expanded:hover { transform: none; }
+    .sym-card.expanded svg { width: 96px; height: 96px; align-self: center; }
+    .sym-card.expanded .sym-name { font-family: "Cinzel Decorative", serif; font-size: 1.2rem; color: var(--gold); margin: 4px 0; text-align: center; }
+    .sym-card.expanded .sym-trad { font-size: 0.78rem; text-align: center; color: var(--gold-dim); letter-spacing: 0.15em; text-transform: uppercase; }
+    .sym-card .sym-tagline { font-style: italic; color: var(--gold-light); font-size: 0.95rem; margin: 10px 0 6px; text-align: center; }
+    .sym-card .sym-blurb { color: var(--silver); font-family: "EB Garamond", serif; font-size: 1rem; line-height: 1.6; }
+    .sym-card .sym-actions { display: flex; gap: 10px; justify-content: center; margin-top: 14px; flex-wrap: wrap; }
+    .sym-chip {
+      font-family: "Cinzel", serif;
+      font-size: 0.7rem;
+      letter-spacing: 0.12em;
+      padding: 6px 12px;
+      border: 1px solid var(--gold-dim);
+      border-radius: 20px;
+      cursor: pointer;
+      color: var(--silver-dim);
+      background: transparent;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    .sym-chip:hover { color: var(--gold-light); }
+    .sym-chip.active { background: rgba(201,168,76,0.12); color: var(--gold); border-color: var(--gold); }
     /* ---------- Markdown rendered content ---------- */
     .md h1, .md h2, .md h3 { color: var(--gold); }
     .md em { color: var(--gold-light); font-style: italic; }
@@ -577,24 +625,26 @@
       </div>
 
       <!-- ---------- Symbol Library ---------- -->
+      <!-- ---------- Symbol Library ---------- -->
       <div class="tab-panel" id="tab-symbols">
-        <div class="panel wide">
+        <div class="panel full">
           <h2>Symbol Library</h2>
-          <p class="small">A living reference — entries are generated fresh, so each reading reveals a new layer.</p>
+          <p class="small">A living reference — click any symbol below to read its tradition, or type any name to generate a fresh AI entry on the spot.</p>
+
           <div class="row">
-            <input id="lib-symbol" type="text" placeholder="Symbol (e.g. The Pillars Jachin and Boaz)" />
+            <input id="lib-symbol" type="text" placeholder="Any symbol name (e.g. Lamen of Solomon)..." />
             <button class="btn primary" id="lib-go">Open the entry</button>
           </div>
-          <div class="row tight" style="margin-top: 8px">
-            <button class="btn ghost suggest-sym" data-s="The Square and Compass">Sq & Comp</button>
-            <button class="btn ghost suggest-sym" data-s="The Pillars Jachin and Boaz">Jachin & Boaz</button>
-            <button class="btn ghost suggest-sym" data-s="The Letter Aleph">Aleph (א)</button>
-            <button class="btn ghost suggest-sym" data-s="The Caduceus">Caduceus</button>
-            <button class="btn ghost suggest-sym" data-s="The Ouroboros">Ouroboros</button>
-            <button class="btn ghost suggest-sym" data-s="The Vesica Piscis">Vesica Piscis</button>
-            <button class="btn ghost suggest-sym" data-s="The Tetragrammaton">YHVH</button>
-            <button class="btn ghost suggest-sym" data-s="The Royal Arch">Royal Arch</button>
-          </div>
+          <div class="content md" id="lib-out" style="display: none; margin-top: 12px"></div>
+
+          <hr style="margin: 24px 0" />
+
+          <h3 style="margin-bottom: 12px">Browse the Library</h3>
+          <div id="sym-traditions" class="row tight" style="gap: 6px; margin-bottom: 12px"></div>
+          <input id="sym-search" type="text" placeholder="Search by name, tradition, or keyword (fire, eye, mercury, serpent, …)" />
+          <div id="sym-grid" class="sym-grid"><p class="placeholder">Loading symbols…</p></div>
+        </div>
+      </div>
           <div class="content md" id="lib-out"><p class="placeholder">Symbol entry will appear here.</p></div>
         </div>
       </div>
@@ -1038,14 +1088,107 @@
       document.getElementById('scr-passage').value = b.dataset.passage;
       generate('scripture_pardes', { passage: b.dataset.passage }, 'scr-out');
     }));
+    // --- Symbol Library: free-text input ---
     document.getElementById('lib-go').addEventListener('click', () => {
-      const symbol = document.getElementById('lib-symbol').value.trim() || 'The Square and Compass';
+      const symbol = document.getElementById('lib-symbol').value.trim();
+      if (!symbol) return;
+      document.getElementById('lib-out').style.display = 'block';
       generate('symbol_library', { symbol }, 'lib-out');
     });
-    document.querySelectorAll('.suggest-sym').forEach(b => b.addEventListener('click', () => {
-      document.getElementById('lib-symbol').value = b.dataset.s;
-      generate('symbol_library', { symbol: b.dataset.s }, 'lib-out');
-    }));
+
+    // --- Symbol Library: curated grid ---
+    let symbolsCache = null;
+    let symFilter = { tradition: 'All', search: '' };
+    let symExpandedId = null;
+
+    async function loadSymbols() {
+      if (symbolsCache) return symbolsCache;
+      try { symbolsCache = await api('GET', '/api/symbols'); return symbolsCache; }
+      catch (_e) { return null; }
+    }
+    function renderTraditions(data) {
+      const el = document.getElementById('sym-traditions');
+      const list = ['All', ...data.traditions];
+      el.innerHTML = list.map(t => {
+        const count = t === 'All' ? data.total : (data.counts[t] || 0);
+        const active = (symFilter.tradition === t) ? 'active' : '';
+        return '<button class="sym-chip ' + active + '" data-trad="' + escapeHtml(t) + '">' + escapeHtml(t) + ' (' + count + ')</button>';
+      }).join('');
+      el.querySelectorAll('.sym-chip').forEach(c => c.addEventListener('click', () => {
+        symFilter.tradition = c.dataset.trad;
+        symExpandedId = null;
+        renderTraditions(data); renderSymGrid(data);
+      }));
+    }
+    function symMatch(s, f) {
+      if (f.tradition !== 'All' && s.tradition !== f.tradition) return false;
+      if (f.search) {
+        const q = f.search.toLowerCase();
+        const hay = (s.name + ' ' + s.tradition + ' ' + s.tagline + ' ' + (s.keywords || []).join(' ')).toLowerCase();
+        if (!hay.includes(q)) return false;
+      }
+      return true;
+    }
+    function renderSymGrid(data) {
+      const grid = document.getElementById('sym-grid');
+      const filtered = data.symbols.filter(s => symMatch(s, symFilter));
+      if (!filtered.length) { grid.innerHTML = '<p class="placeholder">No symbols match your filters.</p>'; return; }
+      grid.innerHTML = filtered.map(s => {
+        if (s.id === symExpandedId) {
+          return '<div class="sym-card expanded" data-id="' + s.id + '">'
+            + s.svg
+            + '<div class="sym-name">' + escapeHtml(s.name) + '</div>'
+            + '<div class="sym-trad">' + escapeHtml(s.tradition) + '</div>'
+            + '<div class="sym-tagline">' + escapeHtml(s.tagline) + '</div>'
+            + '<div class="sym-blurb">' + escapeHtml(s.blurb) + '</div>'
+            + '<div class="sym-actions">'
+            + '<button class="btn primary deepen-btn" data-name="' + escapeHtml(s.name) + '">Deepen with the AI</button>'
+            + '<button class="btn ghost collapse-btn">Close</button>'
+            + '</div>'
+            + '<div class="content md deep-out" id="deep-' + s.id + '" style="display:none; margin-top:14px"></div>'
+            + '</div>';
+        }
+        return '<div class="sym-card" data-id="' + s.id + '">'
+          + s.svg
+          + '<div class="sym-name">' + escapeHtml(s.name) + '</div>'
+          + '<div class="sym-trad">' + escapeHtml(s.tradition) + '</div>'
+          + '</div>';
+      }).join('');
+      grid.querySelectorAll('.sym-card').forEach(card => {
+        card.addEventListener('click', (e) => {
+          if (e.target.closest('.deepen-btn') || e.target.closest('.collapse-btn')) return;
+          if (card.classList.contains('expanded')) return;
+          symExpandedId = card.dataset.id;
+          renderSymGrid(data);
+        });
+      });
+      grid.querySelectorAll('.deepen-btn').forEach(btn => btn.addEventListener('click', async (e) => {
+        e.stopPropagation();
+        const name = btn.dataset.name;
+        const id = btn.closest('.sym-card').dataset.id;
+        const out = document.getElementById('deep-' + id);
+        out.style.display = 'block';
+        out.innerHTML = '<div class="loading">Drawing from the well…</div>';
+        try { const r = await api('POST', '/api/generate', { feature: 'symbol_library', params: { symbol: name } }); out.innerHTML = renderMarkdown(r.content || ''); }
+        catch (err) { out.innerHTML = '<div class="form-error">' + escapeHtml(err.message) + '</div>'; }
+      }));
+      grid.querySelectorAll('.collapse-btn').forEach(btn => btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        symExpandedId = null;
+        renderSymGrid(data);
+      }));
+    }
+    document.getElementById('sym-search').addEventListener('input', async (e) => {
+      symFilter.search = e.target.value.trim();
+      const data = await loadSymbols();
+      if (data) renderSymGrid(data);
+    });
+    document.querySelector('.tab[data-tab="symbols"]').addEventListener('click', async () => {
+      const data = await loadSymbols();
+      if (!data) return;
+      if (!document.getElementById('sym-traditions').children.length) renderTraditions(data);
+      renderSymGrid(data);
+    });
     document.getElementById('gc-go').addEventListener('click', () => {
       const word = document.getElementById('gc-word').value.trim();
       generate('gematria_calc', { word }, 'gc-out');
