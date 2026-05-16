@@ -1,4 +1,4 @@
-# ∴ The Hermetic Path ∴
+# ∴ The Hermetic Path ∴ 
 
 Private AI-powered esoteric study application — a Progressive Web App served entirely from Cloudflare Workers.
 
