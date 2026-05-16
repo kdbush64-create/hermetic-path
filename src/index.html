@@ -204,6 +204,48 @@
     .lock-symbols { display: flex; gap: 28px; margin-top: 24px; opacity: 0.55; }
     .lock-symbols svg { width: 32px; height: 32px; fill: var(--gold); }
 
+    /* ---------- About / Privacy accordions ---------- */
+    .about-section { margin-top: 32px; padding-top: 24px; border-top: 1px solid var(--gold-dim); }
+    .about-section h3 { color: var(--gold); font-family: "Cinzel Decorative", serif; letter-spacing: 0.1em; margin-bottom: 14px; }
+    details.about-block { margin: 8px 0; border-bottom: 1px solid var(--gold-dim); }
+    details.about-block summary {
+      padding: 12px 0;
+      cursor: pointer;
+      color: var(--gold-light);
+      font-family: "Cinzel", serif;
+      font-size: 0.78rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: color 0.2s;
+    }
+    details.about-block summary::-webkit-details-marker { display: none; }
+    details.about-block summary::after {
+      content: "+";
+      font-family: serif;
+      font-size: 1.2rem;
+      color: var(--gold-dim);
+      transition: transform 0.2s;
+    }
+    details.about-block[open] summary::after { content: "−"; color: var(--gold); }
+    details.about-block summary:hover { color: var(--gold); }
+    details.about-block[open] summary { color: var(--gold); }
+    details.about-block .about-body {
+      padding: 4px 0 18px;
+      color: var(--silver);
+      font-family: "EB Garamond", serif;
+      font-size: 0.98rem;
+      line-height: 1.65;
+    }
+    details.about-block .about-body p { margin: 0.6em 0; }
+    details.about-block .about-body ul { margin: 0.6em 0 0.6em 1.2em; padding: 0; }
+    details.about-block .about-body li { margin: 0.35em 0; }
+    details.about-block .about-body strong { color: var(--gold-light); }
+    .about-section .closing-glyph { text-align: center; font-style: italic; color: var(--gold-light); margin-top: 18px; font-size: 1.05rem; }
+    
     /* ---------- Symbol Library grid ---------- */
     .sym-grid {
       display: grid;
@@ -726,6 +768,53 @@
             </div>
             <div id="pw-msg"></div>
           </form>
+          
+          <div class="about-section">
+            <h3>About &amp; Privacy</h3>
+
+            <details class="about-block">
+              <summary>Privacy</summary>
+              <div class="about-body">
+                <p>The Hermetic Path collects only what's needed to let you use it:</p>
+                <ul>
+                  <li><strong>Email address</strong> — your login identifier.</li>
+                  <li><strong>Password hash</strong> — stored as a one-way PBKDF2 hash with a 16-byte random salt and 100,000 iterations. Plaintext is never kept.</li>
+                  <li><strong>Your settings</strong> — tradition emphasis, depth, notification preferences, and your current day in the 365-day curriculum.</li>
+                  <li><strong>Timestamps</strong> — when your account was created, and when you last signed in.</li>
+                </ul>
+                <p>It does <strong>not</strong> collect: analytics, advertising identifiers, browser fingerprints, third-party trackers, or any data about your browsing outside this app. There are no scripts loaded from external services beyond Google Fonts (used only to render typography — they receive no user data).</p>
+                <p>Your data lives in Cloudflare's KV storage on the owner's private account. It is not sold, not shared, and is not used to train any model. A single session cookie (<code>hp_session</code>) keeps you signed in for thirty days — it is HttpOnly, Secure, SameSite=Strict, and used only for authentication, not for tracking.</p>
+                <p>To delete your account, ask the admin to remove your record from the Admin panel. Deletion is immediate and permanent.</p>
+              </div>
+            </details>
+
+            <details class="about-block">
+              <summary>Disclaimer</summary>
+              <div class="about-body">
+                <p>Every lesson, meditation, affirmation, scripture interpretation, and symbol entry in this app is <strong>AI-generated</strong>. The text is composed at the moment you request it by a large language model — scaffolded by a curated 365-day curriculum and a library of 95 hand-drawn symbols, but written fresh each time.</p>
+                <ul>
+                  <li><strong>Treat the content as a contemplative companion, not authoritative spiritual counsel.</strong></li>
+                  <li>The app draws across traditions — Hermetic, Kabbalistic, Masonic, Christian mystical, Sufi, Neoplatonic, Gnostic, alchemical — and does not represent the official position of any of them.</li>
+                  <li><strong>AI models can produce errors</strong>, including in gematria values, scripture citations, and historical claims. Verify anything you would quote or rely on elsewhere.</li>
+                  <li>This is not medical, psychological, religious, or legal advice.</li>
+                </ul>
+              </div>
+            </details>
+
+            <details class="about-block">
+              <summary>About</summary>
+              <div class="about-body">
+                <p><strong>The Hermetic Path</strong> is a private esoteric study companion built for personal contemplation. It is not for sale, not advertising-supported, and not commercially affiliated with any tradition or institution.</p>
+                <ul>
+                  <li><strong>Creator:</strong> maintained by the owner of v64otd.com.</li>
+                  <li><strong>Source code:</strong> kept in a private GitHub repository.</li>
+                  <li><strong>Hosting:</strong> Cloudflare Workers, with on-edge AI via Cloudflare Workers AI (Llama 3.3 70B). Premium upgrade path available via Anthropic Claude if an API key is configured.</li>
+                  <li><strong>Source traditions:</strong> the Seven Hermetic Principles, the Corpus Hermeticum, Kabbalistic literature (Zohar, Sefer Yetzirah, Bahir), Masonic ritual, the Gospel of John and Pauline mysticism, Origen and the early Church Fathers, Merkabah and Hekhalot texts, the Dead Sea Scrolls (especially 11Q13 Melchizedek), Neoplatonism (Plotinus, Iamblichus, Porphyry), Sufi mysticism (Ibn Arabi, Rumi), sacred geometry, and alchemy.</li>
+                </ul>
+                <p class="closing-glyph">∴ As above, so below. As within, so without. ∴</p>
+              </div>
+            </details>
+          </div>
         </div>
       </div>
 
