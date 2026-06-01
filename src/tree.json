@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "intro": "This is a guided inner inquiry — not a test, not a clinical assessment. Each of the ten Sefirot of the Tree of Life corresponds to a quality of soul. Sit with each question. Answer in your own words, as honestly as you can. The AI will then weave your responses into a personal Tree map showing which currents in you are flowing freely, which are developing, and which are blocked — and which single Sefirah is most worth your attention now.",
+  "outro": "Submit when you have answered every question. You can save partial answers and return; the assessment only completes when all questions have at least a sentence in response.",
+  "sefirot": [
+    {
+      "id": "keter",
+      "name": "Keter",
+      "title": "Crown",
+      "pillar": "middle",
+      "x": 50, "y": 8,
+      "essence": "The apex. Pure being before any attribute. The breath above thought.",
+      "questions": [
+        "Describe a moment when you felt completely beyond thought, identity, and effort — simply existing. How accessible is that state to you?",
+        "When you sit in silence with no goal and no task, what arises? Are you comfortable there, or does the mind quickly fill the space?",
+        "Have you experienced something you would call 'pure being' — awareness without object? If so, how do you find your way back?"
+      ]
+    },
+    {
+      "id": "chokmah",
+      "name": "Chokmah",
+      "title": "Wisdom",
+      "pillar": "right",
+      "x": 78, "y": 22,
+      "essence": "The first flash. The seed-point of insight before words.",
+      "questions": [
+        "Describe a moment when you knew something was true before you could explain why. How often do you trust that knowing and act on it?",
+        "When inspiration strikes, do you welcome it or do you wait for it to be justified first?",
+        "Where in your life do you initiate — start things, throw the first spark — versus respond to what others have started?"
+      ]
+    },
+    {
+      "id": "binah",
+      "name": "Binah",
+      "title": "Understanding",
+      "pillar": "left",
+      "x": 22, "y": 22,
+      "essence": "The receptive deep. The womb that gives form to wisdom.",
+      "questions": [
+        "When you receive a new insight or idea, how deeply do you develop it before moving on? Do you tend to collect flashes of understanding without fully building them out?",
+        "How comfortable are you with sustained, structured contemplation — sitting with one question for hours, days, weeks?",
+        "Where in your life do you provide the form, the boundaries, the shape that lets others' ideas become real?"
+      ]
+    },
+    {
+      "id": "chesed",
+      "name": "Chesed",
+      "title": "Loving-kindness",
+      "pillar": "right",
+      "x": 78, "y": 42,
+      "essence": "Overflowing benevolence. The open hand. Unconditional giving.",
+      "questions": [
+        "How naturally do you extend grace, generosity, and unconditional acceptance to others — including those whose views you find wrong or harmful? Where does that generosity have limits?",
+        "When have you given without expecting return — not as performance but because it overflowed naturally? How often does that happen?",
+        "Where in your life is your kindness unbounded, and where is it conditional? What guards the boundary?"
+      ]
+    },
+    {
+      "id": "geburah",
+      "name": "Geburah",
+      "title": "Severity",
+      "pillar": "left",
+      "x": 22, "y": 42,
+      "essence": "The holy 'no.' The cutting away. The limit that preserves.",
+      "questions": [
+        "Where in your life do you struggle to set boundaries or cut away what no longer serves? Where do you give more than is healthy because you cannot say no?",
+        "Can you discipline yourself without becoming harsh? Where does your structure tip into rigidity?",
+        "When have you said the difficult 'no' that another person needed to hear? How did you find the courage?"
+      ]
+    },
+    {
+      "id": "tiferet",
+      "name": "Tiferet",
+      "title": "Beauty",
+      "pillar": "middle",
+      "x": 50, "y": 50,
+      "essence": "The heart. The reconciling sun. Where opposites meet without losing themselves.",
+      "questions": [
+        "When do you feel most authentically yourself — not performing, not achieving, simply present and whole? How often does that quality govern your daily life rather than appearing only in rare moments?",
+        "How well do you hold opposites in tension without collapsing one into the other — kindness and firmness, joy and grief, doing and being?",
+        "Where in your life does the heart's natural compass guide you, and where does it seem distant or unreliable?"
+      ]
+    },
+    {
+      "id": "netzach",
+      "name": "Netzach",
+      "title": "Eternity / Victory",
+      "pillar": "right",
+      "x": 78, "y": 64,
+      "essence": "The artist's flame. Endurance. Beauty, passion, the natural world.",
+      "questions": [
+        "How connected are you to beauty, passion, and the natural world? Do your emotions flow freely or do you tend to intellectualize your feelings before allowing yourself to experience them?",
+        "Where in your life do you persist — keep making, keep loving, keep showing up — without needing external validation to continue?",
+        "When you experience awe — a sunset, a piece of music, an act of love — how long does it stay with you?"
+      ]
+    },
+    {
+      "id": "hod",
+      "name": "Hod",
+      "title": "Splendor",
+      "pillar": "left",
+      "x": 22, "y": 64,
+      "essence": "The architect. Precision. The right word, the clean structure, Hermes' mind.",
+      "questions": [
+        "How naturally do you organize complex ideas into clear communicable form? Where does your communication sometimes over-explain, under-explain, or miss the mark?",
+        "When you analyze a situation, do you stay grounded in what is actually so, or do you spin into abstraction that loses contact with reality?",
+        "Where in your life does precision serve you, and where has it become hairsplitting that misses the larger truth?"
+      ]
+    },
+    {
+      "id": "yesod",
+      "name": "Yesod",
+      "title": "Foundation",
+      "pillar": "middle",
+      "x": 50, "y": 78,
+      "essence": "The storehouse. Dreams. The unconscious. What gathers before it descends into the visible.",
+      "questions": [
+        "How much of your inner life — your real beliefs, your genuine spiritual development, your authentic self — is visible in your outer relationships and daily choices? Where is the gap between who you are within and how you appear without?",
+        "How attentive are you to your dreams, intuitions, and quieter inner currents? Do you record them, listen to them, take them as guidance?",
+        "Where in your life are you living from images and patterns inherited from elsewhere rather than from your own deep ground?"
+      ]
+    },
+    {
+      "id": "malkuth",
+      "name": "Malkuth",
+      "title": "Kingdom",
+      "pillar": "middle",
+      "x": 50, "y": 92,
+      "essence": "The world made manifest. The body. The earth. The Shekhinah in her exile and her return.",
+      "questions": [
+        "How well does your outer daily life — your habits, your body, your physical environment, your material circumstances — reflect your inner spiritual development? Where is the gap largest between who you are becoming and how you are living?",
+        "Do you bless the ordinary, or do you treat the spiritual as something separate from cooking, cleaning, working, sleeping?",
+        "How present are you in your body? When you walk, eat, breathe — are you here, or somewhere else?"
+      ]
+    }
+  ]
+}
