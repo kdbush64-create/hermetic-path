@@ -349,6 +349,8 @@ export function defaultSettings() {
     notificationKinds: ["mixed"],
     lockScreenSymbolRotation: true,
     currentDay: 1,                 // position in the 365-day curriculum
+    treeAssessments: [],           // history of Personal Tree of Life mappings
+    currentFocusSefirah: null,     // result of most recent assessment
   };
 }
 
