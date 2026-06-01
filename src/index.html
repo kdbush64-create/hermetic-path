@@ -204,6 +204,30 @@
     .lock-symbols { display: flex; gap: 28px; margin-top: 24px; opacity: 0.55; }
     .lock-symbols svg { width: 32px; height: 32px; fill: var(--gold); }
 
+    /* ---------- Admin panel: mobile fixes ---------- */
+    #inv-result code,
+    #inv-result .invite-code {
+      word-break: break-all;
+      overflow-wrap: anywhere;
+      display: inline-block;
+      max-width: 100%;
+      white-space: normal;
+    }
+    #users-list,
+    #invites-list {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    table.users { min-width: 0; }
+    table.users th, table.users td { white-space: nowrap; vertical-align: middle; }
+    table.users td:first-child, table.users td:nth-child(2) { white-space: normal; word-break: break-word; }
+    @media (max-width: 600px) {
+      table.users th, table.users td { padding: 8px 6px; font-size: 0.82rem; }
+      table.users th { letter-spacing: 0.06em; }
+      .invite-code { font-size: 0.95rem; letter-spacing: 0.14em; padding: 4px 8px; }
+      #inv-result .invite-code { font-size: 1rem; letter-spacing: 0.2em; }
+    }
+    
     /* ---------- About / Privacy accordions ---------- */
     .about-section { margin-top: 32px; padding-top: 24px; border-top: 1px solid var(--gold-dim); }
     .about-section h3 { color: var(--gold); font-family: "Cinzel Decorative", serif; letter-spacing: 0.1em; margin-bottom: 14px; }
