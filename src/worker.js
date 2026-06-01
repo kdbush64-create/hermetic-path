@@ -59,6 +59,7 @@ import {
 
 import { generate as runGenerate, curriculumDay, getCurriculum } from "./prompts.js";
 import symbolsData from "./symbols.json";
+import treeData from "./tree.json";
 
 export default {
   async fetch(request, env, ctx) {
@@ -123,6 +124,28 @@ async function route(request, env) {
       counts: symbolsData.counts,
       symbols: symbolsData.symbols,
     });
+  }
+  if (url.pathname === "/api/tree/questions" && method === "GET") {
+    return jsonResponse({
+      version: treeData.version,
+      intro: treeData.intro,
+      outro: treeData.outro,
+      sefirot: treeData.sefirot,
+    });
+  }
+  if (url.pathname === "/api/tree/history" && method === "GET") {
+    return requireAuth(request, env, async (session) => {
+      const user = await getUserByEmail(env, session.payload.email);
+      const list = (user?.settings?.treeAssessments || []).map(a => ({
+        date: a.date,
+        focus: a.focus,
+        status: a.status,
+      }));
+      return jsonResponse({ assessments: list });
+    });
+  }
+  if (url.pathname === "/api/tree/assess" && method === "POST") {
+    return requireAuth(request, env, async (session) => handleTreeAssess(request, session, env));
   }
   if (url.pathname === "/api/curriculum" && method === "GET") {
     return requireAuth(request, env, async (session) => {
@@ -525,6 +548,65 @@ function sanitizeSettings(raw) {
 // ---------------------------------------------------------------------------
 // Generate (routes to Workers AI or Anthropic via prompts.js)
 // ---------------------------------------------------------------------------
+
+async function handleTreeAssess(request, session, env) {
+  if (!env.AI && !env.ANTHROPIC_API_KEY) {
+    return jsonResponse({ error: "No AI provider configured on the Worker." }, 500);
+  }
+  let body;
+  try { body = await request.json(); } catch { return jsonResponse({ error: "Invalid JSON" }, 400); }
+  const responses = (body && body.responses) || {};
+  // Require non-empty responses for at least 8 of 10 Sefirot to proceed.
+  const filled = treeData.sefirot.filter(s => (responses[s.id] || "").trim().length > 5).length;
+  if (filled < 8) {
+    return jsonResponse({ error: `Please answer questions for at least 8 of the 10 Sefirot (you answered ${filled}).` }, 400);
+  }
+
+  const user = await getUserByEmail(env, session.payload.email);
+  const settings = user?.settings || defaultSettings();
+
+  let result;
+  try {
+    result = await runGenerate(env, "tree_mapping", { responses }, settings, { user });
+  } catch (err) {
+    return jsonResponse({ error: err.message || "Upstream error", detail: err.detail || null }, err.status || 502);
+  }
+
+  // Parse the trailing JSON line from the AI response.
+  const text = result.content || "";
+  let focus = null;
+  let status = {};
+  const m = text.match(/\{\s*"focus"\s*:\s*"([a-z]+)"\s*,\s*"status"\s*:\s*(\{[^}]+\})\s*\}/);
+  if (m) {
+    focus = m[1];
+    try { status = JSON.parse(m[2]); } catch (_e) { status = {}; }
+  }
+
+  const assessment = {
+    date: Math.floor(Date.now() / 1000),
+    responses,
+    content: text,
+    focus,
+    status,
+  };
+
+  // Append to history, cap at 12 most recent.
+  user.settings = user.settings || defaultSettings();
+  const history = Array.isArray(user.settings.treeAssessments) ? user.settings.treeAssessments : [];
+  history.push(assessment);
+  user.settings.treeAssessments = history.slice(-12);
+  user.settings.currentFocusSefirah = focus || user.settings.currentFocusSefirah;
+  await saveUser(env, user);
+
+  return jsonResponse({
+    ok: true,
+    content: text,
+    focus,
+    status,
+    model: result.model,
+    provider: result.provider,
+  });
+}
 
 async function handleGenerate(request, session, env) {
   if (!env.AI && !env.ANTHROPIC_API_KEY) {
