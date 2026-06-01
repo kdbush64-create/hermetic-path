@@ -227,6 +227,35 @@
       .invite-code { font-size: 0.95rem; letter-spacing: 0.14em; padding: 4px 8px; }
       #inv-result .invite-code { font-size: 1rem; letter-spacing: 0.2em; }
     }
+
+        /* ---------- Tree of Life Mapping ---------- */
+    .tree-svg { width: min(380px, 92%); height: auto; margin: 0 auto; display: block; }
+    .sefirah-node { cursor: pointer; transition: opacity 0.2s; }
+    .sefirah-node:hover { opacity: 0.85; }
+    .sefirah-node circle { stroke-width: 1.5; transition: all 0.3s; }
+    .sefirah-node.strong circle { fill: var(--gold); stroke: var(--gold-light); }
+    .sefirah-node.developing circle { fill: rgba(201,168,76,0.22); stroke: var(--gold); }
+    .sefirah-node.blocked circle { fill: rgba(139,26,26,0.22); stroke: var(--crimson); }
+    .sefirah-node.unknown circle { fill: rgba(160,168,184,0.08); stroke: var(--silver-dim); }
+    .sefirah-node.focus circle { stroke-width: 2.5; }
+    .sefirah-node.focus::after { content: ""; }
+    .sefirah-node text { fill: var(--silver); font-family: "Cinzel", serif; font-size: 4px; letter-spacing: 0.05em; pointer-events: none; }
+    .sefirah-node.strong text { fill: var(--bg-0); font-weight: 700; }
+    .tree-legend { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin: 12px 0 4px; font-size: 0.78rem; color: var(--silver-dim); }
+    .tree-legend .swatch { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 5px; vertical-align: middle; border: 1.5px solid transparent; }
+    .tree-legend .swatch.strong { background: var(--gold); border-color: var(--gold-light); }
+    .tree-legend .swatch.developing { background: rgba(201,168,76,0.22); border-color: var(--gold); }
+    .tree-legend .swatch.blocked { background: rgba(139,26,26,0.22); border-color: var(--crimson); }
+    .tree-legend .swatch.focus { background: transparent; border-color: var(--gold); box-shadow: 0 0 6px var(--gold); }
+    .tree-assess-sefirah { margin: 20px 0; padding: 16px 18px; background: rgba(10,10,15,0.45); border: 1px solid var(--gold-dim); border-radius: 8px; }
+    .tree-assess-sefirah h3 { margin: 0 0 6px; color: var(--gold); font-size: 1.05rem; }
+    .tree-assess-sefirah .essence { font-style: italic; color: var(--gold-light); font-size: 0.9rem; margin-bottom: 12px; }
+    .tree-assess-sefirah .question { margin: 14px 0 4px; font-size: 0.95rem; color: var(--silver); }
+    .tree-assess-sefirah textarea { min-height: 70px; }
+    .tree-history-item { background: rgba(10,10,15,0.4); border: 1px solid var(--gold-dim); border-radius: 6px; padding: 12px 16px; margin: 8px 0; cursor: pointer; transition: border-color 0.2s; }
+    .tree-history-item:hover { border-color: var(--gold); }
+    .tree-history-item .date { color: var(--gold-light); font-family: "Cinzel", serif; letter-spacing: 0.1em; font-size: 0.85rem; }
+    .tree-history-item .focus { color: var(--silver); margin-top: 4px; font-size: 0.95rem; }
     
     /* ---------- About / Privacy accordions ---------- */
     .about-section { margin-top: 32px; padding-top: 24px; border-top: 1px solid var(--gold-dim); }
@@ -556,6 +585,7 @@
         <div class="tab" data-tab="scripture" role="tab">Scripture</div>
         <div class="tab" data-tab="symbols" role="tab">Symbol Library</div>
         <div class="tab" data-tab="gematria" role="tab">Gematria</div>
+        <div class="tab" data-tab="tree" role="tab">Tree of Life</div>
         <div class="tab" data-tab="settings" role="tab">Settings</div>
         <div class="tab" data-tab="admin" role="tab" id="tab-admin-btn" hidden>Admin</div>
       </nav>
@@ -728,6 +758,54 @@
         </div>
       </div>
 
+      <!-- ---------- Tree of Life Mapping ---------- -->
+      <div class="tab-panel" id="tab-tree">
+        <div class="panel full">
+          <h2>Personal Tree of Life</h2>
+          <p class="small" id="tree-intro-text">Loading…</p>
+
+          <div id="tree-empty" style="display:none">
+            <div class="content md" id="tree-current-display"></div>
+            <div class="btn-row" style="margin-top:18px">
+              <button class="btn primary" id="tree-begin">Begin a New Mapping</button>
+              <button class="btn ghost" id="tree-history-btn">View History</button>
+            </div>
+          </div>
+
+          <div id="tree-assess" style="display:none">
+            <div id="tree-assess-form"></div>
+            <div class="btn-row">
+              <button class="btn primary" id="tree-submit">Submit Assessment</button>
+              <button class="btn ghost" id="tree-cancel">Cancel</button>
+            </div>
+            <div id="tree-submit-msg"></div>
+          </div>
+
+          <div id="tree-result" style="display:none">
+            <div class="tree-legend">
+              <span><span class="swatch strong"></span>Strongly Expressed</span>
+              <span><span class="swatch developing"></span>Developing</span>
+              <span><span class="swatch blocked"></span>Blocked</span>
+              <span><span class="swatch focus"></span>Current Focus</span>
+            </div>
+            <div id="tree-svg-container" style="margin: 8px 0 20px"></div>
+            <div class="content md" id="tree-result-content"></div>
+            <div class="btn-row">
+              <button class="btn primary" id="tree-new">New Assessment</button>
+              <button class="btn ghost" id="tree-history-btn-2">View History</button>
+            </div>
+          </div>
+
+          <div id="tree-history" style="display:none">
+            <h3>Past Assessments</h3>
+            <div id="tree-history-list"><p class="placeholder">Loading…</p></div>
+            <div class="btn-row" style="margin-top: 14px">
+              <button class="btn ghost" id="tree-back">Back</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
       <!-- ---------- Settings ---------- -->
       <div class="tab-panel" id="tab-settings">
         <div class="panel wide">
@@ -1302,6 +1380,161 @@
       if (!document.getElementById('sym-traditions').children.length) renderTraditions(data);
       renderSymGrid(data);
     });
+    
+    // --- Tree of Life Mapping ---
+    let treeQuestions = null;
+    let treeResponses = {};
+    let treeLastResult = null;
+
+    async function loadTreeQuestions() {
+      if (treeQuestions) return treeQuestions;
+      const r = await api('GET', '/api/tree/questions');
+      treeQuestions = r;
+      return r;
+    }
+
+    function buildTreeSVG(statusMap, focusId) {
+      const sefirot = treeQuestions ? treeQuestions.sefirot : [];
+      const paths = [
+        ["keter","chokmah"],["keter","binah"],["keter","tiferet"],
+        ["chokmah","binah"],["chokmah","tiferet"],["chokmah","chesed"],
+        ["binah","tiferet"],["binah","geburah"],
+        ["chesed","geburah"],["chesed","tiferet"],["chesed","netzach"],
+        ["geburah","tiferet"],["geburah","hod"],
+        ["tiferet","netzach"],["tiferet","hod"],["tiferet","yesod"],
+        ["netzach","hod"],["netzach","yesod"],["netzach","malkuth"],
+        ["hod","yesod"],["hod","malkuth"],
+        ["yesod","malkuth"],
+      ];
+      const pos = {};
+      sefirot.forEach(s => { pos[s.id] = { x: s.x, y: s.y, name: s.name, title: s.title }; });
+      let svg = '<svg class="tree-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">';
+      svg += '<g stroke="#7a6230" stroke-width="0.5" fill="none">';
+      for (const [a,b] of paths) {
+        if (pos[a] && pos[b]) svg += `<line x1="${pos[a].x}" y1="${pos[a].y}" x2="${pos[b].x}" y2="${pos[b].y}"/>`;
+      }
+      svg += '</g>';
+      for (const s of sefirot) {
+        const status = (statusMap && statusMap[s.id]) || 'unknown';
+        const cls = ['sefirah-node', status, focusId === s.id ? 'focus' : ''].filter(Boolean).join(' ');
+        svg += `<g class="${cls}" data-id="${s.id}">`;
+        svg += `<circle cx="${s.x}" cy="${s.y}" r="5"/>`;
+        svg += `<text x="${s.x}" y="${s.y + 1.5}" text-anchor="middle">${s.name}</text>`;
+        svg += '</g>';
+      }
+      svg += '</svg>';
+      return svg;
+    }
+
+    function showTreeView(view) {
+      ['empty','assess','result','history'].forEach(v => {
+        const el = document.getElementById('tree-' + v);
+        if (el) el.style.display = (v === view) ? 'block' : 'none';
+      });
+    }
+
+    async function initTreeTab() {
+      const data = await loadTreeQuestions();
+      document.getElementById('tree-intro-text').textContent = data.intro;
+      // Show empty or last result depending on whether user has any history.
+      try {
+        const h = await api('GET', '/api/tree/history');
+        if (h.assessments && h.assessments.length) {
+          const last = h.assessments[h.assessments.length - 1];
+          const focusName = (data.sefirot.find(s => s.id === last.focus) || {}).name || 'unknown';
+          const dateStr = new Date(last.date * 1000).toLocaleDateString();
+          document.getElementById('tree-current-display').innerHTML =
+            '<p>Your most recent mapping is from <strong>' + escapeHtml(dateStr) +
+            '</strong>. Current focus: <strong>' + escapeHtml(focusName) + '</strong>.</p>';
+        } else {
+          document.getElementById('tree-current-display').innerHTML =
+            '<p class="placeholder">You haven\'t completed an assessment yet. The Tree mapping is a guided self-inquiry — ten short reflections, one per Sefirah, that the AI weaves into a personal map of your current inner condition.</p>';
+        }
+      } catch (_e) {}
+      showTreeView('empty');
+    }
+
+    function renderAssessmentForm() {
+      const data = treeQuestions;
+      const form = document.getElementById('tree-assess-form');
+      form.innerHTML = data.sefirot.map(s => {
+        const qs = s.questions.map((q, i) => {
+          return '<div class="question">' + escapeHtml(q) + '</div>' +
+                 '<textarea class="tree-q" data-sefirah="' + s.id + '" data-q="' + i + '" rows="3" placeholder="Answer in your own words…"></textarea>';
+        }).join('');
+        return '<div class="tree-assess-sefirah" data-id="' + s.id + '">' +
+          '<h3>' + escapeHtml(s.name) + ' — ' + escapeHtml(s.title) + '</h3>' +
+          '<div class="essence">' + escapeHtml(s.essence) + '</div>' + qs +
+          '</div>';
+      }).join('');
+      treeResponses = {};
+      form.querySelectorAll('textarea.tree-q').forEach(t => {
+        t.addEventListener('input', () => {
+          const id = t.dataset.sefirah;
+          const allTextareas = form.querySelectorAll('textarea.tree-q[data-sefirah="' + id + '"]');
+          treeResponses[id] = Array.from(allTextareas).map(x => x.value.trim()).filter(Boolean).join('\n\n');
+        });
+      });
+    }
+
+    document.querySelector('.tab[data-tab="tree"]').addEventListener('click', initTreeTab);
+    document.getElementById('tree-begin').addEventListener('click', () => {
+      renderAssessmentForm();
+      showTreeView('assess');
+    });
+    document.getElementById('tree-cancel').addEventListener('click', () => showTreeView('empty'));
+    document.getElementById('tree-new').addEventListener('click', () => {
+      renderAssessmentForm();
+      showTreeView('assess');
+    });
+    document.getElementById('tree-back').addEventListener('click', () => showTreeView('empty'));
+
+    document.getElementById('tree-submit').addEventListener('click', async () => {
+      const msgEl = document.getElementById('tree-submit-msg');
+      msgEl.innerHTML = '<div class="loading">Weaving your Tree map…</div>';
+      try {
+        const r = await api('POST', '/api/tree/assess', { responses: treeResponses });
+        treeLastResult = r;
+        document.getElementById('tree-svg-container').innerHTML = buildTreeSVG(r.status, r.focus);
+        const cleanContent = (r.content || '').replace(/```json[\s\S]*?```/g, '').trim();
+        document.getElementById('tree-result-content').innerHTML = renderMarkdown(cleanContent);
+        showTreeView('result');
+        msgEl.innerHTML = '';
+      } catch (err) {
+        msgEl.innerHTML = '<div class="form-error">' + escapeHtml(err.message) + '</div>';
+      }
+    });
+
+    async function loadTreeHistory() {
+      const listEl = document.getElementById('tree-history-list');
+      listEl.innerHTML = '<div class="loading">Loading…</div>';
+      try {
+        const h = await api('GET', '/api/tree/history');
+        if (!h.assessments || !h.assessments.length) {
+          listEl.innerHTML = '<p class="placeholder">No past assessments yet.</p>';
+          return;
+        }
+        const sefMap = {};
+        (treeQuestions.sefirot || []).forEach(s => sefMap[s.id] = s.name);
+        listEl.innerHTML = h.assessments.slice().reverse().map(a => {
+          const date = new Date(a.date * 1000).toLocaleDateString(undefined, { year:'numeric', month:'long', day:'numeric' });
+          const focusName = sefMap[a.focus] || 'unknown';
+          return '<div class="tree-history-item"><div class="date">' + escapeHtml(date) +
+            '</div><div class="focus">Focus: <strong>' + escapeHtml(focusName) + '</strong></div></div>';
+        }).join('');
+      } catch (err) {
+        listEl.innerHTML = '<div class="form-error">' + escapeHtml(err.message) + '</div>';
+      }
+    }
+    document.getElementById('tree-history-btn').addEventListener('click', async () => {
+      showTreeView('history');
+      await loadTreeHistory();
+    });
+    document.getElementById('tree-history-btn-2').addEventListener('click', async () => {
+      showTreeView('history');
+      await loadTreeHistory();
+    });
+    
     document.getElementById('gc-go').addEventListener('click', () => {
       const word = document.getElementById('gc-word').value.trim();
       generate('gematria_calc', { word }, 'gc-out');
