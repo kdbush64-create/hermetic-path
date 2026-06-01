@@ -13,6 +13,7 @@
 // topic, focus, and prior-day references and asked to write the lesson.
 
 import curriculum from "./curriculum.json";
+import tree from "./tree.json";
 
 const ANTHROPIC_URL = "https://api.anthropic.com/v1/messages";
 const ANTHROPIC_VERSION = "2023-06-01";
@@ -185,6 +186,64 @@ export function buildPrompt(feature, params, settings, ctx = {}) {
         system,
         max_tokens: 220,
         user: `Generate a single ${length === "short" ? "one-line" : "2–3 sentence"} daily transmission of type **${kind}**. No preamble, no surrounding quotation marks — return only the transmission text itself.`,
+      };
+    }
+
+    case "tree_mapping": {
+      // params.responses = { sefirahId: "user's combined responses" }
+      const responses = params.responses || {};
+      const responseBlocks = tree.sefirot.map(s => {
+        const r = (responses[s.id] || "").trim();
+        return `**${s.name} (${s.title}) — ${s.essence}**\nQuestions asked:\n${s.questions.map((q, i) => `${i + 1}. ${q}`).join("\n")}\nUser's response:\n${r ? '"' + r + '"' : "(no response)"}`;
+      }).join("\n\n---\n\n");
+
+      return {
+        system,
+        max_tokens: 3500,
+        user: `A sincere initiate has completed a guided self-assessment of the ten Sefirot of the Tree of Life. Their responses are below. Synthesize them into a personal Tree map.
+
+${responseBlocks}
+
+---
+
+Compose the response as Markdown with this exact structure:
+
+## ∴ Your Tree of Life ∴
+
+A brief invocation (1-2 sentences) framing the reading.
+
+## The Mapping
+
+For each Sefirah in order (Keter, Chokmah, Binah, Chesed, Geburah, Tiferet, Netzach, Hod, Yesod, Malkuth), write a paragraph with this exact format:
+
+**Sefirah Name — Strongly Expressed** *(or)* **Sefirah Name — Developing** *(or)* **Sefirah Name — Blocked**
+
+Then 2-3 sentences of personalized description that QUOTES OR PARAPHRASES what the user actually wrote. Do not give generic descriptions; reference their specific language. Be honest but never harsh.
+
+The status determination: "Strongly Expressed" = the user shows clear, sustained engagement with this quality. "Developing" = the user is aware of the quality and showing growth but it is not yet established. "Blocked" = the user shows real difficulty, avoidance, or absence here.
+
+## The Focus
+
+Identify the SINGLE Sefirah that represents the most productive current inner work. This is usually a Developing or Blocked Sefirah whose deepening would unlock the surrounding pattern. Name it explicitly and write 2-3 sentences explaining why this is the most important place to put attention right now.
+
+## A Tailored Meditation
+
+Compose a short (~200 words) guided meditation specifically built around the focus Sefirah and the user's own responses. Reference what they said. Make it a meditation only this person could have received.
+
+## A Daily Affirmation
+
+A single 1-2 sentence affirmation, first-person, that addresses the focus Sefirah and speaks to what the user actually shared.
+
+## A Symbol Contemplation
+
+Choose one symbol that corresponds to the focus Sefirah — the symbol's name, why this symbol, and a sentence or two of contemplative direction.
+
+End with a single-line closing invocation.
+
+Then, on the LAST line of your response, output a machine-readable JSON line in this exact format (no extra text after):
+\`\`\`json
+{"focus":"<sefirah-id>","status":{"keter":"strong|developing|blocked","chokmah":"...","binah":"...","chesed":"...","geburah":"...","tiferet":"...","netzach":"...","hod":"...","yesod":"...","malkuth":"..."}}
+\`\`\``,
       };
     }
 
